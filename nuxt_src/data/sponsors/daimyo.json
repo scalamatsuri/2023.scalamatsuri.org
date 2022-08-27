@@ -1,0 +1,23 @@
+[
+  {
+    "name": "大名スポンサー1",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org/",
+    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/5c65f5cd2bf64e0394d4298c279741f8\" title=\"Scalaでのドメインモデリングのやりかた\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;\" data-ratio=\"1.78343949044586\"></iframe>"
+  },
+  {
+    "name": "大名スポンサー2",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org/",
+    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/5c65f5cd2bf64e0394d4298c279741f8\" title=\"Scalaでのドメインモデリングのやりかた\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;\" data-ratio=\"1.78343949044586\"></iframe>"
+  },
+  {
+    "name": "大名スポンサー3",
+    "logo": "/img/sponsors/scalamatsuri_logo.png",
+    "url": "https://scalamatsuri.org/",
+    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/5c65f5cd2bf64e0394d4298c279741f8\" title=\"Scalaでのドメインモデリングのやりかた\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 314px;\" data-ratio=\"1.78343949044586\"></iframe>"
+  }
+]

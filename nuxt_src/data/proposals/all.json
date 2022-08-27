@@ -1,0 +1,66 @@
+[
+  {
+    "id": "J1647653100",
+    "isAdopted": true,
+    "artifacts": {
+      "slides": {
+        "speakerdeck": {
+          "data_id": ""
+        },
+        "other_url": "https://gakuzzzz.github.io/slides/abstract_type_member_introduction/"
+      },
+      "youtube_embed_url": "https://www.youtube.com/embed/TJ5Ud7USEaU",
+      "youtube_embed_url_2": ""
+    },
+    "en": {
+      "title": "Introduce Abstract Type Members",
+      "detail": "In Scala, there is a language feature named Abstract Type Members.\nHowever, because of features that do not exist in Java, Kotlin, C#, etc., and because some of the problems that can be solved with Generics are covered, Abstract Type Members are not used even in situations where it is better to use them.\nIn this session, we will explain what Abstract Type Members are, how they are useful, and how they can be used in different ways from Generics, so that you can start using them tomorrow.",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "NAKAMURA Manabu",
+          "id": "gakuzzzz",
+          "icon": "https://pbs.twimg.com/profile_images/1431608839/ceb5e4f7-bec8-4a68-a86c-32d0c7ae4e22_400x400.png",
+          "organization": "(株)Tech to Value, (株)エフ・コード",
+          "speaker_experience": [],
+          "contributes": [
+            "https://github.com/t2v/holidays",
+            "",
+            "https: //github.com/gakuzzzz/nullable-quantifier"
+          ],
+          "github": "gakuzzzz",
+          "twitter": "gakuzzzz",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Abstract Type Members 入門",
+      "detail": "Scala には Abstract Type Members(抽象型メンバー) と呼ばれる言語機能があります。\nしかし、Java や Kotlin, C# などには存在しない機能だったり、Generics と解決できる問題の領域が近かったりすることから、Abstract Type Members を利用した方が良い場面でも活用されていないことがあります。\nこのセッションでは、Abstract Type Members とはどんな機能でどんな役に立つのか、Generics との使い分け等について解説し、明日から使えるようにします。",
+      "language": "Japanese",
+      "length": 20,
+      "tags": [],
+      "keywords": [],
+      "speakers": [
+        {
+          "name": "NAKAMURA Manabu",
+          "id": "gakuzzzz",
+          "icon": "https://pbs.twimg.com/profile_images/1431608839/ceb5e4f7-bec8-4a68-a86c-32d0c7ae4e22_400x400.png",
+          "organization": "(株)Tech to Value, (株)エフ・コード",
+          "speaker_experience": [],
+          "contributes": [
+            "https://github.com/t2v/holidays",
+            "",
+            "https: //github.com/gakuzzzz/nullable-quantifier"
+          ],
+          "github": "gakuzzzz",
+          "twitter": "gakuzzzz",
+          "other_sns": ""
+        }
+      ]
+    }
+  }
+]
