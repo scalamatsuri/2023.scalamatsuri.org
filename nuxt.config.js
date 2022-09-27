@@ -1,5 +1,6 @@
 module.exports = {
   mode: "universal",
+  target: "static",
   srcDir: "nuxt_src/",
 
   /*
@@ -32,9 +33,10 @@ module.exports = {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ["@nuxt/typescript-build", "@aceforth/nuxt-optimized-images"],
+  buildModules: ["@nuxt/typescript-build"],
   modules: [
     "@nuxtjs/axios",
+    "@bazzite/nuxt-optimized-images",
     "@nuxtjs/sentry",
     [
       "@nuxtjs/google-analytics",

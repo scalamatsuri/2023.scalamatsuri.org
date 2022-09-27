@@ -23,6 +23,7 @@
     "deploy:functions": "firebase deploy --only functions"
   },
   "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.4.0",
     "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.2.2",
