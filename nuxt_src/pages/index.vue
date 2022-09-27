@@ -16,17 +16,17 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'vuex'
-import MainVisual from '~/components/sections/top/MainVisual'
-import News from '~/components/sections/top/News'
-import ThankYou from '~/components/sections/top/ThankYou'
-import EcShop from '~/components/sections/top/EcShop'
-import Banner from '~/components/sections/top/Banner'
-import Events from '~/components/sections/top/Events'
-import Access from '~/components/sections/top/Access'
-import Coc from '~/components/sections/top/Coc'
-import Sponsors from '~/components/sections/top/Sponsors'
-import Program from '~/components/sections/top/Program'
+import { mapActions, mapState } from "vuex";
+import MainVisual from "~/components/sections/top/MainVisual";
+import Access from "~/components/sections/top/Access";
+import Banner from "~/components/sections/top/Banner";
+import Coc from "~/components/sections/top/Coc";
+import EcShop from "~/components/sections/top/EcShop";
+import Events from "~/components/sections/top/Events";
+import News from "~/components/sections/top/News";
+import Program from "~/components/sections/top/Program";
+import Sponsors from "~/components/sections/top/Sponsors";
+import ThankYou from "~/components/sections/top/ThankYou";
 
 export default {
   components: {
@@ -47,12 +47,12 @@ export default {
     }),
   },
   mounted() {
-    this.fetchBlogRss({ locale: this.$i18n.locale })
+    this.fetchBlogRss({ locale: this.$i18n.locale });
   },
   methods: {
     ...mapActions({
-      fetchBlogRss: 'blogPosts/fetch',
+      fetchBlogRss: "blogPosts/fetch",
     }),
   },
-}
+};
 </script>
