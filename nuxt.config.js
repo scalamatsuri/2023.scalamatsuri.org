@@ -73,7 +73,35 @@ module.exports = {
     dsn: 'https://0dc25f3d199249d7a209f4fd48cdc9a6@sentry.io/2211949',
     config: {},
   },
-  build: {},
+  /*
+   ** Build configuration
+   */
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+          options: { fix: true },
+        });
+      }
+      config.module.rules.push({
+        resourceQuery: /blockType=i18n/,
+        type: 'javascript/auto',
+        loader: ['@kazupon/vue-i18n-loader', 'yaml-loader'],
+      });
+      config.module.rules.push({
+        test: /\.yaml$/,
+        use: ['js-yaml-loader'],
+      });
+    },
+  },
   buildModules: ['@nuxt/typescript-build', '@aceforth/nuxt-optimized-images'],
   optimizedImages: {
     optimizeImages: true,
@@ -88,4 +116,4 @@ module.exports = {
       level: 9,
     },
   },
-}
+};
