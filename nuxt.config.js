@@ -1,5 +1,4 @@
 module.exports = {
-  mode: "universal",
   target: "static",
   srcDir: "nuxt_src/",
 
