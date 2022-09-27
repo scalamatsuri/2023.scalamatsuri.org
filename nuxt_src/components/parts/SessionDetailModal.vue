@@ -1,16 +1,16 @@
 <i18n lang="yaml">
 en:
-  lang: "Talking in"
-  contribute: "OSS work"
-  keywords: "Keywords"
-  tag: "Categories"
-  speaker_experience: "Speaker Experience"
+  lang: 'Talking in'
+  contribute: 'OSS work'
+  keywords: 'Keywords'
+  tag: 'Categories'
+  speaker_experience: 'Speaker Experience'
 ja:
-  lang: "発表言語"
-  contribute: "OSS 活動"
-  keywords: "キーワード"
-  tag: "カテゴリ"
-  speaker_experience: "スピーカー経験"
+  lang: '発表言語'
+  contribute: 'OSS 活動'
+  keywords: 'キーワード'
+  tag: 'カテゴリ'
+  speaker_experience: 'スピーカー経験'
 </i18n>
 
 <template>
@@ -99,7 +99,7 @@ ja:
     <div class="modal_scopeArea">
       <dl class="modal_scope">
         <dt>
-          {{ $t("lang") }}
+          {{ $t('lang') }}
         </dt>
         <dd>
           {{ program[$i18n.locale].language }}
@@ -132,11 +132,11 @@ ja:
       <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name">
         <dl v-if="speaker.contributes && speaker.contributes.length > 0" class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
-            {{ $t("contribute") }}
+            {{ $t('contribute') }}
           </dt>
           <dt v-else>
             {{ speaker.name }} <br />
-            {{ $t("contribute") }}
+            {{ $t('contribute') }}
           </dt>
           <dd>
             <p v-for="contribute in speaker.contributes" :key="contribute">
@@ -146,11 +146,11 @@ ja:
         </dl>
         <dl v-if="speaker.speaker_experience && speaker.speaker_experience.length > 0" class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers && program[$i18n.locale].speakers.length === 1">
-            {{ $t("speaker_experience") }}
+            {{ $t('speaker_experience') }}
           </dt>
           <dt v-else>
             {{ speaker.name }} <br />
-            {{ $t("speaker_experience") }}
+            {{ $t('speaker_experience') }}
           </dt>
           <dd>
             <p v-for="ex in speaker.speaker_experience" :key="ex">
@@ -172,13 +172,13 @@ export default {
       required: true,
     },
   },
-  mounted: function () {
+  mounted() {
     // For closing modal by pushing ESC key.
     this.$nextTick(this.$refs.modalKeyListener.focus())
   },
   methods: {
-    isProposal: function (proposal) {
-      return proposal.id.startsWith("J") || proposal.id.startsWith("E")
+    isProposal(proposal) {
+      return proposal.id.startsWith('J') || proposal.id.startsWith('E')
     },
   },
 }

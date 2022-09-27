@@ -43,7 +43,7 @@ import Page404NotFoundMixin from '~/mixins/page/Page404NotFound.js'
 export default {
   name: 'FirebaseAuth',
   mixins: [Page404NotFoundMixin],
-  beforeRouteEnter(to, from, next) {
+  beforeRouteEnter(_, from, next) {
     next((vm) => {
       vm.prevRoute = from
     })
@@ -86,7 +86,7 @@ export default {
         const config = {
           signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID, firebase.auth.GithubAuthProvider.PROVIDER_ID],
           callbacks: {
-            signInSuccessWithAuthResult: (authResult, redirectUrl) => {
+            signInSuccessWithAuthResult: () => {
               this.$toast(this.$t('login_successful'), { closeOnTap: true })
               this.prevRoute ? this.$router.push(this.prevRoute.fullPath) : this.$router.push('/')
               return false

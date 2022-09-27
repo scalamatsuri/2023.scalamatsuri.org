@@ -1,7 +1,7 @@
 <template>
   <section class="sponsor_item">
     <div class="sponsor_logo">
-      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor.name"></a>
+      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
     </div>
     <section class="sponsor_content">
       <h3 class="sponsor_name">
@@ -26,8 +26,10 @@ export default {
       // 必須である
       required: true,
       // デフォルト値
-      default: () => { return {} }
-    }
-  }
+      default: () => {
+        return {}
+      },
+    },
+  },
 }
 </script>

@@ -11,5 +11,17 @@ module.exports = {
   extends: ['@nuxtjs/eslint-config-typescript', 'plugin:nuxt/recommended', 'prettier'],
   plugins: [],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'vue/multi-word-component-names': 0,
+    'object-shorthand': 0,
+    'nuxt/no-cjs-in-config': 'off',
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'always',
+        },
+      },
+    ],
+  },
 }

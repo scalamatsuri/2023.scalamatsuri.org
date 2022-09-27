@@ -10,18 +10,12 @@
     <ul class="staff_sns">
       <li class="staff_sns_item staff_sns_item-tw">
         <a :href="staff.twitterUrl" target="_blank" rel="noopener">
-          <img
-            src="/assets/img/common/icon-sns-tw.svg"
-            alt="Twitter"
-          >
+          <img src="/assets/img/common/icon-sns-tw.svg" alt="Twitter" />
         </a>
       </li>
       <li class="staff_sns_item staff_sns_item-git">
         <a :href="staff.githubUrl" target="_blank" rel="noopener">
-          <img
-            src="/assets/img/common/icon-sns-git.svg"
-            alt="Github"
-          >
+          <img src="/assets/img/common/icon-sns-git.svg" alt="Github" />
         </a>
       </li>
     </ul>
@@ -47,12 +41,11 @@ export default {
           name: '',
           twitterUrl: '',
           githubUrl: '',
-          profile: ''
+          profile: '',
         }
-      }
-    }
-  }
+      },
+    },
+  },
 }
 </script>
-<style>
-</style>
+<style></style>
