@@ -93,23 +93,23 @@
 //   }
 // }
 
-// export const getters = {
-//   /**
-//    * resolve sessions that user voted.
-//    */
-//   userVotes: (state) => {
-//     // for avoiding edit.
-//     const copy = [...state.votes]
-//     return copy.sort(function (a, b) {
-//       if (a.rank < b.rank) return -1
-//       if (a.rank > b.rank) return 1
-//       return 0
-//     })
-//   },
-//   checkinCode: state => state.userInfo.ticketCode,
+export const getters = {
+  /**
+   * resolve sessions that user voted.
+   */
+  userVotes: (state) => {
+    // for avoiding edit.
+    const copy = [...state.votes];
+    return copy.sort(function (a, b) {
+      if (a.rank < b.rank) return -1;
+      if (a.rank > b.rank) return 1;
+      return 0;
+    });
+  },
+  checkinCode: (state) => state.userInfo.ticketCode,
 
-//   /**
-//    * Whether user votes exeeded it's limit.
-//    */
-//   exceededVoteLimit: state => state.votes ? state.votes.length >= VOTE_NUM : false
-// }
+  /**
+   * Whether user votes exeeded it's limit.
+   */
+  exceededVoteLimit: (state) => (state.votes ? state.votes.length >= VOTE_NUM : false),
+};

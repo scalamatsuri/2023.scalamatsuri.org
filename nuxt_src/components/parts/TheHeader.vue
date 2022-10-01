@@ -44,47 +44,45 @@ ja:
           <ul class="gnav">
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/') }">
               <nuxt-link :to="localePath('index')">
-                <span>{{ $t('outline') }}</span>
+                <span>{{ $t("outline") }}</span>
               </nuxt-link>
             </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }">
-              <nuxt-link :to="localePath('program')">
-                <span>{{ $t('program') }}</span>
-              </nuxt-link>
-            </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
-              <nuxt-link :to="localePath('proposals')">
-                <span>{{ $t('proposals') }}</span>
-              </nuxt-link>
-            </li>
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }"> -->
+            <!--   <nuxt-link :to="localePath('program')"> -->
+            <!--     <span>{{ $t("program") }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }"> -->
+            <!--   <nuxt-link :to="localePath('proposals')"> -->
+            <!--     <span>{{ $t("proposals") }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
-                <span>{{ $t('code-of-conduct') }}</span>
+                <span>{{ $t("code-of-conduct") }}</span>
               </nuxt-link>
             </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }">
-              <nuxt-link :to="localePath('sponsors')">
-                <span>{{ $t('sponsors') }}</span>
-              </nuxt-link>
-            </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }">
-              <nuxt-link :to="localePath('cm')">
-                <span>{{ $t('cm') }}</span>
-              </nuxt-link>
-            </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }">
-              <nuxt-link :to="localePath('extra-staff')">
-                <span>{{ $t('extra-staff') }}</span>
-              </nuxt-link>
-            </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }">
-              <nuxt-link :to="locale_access_link()">
-                <span>{{ $t('access') }}</span>
-              </nuxt-link>
-            </li>
-            <li class="gnav_item">
-              <LangSwitcher />
-            </li>
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }"> -->
+            <!--   <nuxt-link :to="localePath('sponsors')"> -->
+            <!--     <span>{{ $t("sponsors") }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }"> -->
+            <!--   <nuxt-link :to="localePath('cm')"> -->
+            <!--     <span>{{ $t("cm") }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }"> -->
+            <!--   <nuxt-link :to="localePath('extra-staff')"> -->
+            <!--     <span>{{ $t("extra-staff") }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }"> -->
+            <!--   <nuxt-link :to="locale_access_link()"> -->
+            <!--     <span>{{ $t('access') }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- </li> -->
           </ul>
           <!--  ログイン前 ここから -->
           <ul v-if="isLoggedOut" class="function">
@@ -93,16 +91,19 @@ ja:
             <!-- {{ $t('login') }} -->
             <!-- </nuxt-link> -->
             <!-- </div> -->
-            <li class="function_item function_item-application">
-              <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener">
-                {{ $t('ticket') }}
-              </a>
-            </li>
+            <!-- <li class="function_item function_item-application"> -->
+            <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener"> -->
+            <!--     {{ $t("ticket") }} -->
+            <!--   </a> -->
+            <!-- </li> -->
             <!-- <li class="function_item function_item-login">
               <nuxt-link :to="localePath('cfp')">
                 {{ $t('cfp') }}
               </nuxt-link>
             </li> -->
+            <li class="gnav_item">
+              <LangSwitcher />
+            </li>
           </ul>
         </div>
         <!-- ログイン前 ここまで -->
@@ -151,14 +152,14 @@ ja:
             <ul class="gnav">
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('index')">
-                  <span>{{ $t('outline') }}</span>
+                  <span>{{ $t("outline") }}</span>
                 </nuxt-link>
               </li>
-              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()">
-                <nuxt-link :to="localePath('program')">
-                  <span>{{ $t('program') }}</span>
-                </nuxt-link>
-              </li>
+              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()"> -->
+              <!--   <nuxt-link :to="localePath('program')"> -->
+              <!--     <span>{{ $t("program") }}</span> -->
+              <!--   </nuxt-link> -->
+              <!-- </li> -->
               <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('proposals')">
                   <span>{{ $t('proposals') }}</span>
@@ -166,14 +167,14 @@ ja:
               </li> -->
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('code-of-conduct')">
-                  <span>{{ $t('code-of-conduct') }}</span>
+                  <span>{{ $t("code-of-conduct") }}</span>
                 </nuxt-link>
               </li>
-              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()">
-                <nuxt-link :to="localePath('sponsors')">
-                  <span>{{ $t('sponsors') }}</span>
-                </nuxt-link>
-              </li>
+              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()"> -->
+              <!--   <nuxt-link :to="localePath('sponsors')"> -->
+              <!--     <span>{{ $t("sponsors") }}</span> -->
+              <!--   </nuxt-link> -->
+              <!-- </li> -->
               <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()">
                 <nuxt-link :to="locale_access_link()">
                   <span>{{ $t('access') }}</span>
@@ -186,11 +187,11 @@ ja:
                   {{ $t('login') }}
                 </nuxt-link>
               </div> -->
-              <div class="function_item function_item-application">
-                <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener">
-                  {{ $t('ticket') }}
-                </a>
-              </div>
+              <!-- <div class="function_item function_item-application"> -->
+              <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener"> -->
+              <!--     {{ $t("ticket") }} -->
+              <!--   </a> -->
+              <!-- </div> -->
               <!-- <div class="function_item function_item-login" @click="toggleMenu()">
                 <nuxt-link :to="localePath('cfp')">
                   {{ $t('cfp') }}
@@ -228,9 +229,9 @@ ja:
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex'
-import LangSwitcher from '~/components/parts/LangSwitcher'
-import LangSwitcherSp from '~/components/parts/LangSwitcherSp'
+import { mapState, mapGetters } from "vuex"
+import LangSwitcher from "~/components/parts/LangSwitcher"
+import LangSwitcherSp from "~/components/parts/LangSwitcherSp"
 
 export default {
   components: {
@@ -251,18 +252,18 @@ export default {
       auth: (state) => state.auth,
     }),
     ...mapGetters({
-      isLoggedIn: 'auth/isLoggedIn',
-      isLoggedOut: 'auth/isLoggedOut',
+      isLoggedIn: "auth/isLoggedIn",
+      isLoggedOut: "auth/isLoggedOut",
     }),
   },
   mounted() {
-    window.addEventListener('scroll', this.updateHeaderClassAssignmentByScrollPos)
+    window.addEventListener("scroll", this.updateHeaderClassAssignmentByScrollPos)
     if (this.$route.hash.match(/^#/)) {
-      document.getElementById(this.$route.hash.replace(/^#/, '')).scrollIntoView()
+      document.getElementById(this.$route.hash.replace(/^#/, "")).scrollIntoView()
     }
   },
   beforeDestroy() {
-    window.removeEventListener('scroll', this.updateHeaderClassAssignmentByScrollPos)
+    window.removeEventListener("scroll", this.updateHeaderClassAssignmentByScrollPos)
   },
   methods: {
     current_path(path) {
@@ -270,7 +271,7 @@ export default {
     },
     locale_access_link() {
       // ページ内リンクの時は、フルパスではなく "#access" で飛ばしたい
-      return this.$route.fullPath.endsWith('ja') || this.$route.fullPath.endsWith('en') ? '#access' : this.localePath('index') + '#access'
+      return this.$route.fullPath.endsWith("ja") || this.$route.fullPath.endsWith("en") ? "#access" : this.localePath("index") + "#access"
     },
     toggleMenu() {
       this.menuActive = !this.menuActive
@@ -280,8 +281,8 @@ export default {
     },
     logout() {
       this.userMenuActive = false
-      this.$store.dispatch('auth/logout')
-      this.$toast(this.$t('logout_successful'), { closeOnTap: true })
+      this.$store.dispatch("auth/logout")
+      this.$toast(this.$t("logout_successful"), { closeOnTap: true })
       this.toggleMenu()
     },
     /**

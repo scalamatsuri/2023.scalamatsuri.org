@@ -1,30 +1,30 @@
 <i18n lang="yaml">
 ## language=yaml
 en:
-  title: 'Proposals'
-  slide_notation: 'Talking languages are as shown below. All slides will be in English.'
+  title: "Proposals"
+  slide_notation: "Talking languages are as shown below. All slides will be in English."
   cfp_notation: |
     CFP is still open now. You can submit from <a href="/en/cfp/">here</a> by 23:59, 1st Feb Anywhere on Earth.
-  en_100: '100-minute sessions in English'
-  en_40: '40-minute sessions in English'
-  ja_100: '100-minute sessions in Japanese'
-  ja_40: '40-minute sessions in Japanese'
+  en_100: "100-minute sessions in English"
+  en_40: "40-minute sessions in English"
+  ja_100: "100-minute sessions in Japanese"
+  ja_40: "40-minute sessions in Japanese"
 ja:
-  title: '応募セッション一覧'
-  slide_notation: '発表言語ごとに表示しています。スライドの言語は全て英語の予定です.'
+  title: "応募セッション一覧"
+  slide_notation: "発表言語ごとに表示しています。スライドの言語は全て英語の予定です."
   cfp_notation: |
     セッション募集(CFP) 期間中です。ご応募は<a href="/ja/cfp/">こちら</a>。2/1 23:59 AoE (2/2 20:59 JST)締切です。
-  en_100: '100分英語'
-  en_40: '40分英語'
-  ja_100: '100分日本語'
-  ja_40: '40分日本語'
+  en_100: "100分英語"
+  en_40: "40分英語"
+  ja_100: "100分日本語"
+  ja_40: "40分日本語"
 </i18n>
 <template>
   <div id="candidates">
     <div class="main">
       <div class="main_inner">
         <h1 class="main_title">
-          {{ $t('title') }}
+          {{ $t("title") }}
         </h1>
       </div>
     </div>
@@ -43,7 +43,7 @@ ja:
     <!-- 100分英語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('en_100') }}
+        {{ $t("en_100") }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
@@ -61,7 +61,7 @@ ja:
     <!-- 100分日本語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('ja_100') }}
+        {{ $t("ja_100") }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
@@ -79,7 +79,7 @@ ja:
     <!-- 40分英語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('en_40') }}
+        {{ $t("en_40") }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
@@ -97,7 +97,7 @@ ja:
     <!-- 40分日本語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('ja_40') }}
+        {{ $t("ja_40") }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
@@ -123,13 +123,12 @@ ja:
 </template>
 
 <script>
-import { mapActions, mapGetters, mapMutations } from 'vuex'
-import TableRow from '~/components/sections/candidates/tableRow'
-import Modal from '~/components/parts/SessionDetailModal.vue'
+import { mapActions, mapGetters, mapMutations } from "vuex";
+import TableRow from "~/components/sections/candidates/tableRow";
+import Modal from "~/components/parts/SessionDetailModal.vue";
 // import ProposalSkelton from '~/components/parts/ProposalSkelton.vue'
-import * as mTypes from '~/store/mutation-types'
+import * as mTypes from "~/store/mutation-types";
 // import Page404NotFoundMixin from '~/mixins/page/Page404NotFound.js'
-
 // import VotedSessions from '~/components/sections/proposals/VotedSessions.vue'
 
 export default {
@@ -144,13 +143,13 @@ export default {
     return {
       selectProgram: null,
       showModal: false,
-    }
+    };
   },
   computed: {
     ...mapGetters({
-      filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
-      currentVotes: 'vote/userVotes',
-      isLoggedIn: 'auth/isLoggedIn',
+      // filterProposalsByIdAndLang: "proposals/filterByLengthAndLang",
+      currentVotes: "vote/userVotes",
+      isLoggedIn: "auth/isLoggedIn",
     }),
   },
   created() {
@@ -159,47 +158,47 @@ export default {
   methods: {
     ...mapActions({
       // fetchProposals: 'proposals/fetch',
-      storeVotes: 'vote/store',
+      storeVotes: "vote/store",
     }),
     ...mapMutations({
       // setIsLoading: mTypes.SET_IS_LOADING,
-      appendVote: 'vote/' + mTypes.APPEND_USER_VOTE,
-      removeVote: 'vote/' + mTypes.REMOVE_USER_VOTE,
+      appendVote: "vote/" + mTypes.APPEND_USER_VOTE,
+      removeVote: "vote/" + mTypes.REMOVE_USER_VOTE,
     }),
     openModal(item) {
-      this.selectProgram = item
-      this.showModal = true
+      this.selectProgram = item;
+      this.showModal = true;
     },
     closeModal() {
-      this.showModal = false
+      this.showModal = false;
     },
     async onVote(proposal) {
       if (this.isLoggedIn) {
-        await this.appendVote(proposal)
-        await this.storeVotes()
+        await this.appendVote(proposal);
+        await this.storeVotes();
       } else {
         // If user tried voting without sign in, redirect to login path.
-        this.$router.push(this.localePath('login'))
+        this.$router.push(this.localePath("login"));
       }
     },
     async onUnVote(proposal) {
       if (this.isLoggedIn) {
-        await this.removeVote(proposal)
-        await this.storeVotes()
+        await this.removeVote(proposal);
+        await this.storeVotes();
       } else {
         // If user tried voting without sign in, redirect to login path.
-        this.$router.push(this.localePath('login'))
+        this.$router.push(this.localePath("login"));
       }
     },
   },
   head() {
-    const $t = this.$t.bind(this)
+    const $t = this.$t.bind(this);
     return {
-      title: $t('title'),
-      meta: [{ name: 'og:title', content: `${$t('title')} | ScalaMatsuri 2023` }],
-    }
+      title: $t("title"),
+      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
+    };
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -32,10 +32,9 @@ module.exports = {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ["@nuxt/typescript-build"],
+  buildModules: ["@nuxt/typescript-build", "@aceforth/nuxt-optimized-images"],
   modules: [
     "@nuxtjs/axios",
-    "@bazzite/nuxt-optimized-images",
     "@nuxtjs/sentry",
     [
       "@nuxtjs/google-analytics",
@@ -113,4 +112,4 @@ module.exports = {
       level: 9,
     },
   },
-};
+}

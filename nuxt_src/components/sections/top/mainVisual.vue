@@ -2,10 +2,10 @@
 ## language=yaml
 en:
   alt: The largest international Scala conference in Asia
-  date: on D1th-D2th Mar. 2023 Online
+  date: Scheduled for April 2023 Online
 ja:
   alt: アジア最大級のScalaカンファレンス
-  date: 2023年MM月D1日(土) - D2日(日) オンライン
+  date: 2023年4月 オンライン開催予定
 </i18n>
 
 <template>
@@ -15,26 +15,26 @@ ja:
         <h1 class="main__title">
           ScalaMatsuri 2023
           <p class="main__title-sub">
-            {{ $t('alt') }}
+            {{ $t("alt") }}
           </p>
           <p class="main__title-sub">
-            {{ $t('date') }}
+            {{ $t("date") }}
           </p>
         </h1>
       </div>
-      <div class="main_sponsor">
-        <ul class="main_sponsor_inner">
-          <li v-for="sponsor in syoguns" :key="sponsor.logo" class="main_sponsor_item">
-            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name" /></a>
-          </li>
-        </ul>
-      </div>
+      <!-- <div class="main_sponsor"> -->
+      <!--   <ul class="main_sponsor_inner"> -->
+      <!--     <li v-for="sponsor in syoguns" :key="sponsor.logo" class="main_sponsor_item"> -->
+      <!--       <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name" /></a> -->
+      <!--     </li> -->
+      <!--   </ul> -->
+      <!-- </div> -->
     </div>
   </main>
 </template>
 
 <script>
-import syoguns from '~/data/sponsors/syogun'
+import syoguns from "~/data/sponsors/syogun"
 export default {
   data() {
     return {
@@ -43,7 +43,7 @@ export default {
   },
   mounted() {
     function notDummy(sponsor) {
-      return sponsor.logo && !sponsor.logo.includes('dummy')
+      return sponsor.logo && !sponsor.logo.includes("dummy")
     }
     this.syoguns = this.shuffle(syoguns.filter((s) => notDummy(s)))
   },
