@@ -1,7 +1,7 @@
 <i18n lang="yaml">
 ## language=yaml
 en:
-  title: 'Sponsors'
+  title: "Sponsors"
   sponsorType:
     syogun: Shogun Sponsor
     daimyo: Daimyo Sponsor
@@ -23,14 +23,24 @@ ja:
     <div class="main">
       <div class="main_inner">
         <h1 class="main_title">
-          {{ $t('title') }}
+          {{ $t("title") }}
         </h1>
       </div>
     </div>
+    <section class="inquiry">
+      <h3 class="inquiry_title">
+        <nuxt-link :to="localePath('sponsorship')">
+          {{ $t("inquiry.title") }}
+        </nuxt-link>
+      </h3>
+      <p class="inquiry_text">
+        {{ $t("inquiry.text1") }}
+      </p>
+    </section>
     <!-- sponsor ここから -->
     <div class="sponsor">
       <h2 v-if="syogun_sponsors.length" class="sponsor_title">
-        {{ $t('sponsorType.syogun') }}
+        {{ $t("sponsorType.syogun") }}
       </h2>
       <div v-if="syogun_sponsors.length" class="sponsor_list">
         <div v-for="sponsor in syogun_sponsors" :key="sponsor.logo">
@@ -38,32 +48,22 @@ ja:
         </div>
       </div>
       <h2 class="sponsor_title">
-        {{ $t('sponsorType.daimyo') }}
+        {{ $t("sponsorType.daimyo") }}
       </h2>
       <div class="sponsor_list">
         <div v-for="sponsor in daimyo_sponsors" :key="sponsor.logo">
           <sponsor :sponsor="sponsor" />
         </div>
       </div>
-      <section class="inquiry">
-        <h3 class="inquiry_title">
-          <nuxt-link :to="localePath('sponsorship')">
-            {{ $t('inquiry.title') }}
-          </nuxt-link>
-        </h3>
-        <p class="inquiry_text">
-          {{ $t('inquiry.text1') }}
-        </p>
-      </section>
     </div>
     <!-- sponsor ここまで -->
   </div>
 </template>
 
 <script>
-import Sponsor from '~/components/sections/sponsor/sponsor.vue'
-import syoguns from '~/data/sponsors/syogun'
-import daimyos from '~/data/sponsors/daimyo'
+import Sponsor from "~/components/sections/sponsor/sponsor.vue"
+import syoguns from "~/data/sponsors/syogun"
+import daimyos from "~/data/sponsors/daimyo"
 
 export default {
   components: {
@@ -75,19 +75,19 @@ export default {
       daimyo_sponsors: [],
     }
   },
+  head() {
+    const $t = this.$t.bind(this)
+    return {
+      title: $t("title"),
+      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
+    }
+  },
   mounted() {
     function hasHtmls(sponsor) {
       return sponsor.text_html
     }
     this.syogun_sponsors = this.shuffle(syoguns.filter((s) => hasHtmls(s)))
     this.daimyo_sponsors = this.shuffle(daimyos.filter((s) => hasHtmls(s)))
-  },
-  head() {
-    const $t = this.$t.bind(this)
-    return {
-      title: $t('title'),
-      meta: [{ name: 'og:title', content: `${$t('title')} | ScalaMatsuri 2023` }],
-    }
   },
 }
 </script>

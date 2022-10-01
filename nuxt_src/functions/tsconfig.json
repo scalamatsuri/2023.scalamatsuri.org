@@ -9,10 +9,10 @@
     "target": "es2017",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "skipLibCheck": true
+    "experimentalDecorators": true
   },
   "compileOnSave": true,
-  "include": ["src"],
-  "types": ["@types/jest", "@types/mocha"]
+  "include": [
+    "src"
+  ]
 }

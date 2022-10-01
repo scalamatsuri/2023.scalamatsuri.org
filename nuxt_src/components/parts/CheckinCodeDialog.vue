@@ -1,16 +1,16 @@
 <i18n lang="yaml">
 en:
-  title: "Check-in code registration"
-  description: "Please enter your check-in code issued on purchacing ticket."
-  placeholder: "Enter your check-in code here"
-  submit: "submit"
-  close: "close"
+  title: 'Check-in code registration'
+  description: 'Please enter your check-in code issued on purchacing ticket.'
+  placeholder: 'Enter your check-in code here'
+  submit: 'submit'
+  close: 'close'
 ja:
-  title: "チェックインコード登録"
-  description: "チケット取得時に発行されたチェックインコードを入力してください"
-  placeholder: "チェックインコードを入力"
-  submit: "登録"
-  close: "閉じる"
+  title: 'チェックインコード登録'
+  description: 'チケット取得時に発行されたチェックインコードを入力してください'
+  placeholder: 'チェックインコードを入力'
+  submit: '登録'
+  close: '閉じる'
 </i18n>
 
 <template>
@@ -19,20 +19,20 @@ ja:
       <div class="checkin-modal" tabindex="0" @keyup.escape="$emit('close')">
         <div class="modal__content">
           <h2 class="content__title">
-            {{ $t("title") }}
+            {{ $t('title') }}
           </h2>
           <div class="content__description">
-            {{ $t("description") }}
+            {{ $t('description') }}
           </div>
           <form class="content__form" @submit.prevent="$emit('submit', value)">
             <input ref="inputRef" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')" />
             <button class="form__submit">
-              {{ $t("submit") }}
+              {{ $t('submit') }}
             </button>
           </form>
         </div>
         <div class="modal__close" @click.stop="$emit('close')">
-          {{ $t("close") }}
+          {{ $t('close') }}
         </div>
       </div>
     </div>
@@ -44,15 +44,15 @@ export default {
   props: {
     initialValue: {
       type: String,
-      default: "",
+      default: '',
     },
   },
-  data: function () {
+  data() {
     return {
-      value: this.initialValue || "",
+      value: this.initialValue || '',
     }
   },
-  mounted: function () {
+  mounted() {
     this.$nextTick(this.$refs.inputRef.focus())
   },
 }

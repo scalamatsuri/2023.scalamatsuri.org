@@ -12,6 +12,6 @@
  * }
  * ```
  */
-export default (context, inject) => {
+export default (_, inject) => {
   inject('YEAR', '2023')
 }

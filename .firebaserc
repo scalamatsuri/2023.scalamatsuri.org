@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "scalamatsuri-2023-web"
-  }
+    "default": "scalamatsuri-2023-web",
+    "staging": "scalamatsuri-2023-web-stage"
+  },
+  "targets": {}
 }
