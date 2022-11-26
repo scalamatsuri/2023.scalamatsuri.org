@@ -17,7 +17,7 @@
       </div>
 
       <p class="sponsorship_note">
-        2023/2/28 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
+        2022/2/28 ScalaMatsuri 2022 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
       </p>
     </div>
     <!-- sponsorship ここまで -->
