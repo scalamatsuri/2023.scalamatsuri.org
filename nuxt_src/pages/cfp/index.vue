@@ -4,7 +4,7 @@ en:
   title: Submit your talks for ScalaMatsuri 2023!
   section1_body: |
     We are excited to announce that ScalaMatsuri will be held on April 15th (Saturday), and April 16th (Sunday). Please submit your talk for the general sessions.<br/><br/>
-    The CFP will close at January 15th (Saturday), 2023 23:59 <a href="https://time.is/en/Anywhere%20on%20Earth">Anywhere on Earth</a> (or Jan 16th 20:59 JST).
+    The CFP will close at January 14th (Saturday), 2023 23:59 <a href="https://time.is/en/Anywhere%20on%20Earth">Anywhere on Earth</a> (or Jan 15th 20:59 JST).
     <br/><br/>
     We're considering pre-recording talks for those who might find it difficult to give the talk live due to the timezone. If you wish to pre-record your talk, please let us know in the CFP.<br/>
     We're not planning on providing dubbed track for the prerecordings; however, some sessions will be translated at real time by  professional interpreters.
@@ -40,7 +40,7 @@ ja:
   section1_body: |
     2023年04月15日(土)、16日(日)にScalaMatsuri 2023を開催します。<br/>
     そこで、ScalaMatsuri 2023の一般セッションの応募を開始します。<br/><br/><br/>
-    締切は2023年1月15日(日) 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a> (1月16日 20:59 JST)を予定しています。<br/><br/>
+    締切は2023年1月14日(土) 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a> (1月15日 20:59 JST)を予定しています。<br/><br/>
     今回も時差の関係で当日発表が難しい方のために、事前録画による登壇を検討しております。事前録画による登壇を希望する人はCFP応募時点でお伝えください。<br/>
     一部セッションにはプロによる日英同時通訳がつきますが、事前録画には吹き替え録音などは提供しない予定です。<br/><br/>
     「Matsuri」はハレの日、つまり非日常の時と空間です。<br/>
