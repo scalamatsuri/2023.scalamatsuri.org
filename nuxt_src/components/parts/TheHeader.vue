@@ -72,17 +72,15 @@ ja:
             <!--     <span>{{ $t("cm") }}</span> -->
             <!--   </nuxt-link> -->
             <!-- </li> -->
-            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }"> -->
-            <!--   <nuxt-link :to="localePath('extra-staff')"> -->
-            <!--     <span>{{ $t("extra-staff") }}</span> -->
-            <!--   </nuxt-link> -->
-            <!-- </li> -->
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }"> -->
             <!--   <nuxt-link :to="locale_access_link()"> -->
             <!--     <span>{{ $t('access') }}</span> -->
             <!--   </nuxt-link> -->
             <!-- </li> -->
             <!-- </li> -->
+            <li class="gnav_item">
+              <LangSwitcher />
+            </li>
           </ul>
           <!--  ログイン前 ここから -->
           <ul v-if="isLoggedOut" class="function">
@@ -96,14 +94,16 @@ ja:
             <!--     {{ $t("ticket") }} -->
             <!--   </a> -->
             <!-- </li> -->
-            <!-- <li class="function_item function_item-login">
+            <li class="function_item function_item-login">
               <nuxt-link :to="localePath('cfp')">
-                {{ $t('cfp') }}
+                {{ $t("cfp") }}
               </nuxt-link>
-            </li> -->
-            <li class="gnav_item">
-              <LangSwitcher />
             </li>
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }"> -->
+            <!--   <nuxt-link :to="localePath('extra-staff')"> -->
+            <!--     <span>{{ $t("extra-staff") }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
           </ul>
         </div>
         <!-- ログイン前 ここまで -->
@@ -160,11 +160,11 @@ ja:
               <!--     <span>{{ $t("program") }}</span> -->
               <!--   </nuxt-link> -->
               <!-- </li> -->
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
-                <nuxt-link :to="localePath('proposals')">
-                  <span>{{ $t('proposals') }}</span>
-                </nuxt-link>
-              </li> -->
+              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()"> -->
+              <!--   <nuxt-link :to="localePath('proposals')"> -->
+              <!--     <span>{{ $t('proposals') }}</span> -->
+              <!--   </nuxt-link> -->
+              <!-- </li> -->
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('code-of-conduct')">
                   <span>{{ $t("code-of-conduct") }}</span>
@@ -175,43 +175,43 @@ ja:
               <!--     <span>{{ $t("sponsors") }}</span> -->
               <!--   </nuxt-link> -->
               <!-- </li> -->
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()">
-                <nuxt-link :to="locale_access_link()">
-                  <span>{{ $t('access') }}</span>
-                </nuxt-link>
-              </li> -->
+              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()"> -->
+              <!--   <nuxt-link :to="locale_access_link()"> -->
+              <!--     <span>{{ $t('access') }}</span> -->
+              <!--   </nuxt-link> -->
+              <!-- </li> -->
             </ul>
             <div class="function">
-              <!-- <div v-if="isLoggedOut" class="function_item function_item-login" style="margin-bottom: 16px;" @click="toggleMenu()">
-                <nuxt-link :to="localePath('login')">
-                  {{ $t('login') }}
-                </nuxt-link>
-              </div> -->
+              <!-- <div v-if="isLoggedOut" class="function_item function_item-login" style="margin-bottom: 16px;" @click="toggleMenu()"> -->
+              <!--   <nuxt-link :to="localePath('login')"> -->
+              <!--     {{ $t('login') }} -->
+              <!--   </nuxt-link> -->
+              <!-- </div> -->
               <!-- <div class="function_item function_item-application"> -->
               <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener"> -->
               <!--     {{ $t("ticket") }} -->
               <!--   </a> -->
               <!-- </div> -->
-              <!-- <div class="function_item function_item-login" @click="toggleMenu()">
+              <div class="function_item function_item-login" @click="toggleMenu()">
                 <nuxt-link :to="localePath('cfp')">
-                  {{ $t('cfp') }}
+                  {{ $t("cfp") }}
                 </nuxt-link>
-              </div> -->
-              <!-- <div v-if="isLoggedIn" class="function_item-userIcon">
-                <div class="userMenu">
-                  <div class="function_userInfo js-accordion" @click="toggleUserMenu()">
-                    <div class="function_userIcon" :style="`background-image: url(${auth.profile.photoURL})`" />
-                    <p class="function_userName">
-                      {{ auth.profile.displayName }}
-                    </p>
-                  </div>
-                  <ul v-if="userMenuActive" class="userMenu_list js-accordionTarget">
-                    <li class="userMenu_list_item" @click="logout()">
-                      {{ $t('logout') }}
-                    </li>
-                  </ul>
-                </div>
-              </div> -->
+              </div>
+              <!-- <div v-if="isLoggedIn" class="function_item-userIcon"> -->
+              <!--   <div class="userMenu"> -->
+              <!--     <div class="function_userInfo js-accordion" @click="toggleUserMenu()"> -->
+              <!--       <div class="function_userIcon" :style="`background-image: url(${auth.profile.photoURL})`" /> -->
+              <!--       <p class="function_userName"> -->
+              <!--         {{ auth.profile.displayName }} -->
+              <!--       </p> -->
+              <!--     </div> -->
+              <!--     <ul v-if="userMenuActive" class="userMenu_list js-accordionTarget"> -->
+              <!--       <li class="userMenu_list_item" @click="logout()"> -->
+              <!--         {{ $t('logout') }} -->
+              <!--       </li> -->
+              <!--     </ul> -->
+              <!--   </div> -->
+              <!-- </div> -->
             </div>
             <LangSwitcherSp @on-option-click="toggleMenu()" />
             <a class="menuCloseBtn is_sp" @click="toggleMenu()">閉じる</a>
