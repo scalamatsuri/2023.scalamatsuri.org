@@ -20,7 +20,7 @@ en:
   section3_title: Application
   section3_body: <ul>
     <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfkaOCQGpMTosQIjOXm6jpUbaf8jk7QK0SKvbBR61xSjTPQbg/viewform">Submit my talk</a></li>
-    <li><a href="https://forms.gle/MUXJ182ov6yzxhXh9">Add another speaker</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc8qLfXH2aS1jTxN88qyxKS4iwiCmyGAcwfCFyox7q0BzNp8g/closedform">Add another speaker</a></li>
     </ul>
   section4_title: Application details
   section4_body: |
