@@ -2,10 +2,10 @@
 ## language=yaml
 en:
   alt: The largest international Scala conference in Asia
-  date: Scheduled for April 2023 Online
+  date: on 15th-16th Apr. 2023 Online
 ja:
   alt: アジア最大級のScalaカンファレンス
-  date: 2023年4月 オンライン開催予定
+  date: 2023年4月15日(土) - 16日(日) オンライン
 </i18n>
 
 <template>
