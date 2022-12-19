@@ -13,7 +13,7 @@
       <p class="sponsorship_text">様々な特典をご用意しています。詳細は以下の資料を参照してください。</p>
       <div class="sponsorship_btnArea">
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf" target="_blank" rel="noopener">スポンサーシップのご案内</a>
-        <!-- <a href="https://forms.gle/3o9P94ejae7VYk839" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener">お申込みフォーム</a> -->
+        <a href="https://forms.gle/AVWpqNB3xyWWwx5T8" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener">お申込みフォーム</a>
       </div>
       <!-- <p class="sponsorship_note"> -->
       <!--   2023/2/28 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。 -->
