@@ -15,10 +15,9 @@
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf" target="_blank" rel="noopener">スポンサーシップのご案内</a>
         <!-- <a href="https://forms.gle/3o9P94ejae7VYk839" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener">お申込みフォーム</a> -->
       </div>
-
-      <p class="sponsorship_note">
-        2022/2/28 ScalaMatsuri 2022 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
-      </p>
+      <!-- <p class="sponsorship_note"> -->
+      <!--   2023/2/28 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。 -->
+      <!-- </p> -->
     </div>
     <!-- sponsorship ここまで -->
     <!-- recruit ここから -->
@@ -56,14 +55,18 @@
               <th>
                 <p class="color color_samurai">侍<span>サムライ</span></p>
               </th>
+              <th>
+                <p class="color color_samurai">印籠<span>インロウ</span></p>
+              </th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th colspan="3">金額</th>
-              <td>¥700,000</td>
+              <td>¥1,000,000</td>
               <td>¥250,000</td>
               <td>¥100,000</td>
+              <td>¥25,000</td>
             </tr>
             <tr>
               <th rowspan="2">Webサイト掲載</th>
@@ -72,6 +75,7 @@
               <td>◎<br />ファーストビュー</td>
               <td>○</td>
               <td>○</td>
+              <td>○<br />アイコン</td>
             </tr>
             <tr>
               <th>広告ページ</th>
@@ -81,6 +85,7 @@
               <td>○</td>
               <td>○</td>
               <td>─</td>
+              <td>─</td>
             </tr>
             <tr>
               <th rowspan="2">スライド掲載</th>
@@ -89,6 +94,7 @@
               <td>ロゴ掲載・<br />読み上げ</td>
               <td>ロゴ掲載</td>
               <td>─</td>
+              <td>─</td>
             </tr>
             <tr>
               <th>セッション間<br />CMスライド</th>
@@ -96,28 +102,49 @@
               <td>スライド掲載</td>
               <td>ロゴ＋文言掲載</td>
               <td>─</td>
-            </tr>
-            <tr>
-              <th>懇親会</th>
-              <th>冒頭</th>
-              <th>スポンサー名読み上げ</th>
-              <td>○</td>
-              <td>-</td>
               <td>─</td>
             </tr>
             <tr>
+              <th>スポンサーセッション</th>
+              <th />
+              <th />
+              <td>○</td>
+              <td>─</td>
+              <td>─</td>
+              <td>─</td>
+            </tr>
+            <!-- <tr> -->
+            <!--   <th>懇親会</th> -->
+            <!--   <th>冒頭</th> -->
+            <!--   <th>スポンサー名読み上げ</th> -->
+            <!--   <td>○</td> -->
+            <!--   <td>-</td> -->
+            <!--   <td>─</td> -->
+            <!--   <td>─</td> -->
+            <!-- </tr> -->
+            <tr>
               <th colspan="3">
-                バーチャルブース 20万<br />
+                バーチャルブース 15万<br />
                 最大5チャンネルまで
               </th>
               <td>別売</td>
               <td>別売</td>
               <td>別売</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <th colspan="3">宴スポンサー</th>
+              <td>別売</td>
+              <td>別売</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p class="section_text">ご留意点: 今年はチケットが無料になったため、招待枠はありません。</p>
+      <p class="section_text">
+        宴スポンサーについて：4/15(土)のカンファレンス後にオフラインでの懇親会を検討しています。懇親会をサポートしてくださるスポンサー様を募集する予定です。詳細が決まり次第ご案内いたします。
+      </p>
     </section>
     <!-- plan ここまで -->
     <!-- booth ここから -->
@@ -128,7 +155,7 @@
       <table class="section_table2 section_table2-alignL">
         <tr>
           <th>金額</th>
-          <td>¥200,000</td>
+          <td>¥150,000</td>
         </tr>
         <tr>
           <th>Discordチャンネル数</th>
@@ -144,9 +171,9 @@
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf" target="_blank" rel="noopener">スポンサーシップのご案内</a>
         <!-- <a href="https://forms.gle/3o9P94ejae7VYk839" class="sponsorship_btn sponsorship_btn-form" target="_blank" rel="noopener">お申込みフォーム</a> -->
       </div>
-      <p class="sponsorship_note">
-        2023/2/28 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。
-      </p>
+      <!-- <p class="sponsorship_note"> -->
+      <!--   2023/2/28 ScalaMatsuri 2023 <strong>スポンサー募集は締め切りました。</strong><br />たくさんのご応募、誠にありがとうございました。 -->
+      <!-- </p> -->
     </div>
     <!-- sponsorship ここまで -->
     <section class="inquiry">
@@ -168,27 +195,27 @@ export default {
     return {
       recruit_recruits: [
         {
-          image: require('~/assets/img/sponsorship/img-recruit1.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2019/12/18/141705',
-          title: 'マーベリック株式会社さまへ転職された リチャード伊真岡さん(@RichardImaokaJP)',
+          image: require("~/assets/img/sponsorship/img-recruit2.jpg"),
+          url: "https://blog.scalamatsuri.org/entry/2017/10/30/150859",
+          title: "株式会社FLINTERSさまへ転職された 河内崇さん（@kawachi）",
         },
         {
-          image: require('~/assets/img/sponsorship/img-recruit3.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2020/05/01/155020',
-          title: 'アルプ株式会社さまへ転職された オミさん(@omiend)',
+          image: require("~/assets/img/sponsorship/img-recruit1.png"),
+          url: "https://blog.scalamatsuri.org/entry/2022/03/01/093656",
+          title: "株式会社アットウェアさまへ転職された オヤマさん",
         },
         {
-          image: require('~/assets/img/sponsorship/img-recruit2.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2017/10/30/150859',
-          title: '株式会社FLINTERSさまへ転職された 河内崇さん（@kawachi）',
+          image: require("~/assets/img/sponsorship/img-recruit3.jpg"),
+          url: "https://blog.scalamatsuri.org/entry/2020/05/01/155020",
+          title: "アルプ株式会社さまへ転職された オミさん(@omiend)",
         },
       ],
     }
   },
   head() {
     return {
-      title: 'スポンサー募集',
-      meta: [{ name: 'og:title', content: 'スポンサー募集 | ScalaMatsuri 2023' }],
+      title: "スポンサー募集",
+      meta: [{ name: "og:title", content: "スポンサー募集 | ScalaMatsuri 2023" }],
     }
   },
 }
