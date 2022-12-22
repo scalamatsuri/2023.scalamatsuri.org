@@ -54,25 +54,25 @@ ja:
   <div id="slides">
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('title_01') }}</span>
+        <span class="section_title_inner">{{ $t("title_01") }}</span>
       </h2>
       <p class="section_text" v-html="$t('body_01')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('title_02') }}</span>
+        <span class="section_title_inner">{{ $t("title_02") }}</span>
       </h2>
       <p class="section_text" v-html="$t('body_02')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('title_03') }}</span>
+        <span class="section_title_inner">{{ $t("title_03") }}</span>
       </h2>
       <p class="section_text" v-html="$t('body_03')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('title_04') }}</span>
+        <span class="section_title_inner">{{ $t("title_04") }}</span>
       </h2>
       <p class="section_text" v-html="$t('body_04')" />
     </div>
@@ -80,12 +80,15 @@ ja:
 </template>
 
 <script>
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
+
 export default {
+  mixins: [Page404NotFoundMixin],
   head() {
     const $t = this.$t.bind(this)
     return {
-      title: $t('title_01'),
-      meta: [{ name: 'og:title', content: `${$t('title_01')} | ScalaMatsuri 2023` }],
+      title: $t("title_01"),
+      meta: [{ name: "og:title", content: `${$t("title_01")} | ScalaMatsuri 2023` }],
     }
   },
 }

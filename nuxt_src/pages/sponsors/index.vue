@@ -64,11 +64,13 @@ ja:
 import Sponsor from "~/components/sections/sponsor/sponsor.vue"
 import syoguns from "~/data/sponsors/syogun"
 import daimyos from "~/data/sponsors/daimyo"
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 
 export default {
   components: {
     Sponsor,
   },
+  mixins: [Page404NotFoundMixin],
   data() {
     return {
       syogun_sponsors: [],

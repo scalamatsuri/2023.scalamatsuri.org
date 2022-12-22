@@ -1,17 +1,17 @@
 <i18n lang="yaml">
 ## language=yaml
 en:
-  lang: 'Talking in'
-  contribute: 'OSS work'
-  keywords: 'Keywords'
-  tag: 'Categories'
-  speaker_experience: 'Speaker Experience'
+  lang: "Talking in"
+  contribute: "OSS work"
+  keywords: "Keywords"
+  tag: "Categories"
+  speaker_experience: "Speaker Experience"
 ja:
-  lang: '発表言語'
-  contribute: 'OSS 活動'
-  keywords: 'キーワード'
-  tag: 'カテゴリ'
-  speaker_experience: 'スピーカー経験'
+  lang: "発表言語"
+  contribute: "OSS 活動"
+  keywords: "キーワード"
+  tag: "カテゴリ"
+  speaker_experience: "スピーカー経験"
 </i18n>
 
 <template>
@@ -96,7 +96,7 @@ ja:
       <div class="individual_scopeArea">
         <dl class="individual_scope">
           <dt>
-            {{ $t('lang') }}
+            {{ $t("lang") }}
           </dt>
           <dd>
             {{ program[$i18n.locale].language }}
@@ -104,7 +104,7 @@ ja:
         </dl>
         <dl class="individual_scope">
           <dt>
-            {{ $t('keywords') }}
+            {{ $t("keywords") }}
           </dt>
           <dd>
             <ul>
@@ -116,7 +116,7 @@ ja:
         </dl>
         <dl class="individual_scope">
           <dt>
-            {{ $t('tag') }}
+            {{ $t("tag") }}
           </dt>
           <dd>
             <ul>
@@ -129,11 +129,11 @@ ja:
         <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name">
           <dl v-if="speaker.contributes.length > 0" class="individual_scope_large">
             <dt v-if="program[$i18n.locale].speakers.length === 1">
-              {{ $t('contribute') }}
+              {{ $t("contribute") }}
             </dt>
             <dt v-else>
               {{ speaker.name }} <br />
-              {{ $t('contribute') }}
+              {{ $t("contribute") }}
             </dt>
             <dd>
               <p v-for="contribute in speaker.contributes" :key="contribute">
@@ -142,10 +142,10 @@ ja:
             </dd>
           </dl>
           <dl v-if="speaker.speaker_experience.length > 0" class="individual_scope_large">
-            <dt v-if="program[$i18n.locale].speakers.length === 1">{{ $t('speaker_experience') }} {{ program.id }}</dt>
+            <dt v-if="program[$i18n.locale].speakers.length === 1">{{ $t("speaker_experience") }} {{ program.id }}</dt>
             <dt v-else>
               {{ speaker.name }} <br />
-              {{ $t('speaker_experience') }}
+              {{ $t("speaker_experience") }}
             </dt>
             <dd>
               <p v-for="ex in speaker.speaker_experience" :key="ex">
@@ -160,11 +160,11 @@ ja:
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters } from "vuex"
 
 export default {
   validate({ store, params }) {
-    return store.getters['proposals/findById'](params.id)
+    return store.getters["proposals/findById"](params.id)
   },
   data() {
     return {
@@ -176,7 +176,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      findById: 'proposals/findById',
+      findById: "proposals/findById",
     }),
   },
   head() {
@@ -184,18 +184,18 @@ export default {
     return {
       title: title,
       meta: [
-        { name: 'og:title', content: `${title} | ScalaMatsuri 2023` },
-        { name: 'description', content: `${title} | ScalaMatsuri 2023` },
-        { property: 'og:title', content: `${title} | ScalaMatsuri 2023` },
-        { property: 'og:description', content: `${this.program[this.$i18n.locale].detail}` },
-        { name: 'twitter:title', content: `${title} | ScalaMatsuri 2023` },
-        { name: 'twitter:description', content: this.program[this.$i18n.locale].detail },
+        { name: "og:title", content: `${title} | ScalaMatsuri 2023` },
+        { name: "description", content: `${title} | ScalaMatsuri 2023` },
+        { property: "og:title", content: `${title} | ScalaMatsuri 2023` },
+        { property: "og:description", content: `${this.program[this.$i18n.locale].detail}` },
+        { name: "twitter:title", content: `${title} | ScalaMatsuri 2023` },
+        { name: "twitter:description", content: this.program[this.$i18n.locale].detail },
       ],
     }
   },
   asyncData({ store, params }) {
     return {
-      program: store.getters['proposals/findById'](params.id),
+      program: store.getters["proposals/findById"](params.id),
     }
   },
 }
