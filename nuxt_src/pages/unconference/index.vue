@@ -151,26 +151,26 @@ ja:
     <div class="main">
       <div class="main_inner">
         <h1 class="main_title">
-          {{ $t('title') }}
+          {{ $t("title") }}
         </h1>
       </div>
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('day2_title') }}</span>
+        <span class="section_title_inner">{{ $t("day2_title") }}</span>
       </h2>
       <blockquote class="section_text" v-html="$t('day2_text_01')" />
       <p class="section_text" v-html="$t('day2_text_02')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('day2_flow_title') }}</span>
+        <span class="section_title_inner">{{ $t("day2_flow_title") }}</span>
       </h2>
       <p class="section_text" v-html="$t('day2_flow_text_01')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('themes_title') }}</span>
+        <span class="section_title_inner">{{ $t("themes_title") }}</span>
       </h2>
       <p class="section_text" v-html="$t('themes_text_01')" />
       <blockquote class="section_text" v-html="$t('themes_text_02')" />
@@ -178,7 +178,7 @@ ja:
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('flow_of_the_day_title') }}</span>
+        <span class="section_title_inner">{{ $t("flow_of_the_day_title") }}</span>
       </h2>
       <p class="section_text" v-html="$t('flow_of_the_day_text_01')" />
       <br /><br />
@@ -197,13 +197,13 @@ ja:
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('preparation_title') }}</span>
+        <span class="section_title_inner">{{ $t("preparation_title") }}</span>
       </h2>
       <p class="section_text" v-html="$t('preparation_text_01')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('lastly_title') }}</span>
+        <span class="section_title_inner">{{ $t("lastly_title") }}</span>
       </h2>
       <p class="section_text" v-html="$t('lastly_text_01')" />
     </div>
@@ -211,12 +211,15 @@ ja:
 </template>
 
 <script>
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
+
 export default {
+  mixins: [Page404NotFoundMixin],
   head() {
     const $t = this.$t.bind(this)
     return {
-      title: $t('title'),
-      meta: [{ name: 'og:title', content: `${$t('title')} | ScalaMatsuri 2023` }],
+      title: $t("title"),
+      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
     }
   },
 }

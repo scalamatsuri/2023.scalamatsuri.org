@@ -41,14 +41,14 @@ ja:
     <div class="main js-subNav">
       <div class="main_inner">
         <h1 class="main_title">
-          {{ $t('title') }}
+          {{ $t("title") }}
         </h1>
         <ul class="main_index">
           <li class="main_item">
-            <a href="#day1">{{ getWholeDayStrOf(sessionsIn19) + $t('day1_header') }}</a>
+            <a href="#day1">{{ getWholeDayStrOf(sessionsIn19) + $t("day1_header") }}</a>
           </li>
           <li class="main_item">
-            <a href="#day2">{{ getWholeDayStrOf(sessionsIn20) + $t('day2_header') }}</a>
+            <a href="#day2">{{ getWholeDayStrOf(sessionsIn20) + $t("day2_header") }}</a>
           </li>
         </ul>
       </div>
@@ -64,7 +64,7 @@ ja:
     </div> -->
     <div id="day1" class="program">
       <h2 class="program_title">
-        {{ getWholeDayStrOf(sessionsIn19) + $t('day1_header') }}
+        {{ getWholeDayStrOf(sessionsIn19) + $t("day1_header") }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day1_description')" />
@@ -92,14 +92,14 @@ ja:
 
     <div id="day2" class="program">
       <h2 class="program_title">
-        {{ getWholeDayStrOf(sessionsIn20) + $t('day2_header') }}
+        {{ getWholeDayStrOf(sessionsIn20) + $t("day2_header") }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day2_description')" />
       </p>
       <p>
         <nuxt-link :to="localePath('unconference')">
-          {{ $t('day2_title') }}
+          {{ $t("day2_title") }}
         </nuxt-link>
       </p>
       <div class="schedule">
@@ -131,16 +131,18 @@ ja:
   </div>
 </template>
 <script>
-import { mapGetters } from 'vuex'
-import { DateTime } from 'luxon'
-import Modal from '~/components/parts/SessionDetailModal.vue'
-import Schedule from '~/components/sections/program/schedule.vue'
+import { mapGetters } from "vuex"
+import { DateTime } from "luxon"
+import Modal from "~/components/parts/SessionDetailModal.vue"
+import Schedule from "~/components/sections/program/schedule.vue"
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 
 export default {
   components: {
     Modal,
     Schedule,
   },
+  mixins: [Page404NotFoundMixin],
   data() {
     return {
       selectProgram: null,
@@ -149,7 +151,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      filterByDateAndGroupByStartAt: 'sessions/filterByDateAndGroupByStartAt',
+      filterByDateAndGroupByStartAt: "sessions/filterByDateAndGroupByStartAt",
     }),
     sessionsIn19() {
       return this.filterByDateAndGroupByStartAt(19)
@@ -160,21 +162,21 @@ export default {
   },
   methods: {
     getTimeStr(time) {
-      return DateTime.fromSeconds(time).toFormat('HH:mm')
+      return DateTime.fromSeconds(time).toFormat("HH:mm")
     },
     getTimeZoneStr(time) {
-      return DateTime.fromSeconds(time).toFormat('ZZZZ')
+      return DateTime.fromSeconds(time).toFormat("ZZZZ")
     },
     getDateStr(time) {
-      return DateTime.fromSeconds(time).toFormat('d')
+      return DateTime.fromSeconds(time).toFormat("d")
     },
     getWholeDayStr(fromTime, toTime) {
       const from = this.getDateStr(fromTime)
       const to = this.getDateStr(toTime)
       if (from === to) {
-        return '3/' + from + ' '
+        return "3/" + from + " "
       } else {
-        return '3/' + from + ' - ' + to + ' '
+        return "3/" + from + " - " + to + " "
       }
     },
     getWholeDayStrOf(sessionTimeObj) {
@@ -196,8 +198,8 @@ export default {
   head() {
     const $t = this.$t.bind(this)
     return {
-      title: $t('title'),
-      meta: [{ name: 'og:title', content: `${$t('title')} | ScalaMatsuri 2023` }],
+      title: $t("title"),
+      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
     }
   },
 }
