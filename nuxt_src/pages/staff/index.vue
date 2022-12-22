@@ -1,9 +1,9 @@
 <i18n lang="yaml">
 ## language=yaml
 en:
-  title: 'Staff'
+  title: "Staff"
 ja:
-  title: 'スタッフ一覧'
+  title: "スタッフ一覧"
 </i18n>
 
 <template>
@@ -11,7 +11,7 @@ ja:
     <div class="main">
       <div class="main_inner">
         <h1 class="main_title">
-          {{ $t('title') }}
+          {{ $t("title") }}
         </h1>
       </div>
     </div>
@@ -26,9 +26,9 @@ ja:
 </template>
 
 <script>
-import Staff from '~/components/sections/staff/staff.vue'
-import staffList from '~/data/staff/staff'
-import Page404NotFoundMixin from '~/mixins/page/Page404NotFound.js'
+import Staff from "~/components/sections/staff/staff.vue"
+import staffList from "~/data/staff/staff"
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 
 export default {
   components: {
@@ -41,15 +41,15 @@ export default {
       staffs: [],
     }
   },
-  mounted() {
-    this.staffs = staffList
-  },
   head() {
     const $t = this.$t.bind(this)
     return {
-      title: $t('title'),
-      meta: [{ name: 'og:title', content: `${$t('title')} | ScalaMatsuri 2023` }],
+      title: $t("title"),
+      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
     }
+  },
+  mounted() {
+    this.staffs = staffList
   },
 }
 </script>

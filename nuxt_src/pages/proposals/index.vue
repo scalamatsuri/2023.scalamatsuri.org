@@ -123,12 +123,12 @@ ja:
 </template>
 
 <script>
-import { mapActions, mapGetters, mapMutations } from "vuex";
-import TableRow from "~/components/sections/candidates/tableRow";
-import Modal from "~/components/parts/SessionDetailModal.vue";
+import { mapActions, mapGetters, mapMutations } from "vuex"
+import TableRow from "~/components/sections/candidates/tableRow"
+import Modal from "~/components/parts/SessionDetailModal.vue"
 // import ProposalSkelton from '~/components/parts/ProposalSkelton.vue'
-import * as mTypes from "~/store/mutation-types";
-// import Page404NotFoundMixin from '~/mixins/page/Page404NotFound.js'
+import * as mTypes from "~/store/mutation-types"
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 // import VotedSessions from '~/components/sections/proposals/VotedSessions.vue'
 
 export default {
@@ -138,12 +138,13 @@ export default {
     // ProposalSkelton,
     // VotedSessions
   },
+  mixins: [Page404NotFoundMixin],
   // mixins: [Page404NotFoundMixin],
   data() {
     return {
       selectProgram: null,
       showModal: false,
-    };
+    }
   },
   computed: {
     ...mapGetters({
@@ -166,39 +167,39 @@ export default {
       removeVote: "vote/" + mTypes.REMOVE_USER_VOTE,
     }),
     openModal(item) {
-      this.selectProgram = item;
-      this.showModal = true;
+      this.selectProgram = item
+      this.showModal = true
     },
     closeModal() {
-      this.showModal = false;
+      this.showModal = false
     },
     async onVote(proposal) {
       if (this.isLoggedIn) {
-        await this.appendVote(proposal);
-        await this.storeVotes();
+        await this.appendVote(proposal)
+        await this.storeVotes()
       } else {
         // If user tried voting without sign in, redirect to login path.
-        this.$router.push(this.localePath("login"));
+        this.$router.push(this.localePath("login"))
       }
     },
     async onUnVote(proposal) {
       if (this.isLoggedIn) {
-        await this.removeVote(proposal);
-        await this.storeVotes();
+        await this.removeVote(proposal)
+        await this.storeVotes()
       } else {
         // If user tried voting without sign in, redirect to login path.
-        this.$router.push(this.localePath("login"));
+        this.$router.push(this.localePath("login"))
       }
     },
   },
   head() {
-    const $t = this.$t.bind(this);
+    const $t = this.$t.bind(this)
     return {
       title: $t("title"),
       meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
-    };
+    }
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

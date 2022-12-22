@@ -2,9 +2,7 @@
   <div id="codeOfConduct">
     <div class="main">
       <div class="main_inner">
-        <h1 class="main_title">
-          CM
-        </h1>
+        <h1 class="main_title">CM</h1>
       </div>
     </div>
     <div class="section">
@@ -22,12 +20,14 @@
 </template>
 
 <script>
+import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 export default {
+  mixins: [Page404NotFoundMixin],
   head() {
     return {
-      title: 'CM',
-      meta: [{ name: 'og:title', content: 'CM | ScalaMatsuri 2020' }]
+      title: "CM",
+      meta: [{ name: "og:title", content: "CM | ScalaMatsuri 2020" }],
     }
-  }
+  },
 }
 </script>
