@@ -1,44 +1,23 @@
 [
   {
-    "name": "将軍スポンサー1",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    "name": "Chatwork株式会社",
+    "logo": "/img/sponsors/chatwork.png",
+    "url": "https://corp.chatwork.com/ja/",
+    "text_html": "",
+    "slide_html": ""
   },
   {
-    "name": "将軍スポンサー2",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    "name": "株式会社COMPASS",
+    "logo": "/img/sponsors/qubena.png",
+    "url": "https://qubena.com/",
+    "text_html": "",
+    "slide_html": ""
   },
   {
-    "name": "将軍スポンサー3",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-  },
-  {
-    "name": "将軍スポンサー4",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-  },
-  {
-    "name": "将軍スポンサー5",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-  },
-  {
-    "name": "将軍スポンサー6",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    "name": "株式会社リクルート",
+    "logo": "/img/sponsors/recruit.jpg",
+    "url": "https://www.recruit.co.jp/employment/mid-career/technology/",
+    "text_html": "",
+    "slide_html": ""
   }
 ]
