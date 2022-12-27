@@ -11,7 +11,7 @@
     <lazy-component>
       <Coc />
     </lazy-component>
-    <!-- <Sponsors /> -->
+    <Sponsors />
   </div>
 </template>
 
@@ -25,7 +25,7 @@ import Events from "~/components/sections/top/Events"
 import MainVisual from "~/components/sections/top/MainVisual"
 import News from "~/components/sections/top/News"
 // import Program from "~/components/sections/top/Program"
-// import Sponsors from "~/components/sections/top/Sponsors"
+import Sponsors from "~/components/sections/top/Sponsors"
 // import ThankYou from "~/components/sections/top/ThankYou"
 
 export default {
@@ -38,7 +38,7 @@ export default {
     Events,
     // Access,
     Coc,
-    // Sponsors,
+    Sponsors,
     // Program,
   },
   computed: {
