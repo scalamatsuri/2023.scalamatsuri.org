@@ -1,23 +1,16 @@
 [
   {
-    "name": "大名スポンサー1",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    "name": "アルプ株式会社",
+    "logo": "/img/sponsors/alpinc.svg",
+    "url": "https://alpinc.notion.site/52af90188305440d86acf72968646054",
+    "text_html": "",
+    "slide_html": ""
   },
   {
-    "name": "大名スポンサー2",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-  },
-  {
-    "name": "大名スポンサー3",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/",
-    "text_html": "アジア最大級のScalaカンファレンスです\nTEXT\nTEXTTEXT\nTEXTTEXTTEXT",
-    "slide_html": "<<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/lIfOQNTWdxI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    "name": "株式会社FLINTERS",
+    "logo": "/img/sponsors/FLINTES.svg",
+    "url": "https://www.flinters.co.jp/",
+    "text_html": "",
+    "slide_html": ""
   }
 ]

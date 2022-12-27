@@ -1,17 +1,7 @@
 [
   {
-    "name": "侍スポンサー1",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/"
-  },
-  {
-    "name": "侍スポンサー2",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/"
-  },
-  {
-    "name": "侍スポンサー3",
-    "logo": "/img/sponsors/scalamatsuri_logo.png",
-    "url": "https://scalamatsuri.org/"
+    "name": "合同会社ザウエル",
+    "logo": "/img/sponsors/zauel.png",
+    "url": "https://zauel.co.jp/"
   }
 ]
