@@ -64,19 +64,19 @@ ja:
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
-        {{ $t("bugyo") }}
+        {{ $t("inrou") }}
       </h3>
       <ul class="sponsors_list">
-        <li v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_item">
+        <li v-for="sponsor in inrous" :key="sponsor.logo" class="inrou_sponsors_item">
           <a :href="sponsor.url" target="_blank" rel="noopener"><img v-lazy="sponsor.logo" :alt="sponsor.name" /></a>
           <p>{{ sponsor.display_name }}</p>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
-        {{ $t("inrou") }}
+        {{ $t("bugyo") }}
       </h3>
       <ul class="sponsors_list">
-        <li v-for="sponsor in inrous" :key="sponsor.logo" class="inrou_sponsors_item">
+        <li v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_item">
           <a :href="sponsor.url" target="_blank" rel="noopener"><img v-lazy="sponsor.logo" :alt="sponsor.name" /></a>
           <p>{{ sponsor.display_name }}</p>
         </li>
