@@ -2,7 +2,7 @@
 
 .news {
   background-color: #000;
-  color: #FFF;
+  color: #fff;
   width: 100%;
 }
 .news_inner {
@@ -30,7 +30,7 @@
   opacity: 0;
 }
 .news_title {
-  background: #EBA80A;
+  background: #eba80a;
   font-weight: bold;
   font-size: 18px;
   width: 124px;
@@ -50,7 +50,7 @@
   }
 
   a {
-    color: #FFF;
+    color: #fff;
     font-weight: bold;
     font-size: 18px;
   }
@@ -78,16 +78,16 @@
   margin-top: 40px;
   font-weight: bold;
   font-size: 48px;
-  color: #BD3844;
+  color: #bd3844;
 }
 
 .content_days_tag {
   width: 64px;
   height: 30px;
-  border: 2px solid #BD3844;
+  border: 2px solid #bd3844;
   box-sizing: border-box;
   border-radius: 4px;
-  color: #BD3844;
+  color: #bd3844;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -109,7 +109,7 @@
   margin-top: 35px;
 
   a {
-    color: #00A4DE;
+    color: #00a4de;
     font-weight: bold;
   }
 
@@ -146,7 +146,6 @@
 }
 
 .content_img {
-
   position: relative;
   display: block;
 }
@@ -154,12 +153,11 @@
 .content_imgcaption {
   display: inline-block;
   background-color: rgba(51, 51, 51, 0.5);
-  ;
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   padding: 6px 5px;
   font-weight: bold;
@@ -192,7 +190,7 @@
 }
 
 .access_subtitle {
-  color: #272B4E;
+  color: #272b4e;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 16px;
@@ -200,20 +198,19 @@
 
 .access_date {
   font-weight: bold;
-  color: #272B4E;
+  color: #272b4e;
   font-size: 16px;
   margin-right: 50px;
   dt {
     width: 64px;
     height: 36px;
-    border: 2px solid #272B4E;
+    border: 2px solid #272b4e;
     border-radius: 4px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
     line-height: 32px;
     float: left;
-
   }
   dd {
     margin-left: 74px;
@@ -228,7 +225,7 @@
   text-align: left;
 }
 .access_place {
-  color: #272B4E;
+  color: #272b4e;
 }
 .access_place_name {
   font-weight: bold;
@@ -249,8 +246,8 @@
   margin-top: 31px;
   margin-bottom: 50px;
 }
-.info{
-  color: #FFF;
+.info {
+  color: #fff;
 }
 .info_inner {
   max-width: 1240px;
@@ -271,7 +268,7 @@
 .info_btn {
   width: 160px;
   height: 44px;
-  background-color: #FFF;
+  background-color: #fff;
   line-height: 44px;
   font-size: 15px;
   color: #000;
@@ -279,66 +276,11 @@
   display: block;
   border-radius: 22px;
 }
-.sponsors_title {
-  font-size: 48px;
-  font-weight: bold;
-}
-.sponsors_subtitle {
-  margin-top: 67px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: normal;
-  color: #4F4C47;
-  background: -webkit-linear-gradient(0deg, #7F797F, #4F4C47);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  &-em {
-    font-size: 24px;
-    color: #F39200;
-    background: -webkit-linear-gradient(0deg, #F7D000, #F39200);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-.sponsors{
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 58px 0 100px;
-}
-.sponsors_list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 766px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.sponsors_inner {
-
-}
-.sponsors_item {
-  padding: 0 10px;
-  width: 33%;
-  max-width: 242px;
-  margin-top: 20px;
-
-  img {
-    width: 100%;
-    background: white;
-  }
-  p {
-    padding-top: 6px;
-    font-size: 16px;
-    color: #4F4C47;
-  }
-}
 
 @media screen and (max-width: $viewport - 1) {
   @import "sp";
 }
-@media screen and (min-width: $viewport){
+@media screen and (min-width: $viewport) {
   @import "pc";
   .main_title {
     font-size: 8vw;
@@ -353,7 +295,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: #B91E26;
+    background-color: #b91e26;
     padding: 0;
     height: auto;
   }
@@ -401,7 +343,7 @@
     letter-spacing: 0;
   }
   .main_sponsor_inner {
-    background-color: rgba(255,255,255,0.53);
+    background-color: rgba(255, 255, 255, 0.53);
     margin: 108px auto 0;
     display: flex;
     justify-content: center;
@@ -415,7 +357,7 @@
       background-image: url("~assets/img/top/bg-main-sponsor_head_sp.png");
       background-size: 100% auto;
       background-repeat: no-repeat;
-      background-position:  center bottom -1px;
+      background-position: center bottom -1px;
       height: 108px;
       width: 100%;
       position: absolute;
@@ -437,9 +379,8 @@
   .main {
     margin: 0 auto;
     padding: 0;
-    background-color: #B91E26;
-    background-image:
-      linear-gradient(180deg, #CF5335 0%, #B81D26 100%);
+    background-color: #b91e26;
+    background-image: linear-gradient(180deg, #cf5335 0%, #b81d26 100%);
     background-size: auto 700px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -450,13 +391,11 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    background-image:
-      url("~assets/img/top/img-main.jpg"),
-      linear-gradient(180deg, #CF5335 0%, #B81D26 100%);
-    background-size: 100% auto,100%;
-    background-position: top center,top center;
+    background-image: url("~assets/img/top/img-main.jpg"), linear-gradient(180deg, #cf5335 0%, #b81d26 100%);
+    background-size: 100% auto, 100%;
+    background-position: top center, top center;
     background-repeat: no-repeat, no-repeat;
-    background-color: #B81D26;
+    background-color: #b81d26;
   }
   .main_title_sp {
     display: none;
@@ -467,8 +406,7 @@
     position: relative;
   }
   .main_sponsor {
-    background-image:
-      url("~assets/img/top/bg-main-sponsor_body.png");
+    background-image: url("~assets/img/top/bg-main-sponsor_body.png");
     background-size: 100% 100%;
     background-repeat: repeat-y;
     background-position: bottom center;
@@ -481,7 +419,7 @@
       display: block;
       background-image: url("~assets/img/top/bg-main-sponsor_head.png");
       background-size: 100% auto;
-        background-repeat: no-repeat;
+      background-repeat: no-repeat;
       background-position: bottom -1px center;
       height: 205px;
       width: 100%;
@@ -508,4 +446,3 @@
     }
   }
 }
-
