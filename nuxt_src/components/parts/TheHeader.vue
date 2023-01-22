@@ -94,11 +94,11 @@ ja:
             <!--     {{ $t("ticket") }} -->
             <!--   </a> -->
             <!-- </li> -->
-            <li class="function_item function_item-login">
-              <nuxt-link :to="localePath('cfp')">
-                {{ $t("cfp") }}
-              </nuxt-link>
-            </li>
+            <!-- <li class="function_item function_item-login"> -->
+            <!--   <nuxt-link :to="localePath('cfp')"> -->
+            <!--     {{ $t("cfp") }} -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }"> -->
             <!--   <nuxt-link :to="localePath('extra-staff')"> -->
             <!--     <span>{{ $t("extra-staff") }}</span> -->
@@ -192,11 +192,11 @@ ja:
               <!--     {{ $t("ticket") }} -->
               <!--   </a> -->
               <!-- </div> -->
-              <div class="function_item function_item-login" @click="toggleMenu()">
-                <nuxt-link :to="localePath('cfp')">
-                  {{ $t("cfp") }}
-                </nuxt-link>
-              </div>
+              <!-- <div class="function_item function_item-login" @click="toggleMenu()"> -->
+              <!--   <nuxt-link :to="localePath('cfp')"> -->
+              <!--     {{ $t("cfp") }} -->
+              <!--   </nuxt-link> -->
+              <!-- </div> -->
               <!-- <div v-if="isLoggedIn" class="function_item-userIcon"> -->
               <!--   <div class="userMenu"> -->
               <!--     <div class="function_userInfo js-accordion" @click="toggleUserMenu()"> -->
