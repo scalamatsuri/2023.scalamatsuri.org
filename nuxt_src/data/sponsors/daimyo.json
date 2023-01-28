@@ -26,5 +26,10 @@
     "url": "https://funds.jp/",
     "text_html": "",
     "slide_html": ""
+  },
+  {
+    "name": "株式会社FOLIO",
+    "logo": "/img/sponsors/folio.svg",
+    "url": "https://corp.folio-sec.com/"
   }
 ]
