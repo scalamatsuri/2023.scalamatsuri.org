@@ -133,7 +133,7 @@
               <td>-</td>
             </tr>
             <tr>
-              <th colspan="3">宴スポンサー</th>
+              <th colspan="3">さてらいとスポンサー</th>
               <td>別売</td>
               <td>別売</td>
               <td>-</td>
@@ -142,9 +142,6 @@
           </tbody>
         </table>
       </div>
-      <p class="section_text">
-        宴スポンサーについて：4/15(土)のカンファレンス後にオフラインでの懇親会を検討しています。懇親会をサポートしてくださるスポンサー様を募集する予定です。詳細が決まり次第ご案内いたします。
-      </p>
     </section>
     <!-- plan ここまで -->
     <!-- booth ここから -->
@@ -152,7 +149,7 @@
       <h2 class="section_title">
         <span class="section_title_inner">バーチャルブース</span>
       </h2>
-      <table class="section_table2 section_table2-alignL">
+      <table class="addon-sponsorship-table">
         <tr>
           <th>金額</th>
           <td>¥150,000</td>
@@ -160,6 +157,18 @@
         <tr>
           <th>Discordチャンネル数</th>
           <td>最大5つまで</td>
+        </tr>
+      </table>
+    </section>
+    <!-- booth ここから -->
+    <section class="section booth">
+      <h2 class="section_title">
+        <span class="section_title_inner">さてらいとスポンサー</span>
+      </h2>
+      <table class="addon-sponsorship-table">
+        <tr>
+          <th>金額</th>
+          <td>¥250,000</td>
         </tr>
       </table>
     </section>
@@ -232,5 +241,20 @@ export default {
     border-bottom: 2px solid #eba808;
     padding-bottom: 0.1em;
   }
+}
+.addon-sponsorship-table {
+  width: 100%;
+  margin-top: 60px;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+}
+.addon-sponsorship-table th,
+td {
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+}
+.addon-sponsorship-table th {
+  width: 50%;
 }
 </style>
