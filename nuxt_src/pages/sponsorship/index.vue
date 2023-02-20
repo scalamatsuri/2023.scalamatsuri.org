@@ -149,7 +149,7 @@
       <h2 class="section_title">
         <span class="section_title_inner">バーチャルブース</span>
       </h2>
-      <table class="section_table2 section_table2-alignL">
+      <table class="addon-sponsorship-table">
         <tr>
           <th>金額</th>
           <td>¥150,000</td>
@@ -165,7 +165,7 @@
       <h2 class="section_title">
         <span class="section_title_inner">さてらいとスポンサー</span>
       </h2>
-      <table class="section_table2 section_table2-alignL">
+      <table class="addon-sponsorship-table">
         <tr>
           <th>金額</th>
           <td>¥250,000</td>
@@ -241,5 +241,20 @@ export default {
     border-bottom: 2px solid #eba808;
     padding-bottom: 0.1em;
   }
+}
+.addon-sponsorship-table {
+  width: 100%;
+  margin-top: 60px;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+}
+.addon-sponsorship-table th,
+td {
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+}
+.addon-sponsorship-table th {
+  width: 50%;
 }
 </style>
