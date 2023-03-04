@@ -10,13 +10,20 @@
     "name": "株式会社COMPASS",
     "logo": "/img/sponsors/qubena.png",
     "url": "https://qubena.com/",
-    "text_html": "",
+    "text_html": "<html><head><title>株式会社COMPASS</title></head><body><p><a href=\"https://qubena.com/\">COMPASS</a>は、学習eポータル＋AI型教材「Qubena（キュビナ）」の開発を通して、子ども達の学習をパーソナライズし、より効果的に知識、技能を習得できるプラットフォームを提供しています！</p><p>現在全国170以上の自治体、小中学校で約2,300校にて導入され、100万人以上の子供たちの学びを支えています。<br>昨今のコロナの影響もあり、今後ますます多くの自治体での導入が見込まれています。</p><p><b>「Scalaで、学びをもっと愉しく！」</b></p><p>バックエンド開発ではScalaを採用しており、設計にはDDDを取り入れています。<br>高負荷への対処が重要であるため、新しい技術やアプローチを検討し続けています。<br>また、進化可能なアーキテクチャ基盤の構築に向けてモジュラモノリスの導入に取り組んでいます。</p><p>組織としては機能開発のチームの他にPlatformチームを作り，カイゼン活動、技術的課題への取り組みに充てており、常に現状に満足しないシステム開発を進めています。</p><p>日本の公教育をアップデートし、子ども達の未来を支えるエンジニアを募集しています！少しでも興味がある方は、ぜひお気軽にご連絡ください！</p><p><a href=\"https://hrmos.co/pages/qubena/jobs/4_1_1\">Scalaエンジニア採用情報</a><br><a href=\"https://speakerdeck.com/qubena_compass/about-compass\">COMPASS会社紹介</a></p></body></html>",
     "slide_html": ""
   },
   {
     "name": "株式会社リクルート",
     "logo": "/img/sponsors/recruit.jpg",
     "url": "https://www.recruit.co.jp/employment/mid-career/technology/",
+    "text_html": "",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社ギブリー",
+    "logo": "/img/sponsors/track.png",
+    "url": "https://tracks.run/",
     "text_html": "",
     "slide_html": ""
   }
