@@ -93,7 +93,7 @@ ja:
             <!-- </div> -->
             <li class="function_item function_item-application">
               <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
-                {{ $t("ticket") }} -->
+                {{ $t("ticket") }}
               </a>
             </li>
             <!-- <li class="function_item function_item-login"> -->
