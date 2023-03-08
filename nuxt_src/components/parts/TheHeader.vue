@@ -8,7 +8,7 @@ en:
   proposals: Proposals
   outline: Outline
   login: Log in
-  ticket: Doorkeeper
+  ticket: Ticket
   cfp: CFP
   cm: CM
   extra-staff: Extra Staffs(ja)
@@ -22,7 +22,7 @@ ja:
   proposals: セッション候補
   outline: 開催概要
   login: ログイン
-  ticket: Doorkeeper
+  ticket: チケット
   cfp: セッション募集
   cm: CM
   extra-staff: スタッフ募集
@@ -91,11 +91,11 @@ ja:
             <!-- {{ $t('login') }} -->
             <!-- </nuxt-link> -->
             <!-- </div> -->
-            <!-- <li class="function_item function_item-application"> -->
-            <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener"> -->
-            <!--     {{ $t("ticket") }} -->
-            <!--   </a> -->
-            <!-- </li> -->
+            <li class="function_item function_item-application">
+              <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
+                {{ $t("ticket") }} -->
+              </a>
+            </li>
             <!-- <li class="function_item function_item-login"> -->
             <!--   <nuxt-link :to="localePath('cfp')"> -->
             <!--     {{ $t("cfp") }} -->
@@ -189,11 +189,11 @@ ja:
               <!--     {{ $t('login') }} -->
               <!--   </nuxt-link> -->
               <!-- </div> -->
-              <!-- <div class="function_item function_item-application"> -->
-              <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/131313" target="_blank" rel="noopener"> -->
-              <!--     {{ $t("ticket") }} -->
-              <!--   </a> -->
-              <!-- </div> -->
+              <div class="function_item function_item-application">
+                <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
+                  {{ $t("ticket") }}
+                </a>
+              </div>
               <!-- <div class="function_item function_item-login" @click="toggleMenu()"> -->
               <!--   <nuxt-link :to="localePath('cfp')"> -->
               <!--     {{ $t("cfp") }} -->
