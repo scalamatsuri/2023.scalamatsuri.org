@@ -3,29 +3,36 @@
 en:
   sponsorship: "Sponsorship(ja)"
   cfp: "Call for proposals"
-  ticket: "Ticket"
+  ticket: "Get a Ticket"
   tshirt: "Get a (Ninja) T-Shirt"
 ja:
   sponsorship: "スポンサー募集"
   cfp: "セッションに応募する"
-  ticket: "チケット"
+  ticket: "チケット購入"
   tshirt: "(忍者)Tシャツ購入"
 </i18n>
 
 <template>
   <div class="banner">
     <div class="banner_list">
-      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item-sponsor">
+      <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener" class="banner_item banner_item_one banner_item-ticket">
+        <span>{{ $t("ticket") }}</span>
+      </a>
+    </div>
+    <div class="banner_list">
+      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item_two banner_item-sponsor">
         <span>{{ $t("sponsorship") }} </span>
       </nuxt-link>
       <!-- <nuxt-link :to="localePath('cfp')" class="banner_item banner_item-staff"> -->
       <!--   <span>{{ $t("cfp") }}</span> -->
       <!-- </nuxt-link> -->
-      <!-- <a href="https://scalamatsuri-online-shop.myshopify.com/" target="_blank" rel="noopener" class="banner_item banner_item-sponsor"> -->
-      <!--   <span>{{ $t('tshirt') }} </span> -->
-      <!-- </a> -->
-      <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener" class="banner_item banner_item-staff">
-        <span>{{ $t("ticket") }}</span>
+      <a
+        href="https://scalamatsuri-online-shop.myshopify.com/"
+        target="_blank"
+        rel="noopener"
+        class="banner_item banner_item_two banner_item-tshorts"
+      >
+        <span>{{ $t("tshirt") }} </span>
       </a>
     </div>
   </div>
@@ -38,14 +45,22 @@ ja:
 .banner_list {
   margin: 0 auto;
   max-width: 834px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+// NOTE: バナー1つのとき
+.banner_item_one {
+  margin: 0 auto;
+  max-width: 20rem;
+  min-width: 20rem;
+}
+// NOTE: バナー2つのとき
+.banner_item_two {
+  width: calc(50% - 10px);
+}
 .banner_item {
   display: block;
-  // width: calc(50% - 10px); // NOTE: バナー2つのとき
-  margin: 0 auto; // NOTE: バナー1つのとき
-  max-width: 394px; // NOTE: バナー1つのとき
   height: 88px;
   color: #fff;
   font-weight: bold;
@@ -75,13 +90,28 @@ ja:
     line-height: 54px;
   }
   &-sponsor {
-    background-color: #4f9ad5;
+    background-color: #e4ae2f;
     span {
       background-image: url("~assets/img/common/icon-mikoshi.svg");
     }
   }
+  &-ticket {
+    background-color: #4f9ad5;
+    span {
+      background-image: url("~assets/img/common/logo.svg");
+    }
+  }
   &-staff {
+    background-color: #4f9ad5;
+    span {
+      background-image: url("~assets/img/common/logo.svg");
+    }
+  }
+  &-tshorts {
     background-color: #e4ae2f;
+    span {
+      background-image: url("~assets/img/common/icon-happi.svg");
+    }
   }
 }
 </style>
