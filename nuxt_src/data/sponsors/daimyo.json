@@ -17,14 +17,14 @@
     "name": "株式会社はてな",
     "logo": "/img/sponsors/hatena.png",
     "url": "https://hatena.co.jp/recruit/engineer",
-    "text_html": "",
-    "slide_html": ""
+    "text_html": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://ja.mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><p>ScalaはMackerelやはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか</a>、<a href=\"https://speakerdeck.com/aereal/microservices-and-scala-at-hatena\">はてなにおけるマイクロサービスとScala</a> など）。</p><p>技術によってインターネットと人々の生活を豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 詳しくは以下のサイトをご覧ください。</p><ul><li><a href=\"https://hatena.co.jp/recruit/engineer\">エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://speakerdeck.com/hatena/engineers-recruitment\">株式会社はてな エンジニア採用資料 / Engineers Recruitment - Speaker Deck</a></li><li><a href=\"https://developer.hatenastaff.com/\">Hatena Developer Blog</a></li></ul>",
+    "slide_html": "<iframe class=\"speakerdeck-iframe\" frameborder=\"0\" src=\"https://speakerdeck.com/player/73919842c53c4af3a7d4025702e399fc\" title=\"株式会社はてな エンジニア採用資料 / Engineers Recruitment\" allowfullscreen=\"true\" style=\"border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;\" data-ratio=\"1.7777777777777777\"></iframe>"
   },
   {
     "name": "ファンズ株式会社",
     "logo": "/img/sponsors/funds.png",
     "url": "https://funds.jp/",
-    "text_html": "<p><em>未来の不安に、まだない答えを</em></p><p>ファンズ株式会社は、個人が上場企業へ間接的にお金を貸し出すことで資産形成をすることができる、<em><a href=\"https://funds.jp/\">貸付ファンドのオンラインマーケット「Funds」</a></em>を運営する企業です。 Funds では1円から投資可能で、投資未経験の方であっても、少額から資産形成を始めることができます。 「未来の不安に、まだない答えを。」というミッションのもと、従来の資産運用サービスでは実現されていない新たな投資機会の提供を通じて、国民的な資産運用サービスへと成長させ、将来の資産形成にまつわる課題の解決を目指しています。</p><p><em>Funds と Scala</em></p><p>Funds のプロダクト開発では、スタートアップながらも持続可能性のある開発を重要視しています。 Scala のもつ堅牢な型システムや表現力は、金融という複雑かつ正確性が要求されるドメインの表現に最適と考え、開発当初から Scala を採用しています。</p><p>また技術研鑽についても奨励しており、業務時間内で Scala にまつわる勉強会を実施しています。</p><p><em>エンジニアの働き方</em></p><p>エンジニアメンバーは裁量労働制となっています。オフィスへの出社も可能ですが、ほとんどのメンバーは完全リモートで働いています（日本国内であれば遠隔地での就業も可能です。）</p><p><em>ファンズではScalaエンジニアを募集しています</em></p><p>ファンズ株式会社では、 私達と一緒に課題解決に携わっていただけるサーバーサイドエンジニアを募集しています。</p><p><em><a href=\"https://open.talentio.com/r/1/c/crowdport_entry/pages/56324\">サーバサイドエンジニア（Scala） / ファンズ株式会社</a></em></p><p>少しでもご関心のある方は、 上記のページよりご応募いただくことで、まずはカジュアル面談のご案内をさせていただきます。</p><p><em><a href=\"https://www.notion.so/fundsinc/346315aa14f6464cbba91b96f5177343\">ファンズ採用特設ページ / ファンズの開発</a></em></p><p>またファンズでの開発の雰囲気が伝わる特設ページもご用意しておりますので、ぜひご覧ください。</p>",
+    "text_html": "<p><em>未来の不安に、まだない答えを</em></p><p>ファンズ株式会社は、個人が上場企業へ間接的にお金を貸し出すことで資産形成をすることができる、<em><a href=\"https://funds.jp/\">貸付ファンドのオンラインマーケット「Funds」</a></em>を運営する企業です。 Funds では1円から投資可能で、投資未経験の方であっても、少額から資産形成を始めることができます。 「未来の不安に、まだない答えを。」というミッションのもと、従来の資産運用サービスでは実現されていない新たな投資機会の提供を通じて、国民的な資産運用サービスへと成長させ、将来の資産形成にまつわる課題の解決を目指しています。</p><p><em>Funds と Scala</em></p><p>Funds のプロダクト開発では、スタートアップながらも持続可能性のある開発を重要視しています。 Scala のもつ堅牢な型システムや表現力は、金融という複雑かつ正確性が要求されるドメインの表現に最適と考え、開発当初から Scala を採用しています。</p><p>また技術研鑽についても奨励しており、業務時間内で Scala にまつわる勉強会を実施しています。</p><p><em>エンジニアの働き方</em></p><p>エンジニアメンバーは裁量労働制となっています。オフィスへの出社も可能ですが、ほとんどのメンバーは完全リモートで働いています（日本国内であれば遠隔地での就業も可能です。）</p><p><em>ファンズではScalaエンジニアを募集しています</em></p><p>ファンズ株式会社では、 私達と一緒に課題解決に携わっていただけるサーバーサイドエンジニアを募集しています。</p><p><em><a href=\"https://open.talentio.com/r/1/c/crowdport_entry/pages/56324\">サーバサイドエンジニア（Scala） / ファンズ株式会社</a></em></p><p>少しでもご関心のある方は、 上記のページよりご応募いただくことで、まずはカジュアル面談のご案内をさせていただきます。</p><p><em><a href=\"https://fundsinc.notion.site/346315aa14f6464cbba91b96f5177343\">ファンズ採用特設ページ / ファンズの開発</a></em> </p><p>またファンズでの開発の雰囲気が伝わる特設ページもご用意しておりますので、ぜひご覧ください。</p>",
     "slide_html": ""
   },
   {
@@ -45,6 +45,13 @@
   {
     "name": "株式会社スタンバイ",
     "logo": "/img/sponsors/stanby.png",
-    "url": "https://recruit.stanby.co.jp/engineering/"
+    "url": "https://recruit.stanby.co.jp/engineering/",
+    "text_html": "<html><head><title>株式会社スタンバイ</title></head><body><p>▼スタンバイについて</p><p>現株式会社スタンバイは日本最大級の求人検索エンジン「スタンバイ」を運営しています。</p><p>私たちは現在提供しているサービスの先に、日本における「労働人口の減少」、「生産性向上」など大きな社会の課題解決を見据えています。<br>こういった大きな社会の課題に取り組むため、私たちはZホールディングスグループが持つ様々なアセットや、Visionalグループが持つ求人・採用ノウハウ、技術力を掛け合わせた新たなチャレンジをはじめます。</p><p>まずは、求職者にとって集約的・一元的に求人情報を探せること、求人募集企業様にとって簡単かつ効率的に人材を確保できること、その先には、よりライフスタイルに合わせた働き方の選択や、あらゆる人が自身のキャリアを向上させていくことなど、私たちが社会に提供する価値への挑戦はまだ始まったばかりです。</p><p>私たちは\"UPDATE WORKSTYLES「はたらく」にもっと彩りを\"をミッション掲げ、テクノロジーの力を通じて、様々な働き方を尊重、支援し、人々の「はたらく」の在り方をアップデートします。</p><p><a href=\"https://recruit.stanby.co.jp/\">採用サイト</a><br><a href=\"https://techblog.stanby.co.jp/\">Stanby Tech Blog /技術ブログ</a><br><a href=\"https://hrmos.co/pages/stanby-inc/jobs?category=1445664202436182016\">エンジニア募集ポジション一覧</a></p></body></html>",
+    "slide_html": ""
+  },
+  {
+    "name": "株式会社アットウェア",
+    "logo": "/img/sponsors/atware.svg",
+    "url": "https://www.atware.co.jp/"
   }
 ]
