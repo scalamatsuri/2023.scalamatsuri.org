@@ -31,7 +31,7 @@
     "name": "株式会社FOLIO",
     "logo": "/img/sponsors/folio.svg",
     "url": "https://corp.folio-sec.com/",
-    "text_html": "<p>FOLIOは様々な資産運用サービスを提供している証券会社です。</p><p>2021年には、toCサービスで培ったシステムやノウハウを他の金融機関にSaaS方式で提供する<a href=\"https://4rap.folio-sec.com/\">4RAP</a>という新規事業をローンチしました。スタートアップらしいスピード感と、金融機関としての堅牢性を兼ね備えたシステムをScalaやK8S, DDD等を利用して開発しています。</p><p><b>Scalaで資産運用をもっと身近にしませんか？</b></p><p>FOLIOでのScala開発について</p><ul><li>AWS/EKS上で稼働させるScalaアプリケーション（cats, fs2などを採用）の開発を通じてモダンな技術のキャッチアップが可能です。</li><li>コーディングガイドラインや採用ライブラリのチュートリアル集の整備など、Scala未経験者も活躍しやすい環境を整えています。</li><li>作って終わりではなく、長く運用し改善し続けることを見据えたシステム設計・開発のノウハウが学べます。</li></ul><p>資産運用をもっと身近にしたいエンジニア、Scalaで堅牢なシステムを作りたいエンジニアを積極募集中です。<br>お気軽にご連絡ください！</p><ul><li><a href=\"https://herp.careers/v1/folio/k3G-VR4BxV4Q\">バックエンドエンジニア カジュアル面談へのご応募はこちらから</a></li><li><a href=\"https://www.docswell.com/s/folio/KERQD5-folio\">会社説明資料</a></li></ul>",
+    "text_html": "<p>FOLIOは様々な資産運用サービスを提供している証券会社です。</p><p>2021年には、toCサービスで培ったシステムやノウハウを他の金融機関にSaaS方式で提供する<a href=\"https://4rap.folio-sec.com/\">4RAP</a>という新規事業をローンチしました。スタートアップらしいスピード感と、金融機関としての堅牢性を兼ね備えたシステムをScalaやk8s, DDD等を利用して開発しています。</p><p><b>Scalaで資産運用をもっと身近にしませんか？</b></p><p>FOLIOでのScala開発について</p><ul><li>AWS/EKS上で稼働させるScalaアプリケーション（cats, fs2などを採用）の開発を通じてモダンな技術のキャッチアップが可能です。</li><li>コーディングガイドラインや採用ライブラリのチュートリアル集の整備など、Scala未経験者も活躍しやすい環境を整えています。</li><li>作って終わりではなく、長く運用し改善し続けることを見据えたシステム設計・開発のノウハウが学べます。</li></ul><p>資産運用をもっと身近にしたいエンジニア、Scalaで堅牢なシステムを作りたいエンジニアを積極募集中です。<br>お気軽にご連絡ください！</p><ul><li><a href=\"https://herp.careers/v1/folio/k3G-VR4BxV4Q\">バックエンドエンジニア カジュアル面談へのご応募はこちらから</a></li><li><a href=\"https://www.docswell.com/s/folio/KERQD5-folio\">会社説明資料</a></li></ul>",
     "slide_html": ""
   },
   {
