@@ -5,7 +5,7 @@ en:
   timetable_title: |
     Time table
   timetable_description: |
-    Open mic conference - ScalaMatsuri 2023 Time table is <a href="https://github.com/orgs/scalamatsuri/projects/14" target="_blank" >here</a>.
+    Open mic conference - ScalaMatsuri 2023 Time table is <a href="https://github.com/orgs/scalamatsuri/projects/14">here</a>.
   what_is_an_open_mic_conference_title: What is an Open mic conference?
   what_is_an_open_mic_conference_text_01: |
     Have you ever wondered why all the sessions in Open mic conference Day are TBD? Might there be a problem? No. It's definitely intended!
@@ -25,7 +25,7 @@ en:
     <br>
     <li>Confirmation of the ability to present</li>
     <li>Adjustment of session time</li>
-    <li><a href="https://scalamatsuri.org/en/code-of-conduct" target="_blank">CoC check</a> of the slides</li>
+    <li><a href="https://scalamatsuri.org/en/code-of-conduct">CoC check</a> of the slides</li>
     <br>
   flow_text_02: |
     Once <a href="https://github.com/orgs/scalamatsuri/projects/14" target="_blank" rel="noopener">the timetable</a> is decided, the Open mic conference starts.
@@ -85,7 +85,7 @@ ja:
   timetable_title: |
     タイムテーブル
   timetable_description: |
-    飛び入りカンファレンス - ScalaMatsuri 2023 のタイムテーブルは <a href="https://github.com/orgs/scalamatsuri/projects/14" target="_blank">こちら</a>です。
+    飛び入りカンファレンス - ScalaMatsuri 2023 のタイムテーブルは <a href="https://github.com/orgs/scalamatsuri/projects/14">こちら</a>です。
   what_is_an_open_mic_conference_title: 飛び入りカンファレンスとは？
   what_is_an_open_mic_conference_text_01: |
     <a href="http://blog.scalamatsuri.org/entry/2015/09/29/023812" target="_blank" rel="noopener">番外編 Scala World 2015レポート その2 アンカンファレンス編</a>にも 紹介されているとおり、<b>参加者が全員でつくりあげる</b>カンファレンスです。
@@ -106,7 +106,7 @@ ja:
     <br>
     <li>改めて登壇できるかどうかの確認</li>
     <li>セッション時間の調整</li>
-    <li>スライドの<a href="https://scalamatsuri.org/en/code-of-conduct" target="_blank">CoCチェック</a></li>
+    <li>スライドの<a href="https://scalamatsuri.org/en/code-of-conduct">CoCチェック</a></li>
     <br>
   flow_text_02: |
     <a href="https://github.com/orgs/scalamatsuri/projects/14" target="_blank" rel="noopener">タイムテーブル</a>が決まったら、飛び入りカンファレンス開始です。
