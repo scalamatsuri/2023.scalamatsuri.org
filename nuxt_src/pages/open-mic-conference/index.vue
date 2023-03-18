@@ -95,7 +95,7 @@ ja:
     <a href="http://d.hatena.ne.jp/keyword/%a5%a2%a5%f3%a5%ab%a5%f3%a5%d5%a5%a1%a5%ec%a5%f3%a5%b9" target="_blank" rel="noopener">Hatena Keyword</a>より
   what_is_an_open_mic_conference_text_03: |
     飛び入りカンファレンスのタイムテーブルが<b>TBD</b>で埋まっていて、作りかけなんじゃないかと感じたあなた、正解です。
-    では、ScalaMatsuriの飛び入りカンファレンスがどのように作られていくか、説明したいと思います。
+    では、ScalaMatsuriの飛び入りカンファレンスがどのように作られていくを説明します。
   flow_title: ScalaMatsuriの飛び入りカンファレンスの流れ
   flow_text_01: |
     ScalaMatsuri 2023では、<a href="https://github.com/scalamatsuri/2023.open-mic-conference" target="_blank" rel="noopener">ネタを募集するGitHubリポジトリ</a>を用意します。

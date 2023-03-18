@@ -5,6 +5,7 @@ en:
   access: Access
   code-of-conduct: Code of Conduct
   program: Program
+  open-mic-conference: Open mic conference
   proposals: Proposals
   outline: Outline
   login: Log in
@@ -19,6 +20,7 @@ ja:
   access: アクセス
   code-of-conduct: 行動規範
   program: プログラム
+  open-mic-conference: 飛び入りカンファレンス
   proposals: セッション候補
   outline: 開催概要
   login: ログイン
@@ -52,6 +54,11 @@ ja:
             <!--     <span>{{ $t("program") }}</span> -->
             <!--   </nuxt-link> -->
             <!-- </li> -->
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/open-mic-conference') }">
+              <nuxt-link :to="localePath('open-mic-conference')">
+                <span>{{ $t("open-mic-conference") }}</span>
+              </nuxt-link>
+            </li>
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }"> -->
             <!--   <nuxt-link :to="localePath('proposals')"> -->
             <!--     <span>{{ $t("proposals") }}</span> -->
@@ -162,6 +169,11 @@ ja:
               <!--     <span>{{ $t("program") }}</span> -->
               <!--   </nuxt-link> -->
               <!-- </li> -->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/open-mic-conference') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('open-mic-conference')">
+                  <span>{{ $t("open-mic-conference") }}</span>
+                </nuxt-link>
+              </li>
               <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()"> -->
               <!--   <nuxt-link :to="localePath('proposals')"> -->
               <!--     <span>{{ $t('proposals') }}</span> -->
