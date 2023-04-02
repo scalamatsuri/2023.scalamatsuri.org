@@ -5,7 +5,7 @@
     <!-- <ThankYou /> -->
     <Banner />
     <!-- <EcShop /> -->
-    <!-- <Program /> -->
+    <Program />
     <Events />
     <!-- <Access /> -->
     <lazy-component>
@@ -24,7 +24,7 @@ import Coc from "~/components/sections/top/Coc"
 import Events from "~/components/sections/top/Events"
 import MainVisual from "~/components/sections/top/MainVisual"
 import News from "~/components/sections/top/News"
-// import Program from "~/components/sections/top/Program"
+import Program from "~/components/sections/top/Program"
 import Sponsors from "~/components/sections/top/Sponsors"
 // import ThankYou from "~/components/sections/top/ThankYou"
 
@@ -39,7 +39,7 @@ export default {
     // Access,
     Coc,
     Sponsors,
-    // Program,
+    Program,
   },
   computed: {
     ...mapState({
