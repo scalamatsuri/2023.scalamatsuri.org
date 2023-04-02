@@ -140,12 +140,12 @@ ja:
 import { mapGetters } from "vuex"
 import { DateTime } from "luxon"
 import Modal from "~/components/parts/SessionDetailModal.vue"
-import Schedule from "~/components/sections/program/schedule.vue"
+// import Schedule from "~/components/sections/program/schedule.vue"
 
 export default {
   components: {
     Modal,
-    Schedule,
+    // Schedule,
   },
   data() {
     return {
