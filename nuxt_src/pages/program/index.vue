@@ -2,8 +2,8 @@
 ## language=yaml
 en:
   title: Program
-  day1_header: Conference Day
-  day2_header: Open Mic Conference Day
+  day1_header: Day 1
+  day2_header: Day 2
   day2_title: What is an Open Mic Conference?
   to_candidates: To Proposals
   bookmark_only: BookMark Only
