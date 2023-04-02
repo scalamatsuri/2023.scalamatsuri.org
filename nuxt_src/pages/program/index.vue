@@ -8,29 +8,26 @@ en:
   to_candidates: To Proposals
   bookmark_only: BookMark Only
   day1_description: |
-    Conference DAY in conference format. Doors open at 09:30, scheduled to end at 15:25 in JST.<br>
+    Conference DAY in conference format. Doors open at 09:30, scheduled to end at 17:10 in JST.<br>
     Simultaneous interpretation by professionals will be provided via Zoom Webinar for all sessions.
   day2_description: |
-    Open Mic Conference <br>
-    Doors open at 9:30, and scheduled to end at 17:00 in JST.<br>
-    Please put your sessions ideas to <a href="https://github.com/scalamatsuri/2023.open-mic-conference" target="_blank" rel="noopener">scalamatsuri/2023.open-mic-conference</a> Github repository.<br><br>
-    Simultaneous interpretation won't be provided. All sessions will be in either Japanese or English. <br><br>
+    Conference DAY in conference format. Doors open at 09:30, scheduled to end at 17:20 in JST.<br>
+    Simultaneous interpretation by professionals will be provided via Zoom Webinar for all sessions.
+  timetable_url: https://docs.google.com/spreadsheets/d/11SNZqkdjidIgxA3DxE98ygH6Tj14eb7k-2dcd2hVGik/edit#gid=108016901
 ja:
   title: プログラム
-  day1_header: カンファレンス Day
-  day2_header: 飛び入りカンファレンス Day
+  day1_header: Day 1
+  day2_header: Day 2
   day2_title: 飛び入りカンファレンスとは？
   to_candidates: 応募セッション一覧を表示する
   bookmark_only: ブックマークのみ表示
   day1_description: |
-    カンファレンス形式 09時30分入場開始 15:25終了予定 (JST)。<br>
+    カンファレンス形式 09時30分入場開始 17:10終了予定 (JST)。<br>
     全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
   day2_description: |
-    飛び入りカンファレンス <br>
-    09時30分入場開始 17時終了予定(JST）<br>
-    セッションのアイディアは、<a href="https://github.com/scalamatsuri/2023.open-mic-conference" target="_blank" rel="noopener">scalamatsuri/2023.open-mic-conference</a> Githubリポジトリに投稿してください。<br><br>
-    さらに、ScalaMatsuriスポンサー企業によるバーチャルブースコンテンツTrackも追加予定です。どうぞお楽しみに！<br><br>
-    なお同時通訳は提供されません。セッションは日本語か英語で提供されます。<br><br>
+    カンファレンス形式 09時30分入場開始 17:20終了予定 (JST)。<br>
+    全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
+  timetable_url: https://docs.google.com/spreadsheets/d/11SNZqkdjidIgxA3DxE98ygH6Tj14eb7k-2dcd2hVGik/edit#gid=0
 </i18n>
 
 <template>
@@ -45,10 +42,10 @@ ja:
         </h1>
         <ul class="main_index">
           <li class="main_item">
-            <a href="#day1">{{ getWholeDayStrOf(sessionsIn19) + $t("day1_header") }}</a>
+            <a href="#day1">{{ "4/15 " + $t("day1_header") }}</a>
           </li>
           <li class="main_item">
-            <a href="#day2">{{ getWholeDayStrOf(sessionsIn20) + $t("day2_header") }}</a>
+            <a href="#day2">{{ "4/16 " + $t("day2_header") }}</a>
           </li>
         </ul>
       </div>
@@ -64,62 +61,71 @@ ja:
     </div> -->
     <div id="day1" class="program">
       <h2 class="program_title">
-        {{ getWholeDayStrOf(sessionsIn19) + $t("day1_header") }}
+        {{  "4/15 " + $t("day1_header") }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day1_description')" />
       </p>
       <div class="schedule">
-        <div v-for="[startAt, sessions] in Object.entries(sessionsIn19)" :key="startAt">
-          <div class="schedule_content">
-            <p class="schedule_time">
-              {{ getTimeStr(parseInt(startAt)) }}<br />
-              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>
-            </p>
-            <div class="schedule_events">
-              <div v-for="session in sessions" :key="session.id" @click="openModal(session.proposal)">
-                <schedule
-                  :schedule="session"
-                  :locale="$i18n.locale"
-                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <a :href="$t('timetable_url')" target="_blank" rel="noopener noreferrer" class="schedule_link">
+          <img v-if="$i18n.locale == 'ja'" :src="require('~/assets/img/program/day1_ja.png')" :alt="day1_timetable" class="day1_img" width="100%" />
+          <img v-if="$i18n.locale != 'ja'" :src="require('~/assets/img/program/day1_en.png')" :alt="day1_timetable" class="day1_img" width="100%" />
+        </a>
+        <!--        <div v-for="[startAt, sessions] in Object.entries(sessionsIn19)" :key="startAt">-->
+<!--          <div class="schedule_content">-->
+<!--            <p class="schedule_time">-->
+<!--              {{ getTimeStr(parseInt(startAt)) }}<br />-->
+<!--              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>-->
+<!--            </p>-->
+<!--            <div class="schedule_events">-->
+<!--              <div v-for="session in sessions" :key="session.id" @click="openModal(session.proposal)">-->
+<!--                <schedule-->
+<!--                  :schedule="session"-->
+<!--                  :locale="$i18n.locale"-->
+<!--                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"-->
+<!--                />-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </div>
 
     <div id="day2" class="program">
       <h2 class="program_title">
-        {{ getWholeDayStrOf(sessionsIn20) + $t("day2_header") }}
+        {{  "4/16 " + $t("day2_header") }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day2_description')" />
       </p>
-      <p>
-        <nuxt-link :to="localePath('unconference')">
-          {{ $t("day2_title") }}
-        </nuxt-link>
-      </p>
+<!--      <p> -->
+<!--        <nuxt-link :to="localePath('unconference')"> -->
+<!--          {{ $t("day2_title") }} -->
+<!--        </nuxt-link> -->
+<!--      </p> -->
       <div class="schedule">
-        <div v-for="[startAt, sessions] in Object.entries(sessionsIn20)" :key="startAt">
-          <div class="schedule_content">
-            <p class="schedule_time">
-              {{ getTimeStr(parseInt(startAt)) }}<br />
-              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>
-            </p>
-            <div class="schedule_events">
-              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">
-                <schedule
-                  :schedule="session"
-                  :locale="$i18n.locale"
-                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <a :href="$t('timetable_url')" target="_blank" rel="noopener noreferrer" class="schedule_link">
+          <img v-if="$i18n.locale == 'ja'" :src="require('~/assets/img/program/day2_ja.png')" :alt="day2_timetable" class="day2_img" width="100%" />
+          <img v-if="$i18n.locale != 'ja'" :src="require('~/assets/img/program/day2_en.png')" :alt="day2_timetable" class="day2_img" width="100%" />
+        </a>
+
+        <!--        <div v-for="[startAt, sessions] in Object.entries(sessionsIn20)" :key="startAt">-->
+<!--          <div class="schedule_content">-->
+<!--            <p class="schedule_time">-->
+<!--              {{ getTimeStr(parseInt(startAt)) }}<br />-->
+<!--              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>-->
+<!--            </p>-->
+<!--            <div class="schedule_events">-->
+<!--              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">-->
+<!--                <schedule-->
+<!--                  :schedule="session"-->
+<!--                  :locale="$i18n.locale"-->
+<!--                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"-->
+<!--                />-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
       </div>
     </div>
 
@@ -135,14 +141,12 @@ import { mapGetters } from "vuex"
 import { DateTime } from "luxon"
 import Modal from "~/components/parts/SessionDetailModal.vue"
 import Schedule from "~/components/sections/program/schedule.vue"
-import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 
 export default {
   components: {
     Modal,
     Schedule,
   },
-  mixins: [Page404NotFoundMixin],
   data() {
     return {
       selectProgram: null,
