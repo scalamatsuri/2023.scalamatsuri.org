@@ -135,14 +135,12 @@ import { mapGetters } from "vuex"
 import { DateTime } from "luxon"
 import Modal from "~/components/parts/SessionDetailModal.vue"
 import Schedule from "~/components/sections/program/schedule.vue"
-import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 
 export default {
   components: {
     Modal,
     Schedule,
   },
-  mixins: [Page404NotFoundMixin],
   data() {
     return {
       selectProgram: null,
