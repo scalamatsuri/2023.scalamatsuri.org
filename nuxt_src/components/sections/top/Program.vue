@@ -18,9 +18,9 @@ ja:
       <h2 class="content_title">
         {{ $t('title') }}
       </h2>
-      <p class="content_text">
-        <span v-html="$t('overview')" />
-      </p>
+     <!-- <p class="content_text"> -->
+     <!--   <span v-html="$t('overview')" /> -->
+     <!-- </p> -->
       <p class="content_link">
         <nuxt-link :to="localePath('program')">
           {{ $t('link_text') }}
