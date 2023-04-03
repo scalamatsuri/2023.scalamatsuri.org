@@ -49,14 +49,9 @@ ja:
                 <span>{{ $t("outline") }}</span>
               </nuxt-link>
             </li>
-            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }"> -->
-            <!--   <nuxt-link :to="localePath('program')"> -->
-            <!--     <span>{{ $t("program") }}</span> -->
-            <!--   </nuxt-link> -->
-            <!-- </li> -->
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/open-mic-conference') }">
-              <nuxt-link :to="localePath('open-mic-conference')">
-                <span>{{ $t("open-mic-conference") }}</span>
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }">
+              <nuxt-link :to="localePath('program')">
+                <span>{{ $t("program") }}</span>
               </nuxt-link>
             </li>
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }"> -->
@@ -64,6 +59,11 @@ ja:
             <!--     <span>{{ $t("proposals") }}</span> -->
             <!--   </nuxt-link> -->
             <!-- </li> -->
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/open-mic-conference') }">
+              <nuxt-link :to="localePath('open-mic-conference')">
+                <span>{{ $t("open-mic-conference") }}</span>
+              </nuxt-link>
+            </li>
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
                 <span>{{ $t("code-of-conduct") }}</span>
