@@ -61,71 +61,71 @@ ja:
     </div> -->
     <div id="day1" class="program">
       <h2 class="program_title">
-        {{  "4/15 " + $t("day1_header") }}
+        {{ "4/15 " + $t("day1_header") }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day1_description')" />
       </p>
       <div class="schedule">
         <a :href="$t('timetable_url')" target="_blank" rel="noopener noreferrer" class="schedule_link">
-          <img v-if="$i18n.locale == 'ja'" :src="require('~/assets/img/program/day1_ja.png')" :alt="day1_timetable" class="day1_img" width="100%" />
-          <img v-if="$i18n.locale != 'ja'" :src="require('~/assets/img/program/day1_en.png')" :alt="day1_timetable" class="day1_img" width="100%" />
+          <img v-if="$i18n.locale == 'ja'" :src="require('~/assets/img/program/day1_ja.png')" alt="day1_timetable" class="day1_img" width="100%" />
+          <img v-if="$i18n.locale != 'ja'" :src="require('~/assets/img/program/day1_en.png')" alt="day1_timetable" class="day1_img" width="100%" />
         </a>
         <!--        <div v-for="[startAt, sessions] in Object.entries(sessionsIn19)" :key="startAt">-->
-<!--          <div class="schedule_content">-->
-<!--            <p class="schedule_time">-->
-<!--              {{ getTimeStr(parseInt(startAt)) }}<br />-->
-<!--              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>-->
-<!--            </p>-->
-<!--            <div class="schedule_events">-->
-<!--              <div v-for="session in sessions" :key="session.id" @click="openModal(session.proposal)">-->
-<!--                <schedule-->
-<!--                  :schedule="session"-->
-<!--                  :locale="$i18n.locale"-->
-<!--                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"-->
-<!--                />-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
+        <!--          <div class="schedule_content">-->
+        <!--            <p class="schedule_time">-->
+        <!--              {{ getTimeStr(parseInt(startAt)) }}<br />-->
+        <!--              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>-->
+        <!--            </p>-->
+        <!--            <div class="schedule_events">-->
+        <!--              <div v-for="session in sessions" :key="session.id" @click="openModal(session.proposal)">-->
+        <!--                <schedule-->
+        <!--                  :schedule="session"-->
+        <!--                  :locale="$i18n.locale"-->
+        <!--                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"-->
+        <!--                />-->
+        <!--              </div>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
       </div>
     </div>
 
     <div id="day2" class="program">
       <h2 class="program_title">
-        {{  "4/16 " + $t("day2_header") }}
+        {{ "4/16 " + $t("day2_header") }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day2_description')" />
       </p>
-<!--      <p> -->
-<!--        <nuxt-link :to="localePath('unconference')"> -->
-<!--          {{ $t("day2_title") }} -->
-<!--        </nuxt-link> -->
-<!--      </p> -->
+      <!--      <p> -->
+      <!--        <nuxt-link :to="localePath('unconference')"> -->
+      <!--          {{ $t("day2_title") }} -->
+      <!--        </nuxt-link> -->
+      <!--      </p> -->
       <div class="schedule">
         <a :href="$t('timetable_url')" target="_blank" rel="noopener noreferrer" class="schedule_link">
-          <img v-if="$i18n.locale == 'ja'" :src="require('~/assets/img/program/day2_ja.png')" :alt="day2_timetable" class="day2_img" width="100%" />
-          <img v-if="$i18n.locale != 'ja'" :src="require('~/assets/img/program/day2_en.png')" :alt="day2_timetable" class="day2_img" width="100%" />
+          <img v-if="$i18n.locale == 'ja'" :src="require('~/assets/img/program/day2_ja.png')" alt="day2_timetable" class="day2_img" width="100%" />
+          <img v-if="$i18n.locale != 'ja'" :src="require('~/assets/img/program/day2_en.png')" alt="day2_timetable" class="day2_img" width="100%" />
         </a>
 
         <!--        <div v-for="[startAt, sessions] in Object.entries(sessionsIn20)" :key="startAt">-->
-<!--          <div class="schedule_content">-->
-<!--            <p class="schedule_time">-->
-<!--              {{ getTimeStr(parseInt(startAt)) }}<br />-->
-<!--              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>-->
-<!--            </p>-->
-<!--            <div class="schedule_events">-->
-<!--              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">-->
-<!--                <schedule-->
-<!--                  :schedule="session"-->
-<!--                  :locale="$i18n.locale"-->
-<!--                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"-->
-<!--                />-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
+        <!--          <div class="schedule_content">-->
+        <!--            <p class="schedule_time">-->
+        <!--              {{ getTimeStr(parseInt(startAt)) }}<br />-->
+        <!--              <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>-->
+        <!--            </p>-->
+        <!--            <div class="schedule_events">-->
+        <!--              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">-->
+        <!--                <schedule-->
+        <!--                  :schedule="session"-->
+        <!--                  :locale="$i18n.locale"-->
+        <!--                  :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }"-->
+        <!--                />-->
+        <!--              </div>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
       </div>
     </div>
 
