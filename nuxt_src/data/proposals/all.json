@@ -14,26 +14,30 @@
     },
     "en": {
       "title": "The Case For Effect Systems",
-      "detail": "",
+      "detail": "Scaling and stabilizing cloud services in the face of torrential volumes of traffic is one of the major problem spaces that defines our language ecosystem. Problems such as reliability, predictability, throughput, efficiency, self-healing, and such are the primary factors which largely dictate both architectural and implementation decisions. \n\nIn this talk, we will peel apart how these factors manifest on the JVM, ultimately motivating not only the asynchronous I/O paradigm in general but effect systems in particular, with a special emphasis on performance and efficiency in the real world.",
       "language": "English",
       "length": 40,
       "tags": [],
       "keywords": [],
       "speakers": [{
         "name": "Daniel Spiewak",
-        "icon": "https://avatars.githubusercontent.com/u/752?v=4"
+        "icon": "https://avatars.githubusercontent.com/u/752?v=4",
+        "twitter": "djspiewak",
+        "github": "djspiewak"
       }]
     },
     "ja": {
-      "title": "Effect System のすゝめ",
-      "detail": "",
+      "title": "Effect システムのすゝめ",
+      "detail": "大量のトラフィックを捌けるようにクラウド・サービスをスケールさせ、安定化させるというのは Scala という言語環境の一大テーマであると言える。信頼性、予測可能性、スループット、効率、自己復旧などのアーキテクチャ及び実装レベルでの設計判断の決め手となる問題だ。\n\nこのトークでは、これらの要素が JVM上でどのように表出するかを解明し、非同期 I/O というパラダイムに留まらず、特に実践での性能と効率という観点から Effect システムの必要性について論じたいと思う。\n\nDaniel Spiewak さんは、Disney Streaming 社チーフ・アーキテクト、かつ Cats Effect 作者。",
       "language": "English",
       "length": 40,
       "tags": [],
       "keywords": [],
       "speakers": [{
         "name": "Daniel Spiewak",
-        "icon": "https://avatars.githubusercontent.com/u/752?v=4"
+        "icon": "https://avatars.githubusercontent.com/u/752?v=4",
+        "twitter": "djspiewak",
+        "github": "djspiewak"
       }]
     }
   },
