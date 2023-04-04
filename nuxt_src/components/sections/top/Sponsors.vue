@@ -7,8 +7,9 @@ en:
     For details, please see the <a href="%{sponsor_link}">sponsor recruitment page</a>.
   syogun: "Syogun Sponsor"
   daimyo: "Daimyo Sponsor"
-  inrou: "Inrou Sponsor"
   samurai: "Samurai Sponsor"
+  inrou: "Inrou Sponsor"
+  satellite: "Satellite Sponsor"
   bugyo: "Bugyo Sponsor"
   bugyo_kintone: "Kintone Bugyo"
   bugyo_cacoo: "Ukiyo-e Bugyo"
@@ -24,6 +25,7 @@ ja:
   daimyo: "大名スポンサー"
   samurai: "侍スポンサー"
   inrou: "印籠スポンサー"
+  satellite: "さてらいとスポンサー"
   bugyo: "奉行スポンサー"
   bugyo_kintone: "筋斗雲奉行"
   bugyo_cacoo: "浮世絵奉行"
@@ -75,6 +77,15 @@ ja:
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
+        {{ $t("satellite") }}
+      </h3>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in satellites" :key="sponsor.logo" class="sponsors_item">
+          <a :href="sponsor.url" target="_blank" rel="noopener"><img v-lazy="sponsor.logo" :alt="sponsor.name" /></a>
+          <p>{{ sponsor.display_name }}</p>
+        </li>
+      </ul>
+      <h3 class="sponsors_subtitle">
         {{ $t("bugyo") }}
       </h3>
       <ul class="sponsors_list">
@@ -90,8 +101,8 @@ ja:
 <script>
 import syoguns from "~/data/sponsors/syogun"
 import daimyos from "~/data/sponsors/daimyo"
-import inrous from "~/data/sponsors/inrou"
 import samurais from "~/data/sponsors/samurai"
+import inrous from "~/data/sponsors/inrou"
 
 export default {
   data() {
@@ -100,6 +111,13 @@ export default {
       daimyos: [],
       inrous: [],
       samurais: [],
+      satellites: [
+        {
+          name: "株式会社ギブリー",
+          logo: "/img/sponsors/track.png",
+          url: "https://tracks.run/",
+        },
+      ],
       bugyos: [
         {
           name: "kintone",
