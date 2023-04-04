@@ -10,8 +10,11 @@
       <div class="sponsor_text">
         <span v-html="sponsor.text_html" />
       </div>
-      <div class="sponsor_url">
-        <div v-html="sponsor.slide_html" />
+      <div class="sponsor_text">
+        <span v-html="sponsor.slide_html" />
+      </div>
+      <div v-if="sponsor.others">
+        <div class="other_text" v-html="sponsor.others" />
       </div>
     </section>
   </section>
@@ -33,3 +36,12 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.other_text {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+}
+</style>
