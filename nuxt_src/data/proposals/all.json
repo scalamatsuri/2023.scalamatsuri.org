@@ -250,7 +250,7 @@
       "title": "Scala nowadays at Chatwork",
       "detail": "",
       "language": "Japanese",
-      "length": 20,
+      "length": 15,
       "tags": [],
       "keywords": [],
       "speakers": [{
@@ -287,7 +287,7 @@
     "en": {
       "title": "Say goodbye to implicits - contextual abstractions in Scala 3",
       "detail": "",
-      "language": "Japanese",
+      "language": "English",
       "length": 20,
       "tags": [],
       "keywords": [],
@@ -299,8 +299,8 @@
     "ja": {
       "title": "implicits よさらば: Scala 3 のコンテキスト抽象",
       "detail": "",
-      "language": "Japanese",
-      "length": 15,
+      "language": "English",
+      "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [{
