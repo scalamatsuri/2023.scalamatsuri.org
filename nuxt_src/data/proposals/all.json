@@ -250,7 +250,7 @@
       "title": "Scala nowadays at Chatwork",
       "detail": "",
       "language": "Japanese",
-      "length": 20,
+      "length": 15,
       "tags": [],
       "keywords": [],
       "speakers": [{
@@ -287,7 +287,7 @@
     "en": {
       "title": "Say goodbye to implicits - contextual abstractions in Scala 3",
       "detail": "",
-      "language": "Japanese",
+      "language": "English",
       "length": 20,
       "tags": [],
       "keywords": [],
@@ -299,8 +299,8 @@
     "ja": {
       "title": "implicits よさらば: Scala 3 のコンテキスト抽象",
       "detail": "",
-      "language": "Japanese",
-      "length": 15,
+      "language": "English",
+      "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [{
@@ -401,7 +401,7 @@
     "en": {
       "title": "Implement for Authorization-Effect using Extensible-Effect",
       "detail": "",
-      "language": "English",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
@@ -413,7 +413,7 @@
     "ja": {
       "title": "Extensible Effectで実装する認可エフェクト",
       "detail": "",
-      "language": "English",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
@@ -513,7 +513,7 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "After products made with DDD & Scala",
+      "title": "Current state of products made with DDD & Scala.",
       "detail": "",
       "language": "Japanese",
       "length": 20,
@@ -703,7 +703,7 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "Character-talking movie generator in Scala",
+      "title": "Creating an explainer video maker in Scala",
       "detail": "",
       "language": "Japanese",
       "length": 20,
