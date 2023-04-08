@@ -98,7 +98,7 @@ ja:
         <span v-html="$t('day2_description')" />
       </p>
       <p>
-        <nuxt-link :to="localePath('unconference')">
+        <nuxt-link :to="localePath('open-mic-conference')">
           {{ $t("day2_title") }}
         </nuxt-link>
       </p> -->

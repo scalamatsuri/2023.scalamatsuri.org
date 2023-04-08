@@ -72,7 +72,7 @@
   },
   {
     "id": "O1681534800",
-    "title": { "ja": "未定: 飛び入りセッション 1", "en": "TBD: open-mic 1" },
+    "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681534800,
     "endAt": 1681536000,
     "jst": "2023-04-15 14:00:00",
@@ -80,7 +80,7 @@
   },
   {
     "id": "J1681536300",
-    "title": "Yoshitaka Fuji: Scala nowadays at Chatwork",
+    "title": "Yoshitaka Fujii: Scala nowadays at Chatwork",
     "startAt": 1681536300,
     "endAt": 1681537200,
     "jst": "2023-04-15 14:25:00",
@@ -103,7 +103,7 @@
   },
   {
     "id": "O1681538400",
-    "title": { "ja": "未定: 飛び入りセッション 2", "en": "TBD: open-mic 2" },
+    "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681538400,
     "endAt": 1681539600,
     "jst": "2023-04-15 15:00:00",
@@ -134,7 +134,7 @@
   },
   {
     "id": "O1681542000",
-    "title": { "ja": "未定: 飛び入りセッション 3", "en": "TBD: open-mic 3" },
+    "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681542000,
     "endAt": 1681543200,
     "jst": "2023-04-15 16:00:00",
@@ -150,7 +150,7 @@
   },
   {
     "id": "O1681543500",
-    "title": { "ja": "未定: 飛び入りセッション 4", "en": "TBD: open-mic 4" },
+    "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681543500,
     "endAt": 1681544700,
     "jst": "2023-04-15 16:25:00",
@@ -187,7 +187,7 @@
   },
   {
     "id": "O1681610400",
-    "title": { "ja": "未定: 飛び入りセッション 5", "en": "TBD: open-mic 5" },
+    "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681610400,
     "endAt": 1681613100,
     "jst": "2023-04-16 11:00:00",
@@ -218,7 +218,7 @@
   },
   {
     "id": "O1681614000",
-    "title": { "ja": "未定: 飛び入りセッション 6", "en": "TBD: open-mic 6" },
+    "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681614000,
     "endAt": 1681616400,
     "jst": "2023-04-16 12:00:00",
