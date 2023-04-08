@@ -253,10 +253,12 @@
       "length": 15,
       "tags": [],
       "keywords": [],
-      "speakers": [{
-        "name": "Yoshitaka Fuji",
-        "icon": ""
-      }]
+      "speakers": [
+        {
+          "name": "Yoshitaka Fujii",
+          "icon": ""
+        }
+      ]
     },
     "ja": {
       "title": "ChatworkのScala近況",
