@@ -2,27 +2,34 @@
 ## language=yaml
 en:
   title: Open mic conference
-  day2_title: What is an Open mic conference?
-  day2_text_01: |
+  timetable_title: |
+    Time table
+  timetable_description: |
+    Open mic conference - ScalaMatsuri 2023 Time table is <a href="https://github.com/orgs/scalamatsuri/projects/14">here</a>.
+  what_is_an_open_mic_conference_title: What is an Open mic conference?
+  what_is_an_open_mic_conference_text_01: |
+    Have you ever wondered why all the sessions in Open mic conference Day are TBD? Might there be a problem? No. It's definitely intended!
+  what_is_an_open_mic_conference_text_02: |
     An Open mic conference is a participant-driven meeting.
     The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.
     <a href="https://en.wikipedia.org/wiki/Unconference" target="_blank" rel="noopener">Wikipedia</a>
-  day2_text_02: |
-    Have you ever wondered why all the sessions in Open mic conference Day are TBD? Might there be a problem? No. It's definitely intended!
-    <br><br>
+  what_is_an_open_mic_conference_text_03: |
     Let's see how ScalaMatsuri Open mic conference is organized.
-  day2_flow_title: ScalaMatsuri Open mic conference flow
-  day2_flow_text_01: |
+  flow_title: ScalaMatsuri Open mic conference flow
+  flow_text_01: |
     We will prepare <a href="https://github.com/scalamatsuri/2023.open-mic-conference" target="_blank" rel="noopener">a GitHub repository to gather session ideas</a> beforehand.
     <br>
-    Please create <a href="https://github.com/scalamatsuri/2023.open-mic-conference/issues" target="_blank" rel="noopener">GitHub issues</a> to put your session ideas.
+    Please create <a href="https://github.com/scalamatsuri/2023.open-mic-conference/issues/new?assignees=&labels=Proposal&template=welcome-open-mic-conference---scalamatsuri-2023.md" target="_blank" rel="noopener">GitHub issues</a> to put your session ideas.
     <br><br>
-    Morning and Coffee-break sessions will be held during Open mic conference day.
+    If you register this as a Github Issue, it will be linked to the #open-mic-conference-reception channel on the ScalaMatsuri 2023 Discord, so we can check the following
     <br>
-    We will assign sessions ideas on the GitHub project into session slots, and finally form a timetable.
-    <br><br>
-    Once <a href="https://github.com/scalamatsuri/2023.open-mic-conference/projects/1" target="_blank" rel="noopener">the timetable</a> is decided, the Open mic conference starts.
-    <br><br>
+    <li>Confirmation of the ability to present</li>
+    <li>Adjustment of session time</li>
+    <li><a href="https://scalamatsuri.org/en/code-of-conduct">CoC check</a> of the slides</li>
+    <br>
+  flow_text_02: |
+    Once <a href="https://github.com/orgs/scalamatsuri/projects/14" target="_blank" rel="noopener">the timetable</a> is decided, the Open mic conference starts.
+    <br>
     There must be a lot of attractive sessions.
     <br>
     So that you can leave during a session and join another one.
@@ -34,10 +41,10 @@ en:
     <br><br>
     Here are all Open mic conference idea samples.
   themes_text_02: |
-    Since I know about FOO "a bit", may I answer your questions? <br>
-    I want to learn about BAR. Is there anyone who can talk about it?<br>
-    Let's play around BEEF together.<br>
-    Why not discuss BLAH-BLAR?
+    <li>Since I know about FOO "a bit", may I answer your questions? </li>
+    <li>I want to learn about BAR. Is there anyone who can talk about it?</li>
+    <li>Let's play around BEEF together.</li>
+    <li>Why not discuss BLAH-BLAR?</li>
   themes_text_03: |
     You can ask what you want to hear, or propose what you want to talk bout.
     <br><br>
@@ -75,49 +82,57 @@ en:
     Let's have fun together!
 ja:
   title: 飛び入りカンファレンス
-  day2_title: 飛び入りカンファレンスとは？
-  day2_text_01: |
+  timetable_title: |
+    タイムテーブル
+  timetable_description: |
+    飛び入りカンファレンス - ScalaMatsuri 2023 のタイムテーブルは <a href="https://github.com/orgs/scalamatsuri/projects/14">こちら</a>です。
+  what_is_an_open_mic_conference_title: 飛び入りカンファレンスとは？
+  what_is_an_open_mic_conference_text_01: |
+    <a href="http://blog.scalamatsuri.org/entry/2015/09/29/023812" target="_blank" rel="noopener">番外編 Scala World 2015レポート その2 アンカンファレンス編</a>にも 紹介されているとおり、<b>参加者が全員でつくりあげる</b>カンファレンスです。
+  what_is_an_open_mic_conference_text_02: |
     講演内容や発表者が当日まで決まっておらず、来場者が自分の話したい内容を発表する、参加者が全員でつくりあげるカンファレンスです。
     発表したい人が、カンファレンス中に発表内容を提案し、参加者の投票によってプログラムが決まります。
     <a href="http://d.hatena.ne.jp/keyword/%a5%a2%a5%f3%a5%ab%a5%f3%a5%d5%a5%a1%a5%ec%a5%f3%a5%b9" target="_blank" rel="noopener">Hatena Keyword</a>より
-  day2_text_02: |
-    <a href="http://blog.scalamatsuri.org/entry/2015/09/29/023812" target="_blank" rel="noopener">番外編 Scala World 2015レポート その2 アンカンファレンス編</a>にも 紹介されているとおり、<b>参加者が全員でつくりあげる</b>カンファレンスです。
-    <br><br>
-    飛び入りカンファレンス DAYのスケジュールが<b>TBD</b>で埋まっていて、作りかけなんじゃないかと感じたあなた、正解です。
-    <br><br>
+  what_is_an_open_mic_conference_text_03: |
+    飛び入りカンファレンスのタイムテーブルが<b>TBD</b>で埋まっていて、作りかけなんじゃないかと感じたあなた、正解です。
     では、ScalaMatsuriの飛び入りカンファレンスがどのように作られていくか、説明したいと思います。
-  day2_flow_title: ScalaMatsuriの飛び入りカンファレンスの流れ
-  day2_flow_text_01: |
+  flow_title: ScalaMatsuriの飛び入りカンファレンスの流れ
+  flow_text_01: |
     ScalaMatsuri 2023では、<a href="https://github.com/scalamatsuri/2023.open-mic-conference" target="_blank" rel="noopener">ネタを募集するGitHubリポジトリ</a>を用意します。
-    <br><br>
-    思い思いにセッションのアイディアを<a href="https://github.com/scalamatsuri/2023.open-mic-conference/issues" target="_blank" rel="noopener">GitHub issue</a>に書いて下さい。
-    <br><br>
-    飛び入りカンファレンスDAYに「朝会」を行い、集まったネタを元にセッションの決定とタイムテーブルの作成を行います。
-    <br><br>
-    <a href="https://github.com/scalamatsuri/2023.open-mic-conference/projects/1" target="_blank" rel="noopener">タイムテーブル</a>が決まったら、飛び入りカンファレンス開始です。
-    <br><br>
+    思い思いにセッションのアイディアを<a href="https://github.com/scalamatsuri/2023.open-mic-conference/issues/new?assignees=&labels=Proposal&template=welcome-open-mic-conference---scalamatsuri-2023.md" target="_blank" rel="noopener">GitHub issue</a>に書いて下さい。
+    <br>
+    Github Issue として登録していただくと、ScalaMatsuri 2023 Discord の #open-mic-conference-reception チャンネルに内容が連携されますので、下記について確認をさせていただきます。
+    <br>
+    <br>
+    <li>改めて登壇できるかどうかの確認</li>
+    <li>セッション時間の調整</li>
+    <li>スライドの<a href="https://scalamatsuri.org/en/code-of-conduct">CoCチェック</a></li>
+    <br>
+  flow_text_02: |
+    <a href="https://github.com/orgs/scalamatsuri/projects/14" target="_blank" rel="noopener">タイムテーブル</a>が決まったら、飛び入りカンファレンス開始です。
+    <br>
     面白いセッションが目白押しで、聞きたいセッションがかぶることも多いので、途中参加、途中退出は自由です。
   themes_title: ネタ出し
   themes_text_01: |
     Scalaが使われている分野や業種は、幅広くなりました。
-    <br><br>
     自分たちが困っていたり知っていることは、実は他の人が既に知っていたり、他の人からすると喉から手がでるほど欲しい情報だったりします。
-    <br><br>
+    <br>
     それらが全て飛び入りカンファレンスのネタになります！
   themes_text_02: |
-    ○○について知ってるけどなんか知りたいことある？<br>
-    ○○について知りたい！<br>
-    ○○を使ってみんなで一緒にやろうぜ<br>
-    ○○についていろいろ議論したいから集まろうぜ
+    <li>○○について知ってるけどなんか知りたいことある？</li>
+    <li>○○について知りたい！</li>
+    <li>○○を使ってみんなで一緒にやろうぜ</li>
+    <li>○○についていろいろ議論したいから集まろうぜ</li>
   themes_text_03: |
     など、自分が発表出来るものでも良いし、ただ聞いてみたいものでもOKです。きっと誰かが教えてくれます。
-    <br><br>
+    <br>
     セッションの形式も、一人が話すトーク形式だけでなく、ワークショップやハンズオン、パネルディスカッションなど様々な形式で大丈夫です。
-    <br><br>
+    <br>
+    <br>
     また、カンファレンスでは惜しくも選考されなかったネタや、誰得だよというマニアックなネタ、更にはScalaエンジニアとしての生き方などまで、多種多様なネタもウェルカムです。
-    <br><br>
+    <br>
     過去には、みんなに年収を聞くセッションや、CTO仮面座談会なども開催されています。
-    <br><br>
+    <br>
     どんな些細なネタでもいいので出して見て下さい。
   flow_of_the_day_title: 当日の流れ
   flow_of_the_day_text_01: |
@@ -157,44 +172,55 @@ ja:
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t("day2_title") }}</span>
+        <span class="section_title_inner">{{ $t("timetable_title") }}</span>
       </h2>
-      <blockquote class="section_text" v-html="$t('day2_text_01')" />
-      <p class="section_text" v-html="$t('day2_text_02')" />
+      <p class="section_text" v-html="$t('timetable_description')" />
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t("day2_flow_title") }}</span>
+        <span class="section_title_inner">{{ $t("what_is_an_open_mic_conference_title") }}</span>
       </h2>
-      <p class="section_text" v-html="$t('day2_flow_text_01')" />
+      <p class="section_text" v-html="$t('what_is_an_open_mic_conference_text_01')" />
+      <blockquote class="section_text" v-html="$t('what_is_an_open_mic_conference_text_02')" />
+      <p class="section_text" v-html="$t('what_is_an_open_mic_conference_text_03')" />
+    </div>
+    <div class="section">
+      <h2 class="section_title">
+        <span class="section_title_inner">{{ $t("flow_title") }}</span>
+      </h2>
+      <p class="section_text" v-html="$t('flow_text_01')" />
+      <div class="open-mic-conference">
+        <img src="~/assets/img/open-mic-conference/1.png" />
+      </div>
+      <p class="section_text" v-html="$t('flow_text_02')" />
     </div>
     <div class="section">
       <h2 class="section_title">
         <span class="section_title_inner">{{ $t("themes_title") }}</span>
       </h2>
       <p class="section_text" v-html="$t('themes_text_01')" />
-      <blockquote class="section_text" v-html="$t('themes_text_02')" />
+      <p class="section_text" v-html="$t('themes_text_02')" />
       <p class="section_text" v-html="$t('themes_text_03')" />
     </div>
-    <div class="section">
-      <h2 class="section_title">
-        <span class="section_title_inner">{{ $t("flow_of_the_day_title") }}</span>
-      </h2>
-      <p class="section_text" v-html="$t('flow_of_the_day_text_01')" />
-      <br /><br />
-      <figure class="section_figure">
-        <iframe
-          class="section_movie"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/XA3OqSml7V4"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        />
-      </figure>
-      <p class="section_text" v-html="$t('flow_of_the_day_text_02')" />
-    </div>
+    <!-- <div class="section"> -->
+    <!--   <h2 class="section_title"> -->
+    <!--     <span class="section_title_inner">{{ $t("flow_of_the_day_title") }}</span> -->
+    <!--   </h2> -->
+    <!--   <p class="section_text" v-html="$t('flow_of_the_day_text_01')" /> -->
+    <!--   <br /><br /> -->
+    <!--   <figure class="section_figure"> -->
+    <!--     <iframe -->
+    <!--       class="section_movie" -->
+    <!--       width="560" -->
+    <!--       height="315" -->
+    <!--       src="https://www.youtube.com/embed/XA3OqSml7V4" -->
+    <!--       frameborder="0" -->
+    <!--       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" -->
+    <!--       allowfullscreen -->
+    <!--     /> -->
+    <!--   </figure> -->
+    <!--   <p class="section_text" v-html="$t('flow_of_the_day_text_02')" /> -->
+    <!-- </div> -->
     <div class="section">
       <h2 class="section_title">
         <span class="section_title_inner">{{ $t("preparation_title") }}</span>
@@ -211,10 +237,7 @@ ja:
 </template>
 
 <script>
-import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
-
 export default {
-  mixins: [Page404NotFoundMixin],
   head() {
     const $t = this.$t.bind(this)
     return {
@@ -224,3 +247,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.open-mic-conference img {
+  width: 50rem;
+}
+</style>
