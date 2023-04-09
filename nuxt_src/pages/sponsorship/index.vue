@@ -150,14 +150,16 @@
         <span class="section_title_inner">バーチャルブース</span>
       </h2>
       <table class="addon-sponsorship-table">
-        <tr>
-          <th>金額</th>
-          <td>¥150,000</td>
-        </tr>
-        <tr>
-          <th>Discordチャンネル数</th>
-          <td>最大5つまで</td>
-        </tr>
+        <tbody>
+          <tr>
+            <th>金額</th>
+            <td>¥150,000</td>
+          </tr>
+          <tr>
+            <th>Discordチャンネル数</th>
+            <td>最大5つまで</td>
+          </tr>
+        </tbody>
       </table>
     </section>
     <!-- booth ここから -->
@@ -166,10 +168,12 @@
         <span class="section_title_inner">さてらいとスポンサー</span>
       </h2>
       <table class="addon-sponsorship-table">
-        <tr>
-          <th>金額</th>
-          <td>¥250,000</td>
-        </tr>
+        <tbody>
+          <tr>
+            <th>金額</th>
+            <td>¥250,000</td>
+          </tr>
+        </tbody>
       </table>
     </section>
     <!-- sponsorship ここから -->
