@@ -634,7 +634,7 @@
     },
     "en": {
       "title": "Points of implementation of repository to avoid dead lock",
-      "detail": "ドメイン駆動設計に沿ってシステムを開発する際、Repositoryの実装は避けて通れない難所になります。オブジェクトとデータベースのインピーダンスミスマッチを解消して運用を始めると、今度は多くのパフォーマンス上の課題に向き合うことになるでしょう。このセッションでは、それらの課題の中でもデッドロックに焦点を当て、実際の現場で起きた事象と解決のパターンをご紹介します。",
+      "detail": "When construct a system refering to Domain Driven Design, it is not available to avoid difficult stage of implementation of repositories. We struggle to get over impedance mismatch between object world and RDB world, and run into many of performance problems in production environment. In this session, I will talk about one of those problems, dead lock.",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -648,7 +648,7 @@
     },
     "ja": {
       "title": "デッドロックを回避するRepository実装の勘所",
-      "detail": "When construct a system refering to Domain Driven Design, it is not available to avoid difficult stage of implementation of repositories. We struggle to get over impedance mismatch between object world and RDB world, and run into many of performance problems in production environment. In this session, I will talk about one of those problems, dead lock.",
+      "detail": "ドメイン駆動設計に沿ってシステムを開発する際、Repositoryの実装は避けて通れない難所になります。オブジェクトとデータベースのインピーダンスミスマッチを解消して運用を始めると、今度は多くのパフォーマンス上の課題に向き合うことになるでしょう。このセッションでは、それらの課題の中でもデッドロックに焦点を当て、実際の現場で起きた事象と解決のパターンをご紹介します。",
       "language": "Japanese",
       "length": 20,
       "tags": [],
