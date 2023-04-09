@@ -19,7 +19,7 @@ ja:
       <!-- NOTE(omiend): proposal/ 画面と共通で使っているが、ScalaMatsuri 2023 時点では proposal/ 画面が存在しないため、program/ 画面専用となっている-->
       <!-- <nuxt-link v-if="isProgram(program)" :to="localePath({ name: 'program-id', params: { id: program.id } })" no-prefetch target="_blank"> -->
       <nuxt-link v-if="isProgram(program)" :to="localePath({ name: 'program-id', params: { id: program.id } })" no-prefetch target="_blank">
-        {{ program[$i18n.locale].title }}
+        {{ program[$i18n.locale].title }} <font-awesome-icon icon="fa-solid fa-share-from-square" />
       </nuxt-link>
       <span v-else>
         {{ program[$i18n.locale].title }}

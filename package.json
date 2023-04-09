@@ -23,6 +23,8 @@
     "deploy:functions": "firebase deploy --only functions"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^2.0.10",
     "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.2.2",
@@ -40,6 +42,7 @@
     "lodash": "^4.17.21",
     "luxon": "^2.3.2",
     "nuxt": "^2.15.8",
+    "nuxt-fontawesome": "^0.4.0",
     "nuxt-mq": "^2.0.2",
     "responsive-loader": "^2.3.0",
     "sanitize.css": "^13.0.0",
