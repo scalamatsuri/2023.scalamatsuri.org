@@ -11,7 +11,8 @@
     "title": "Daniel Spiewak: The Case For Effect Systems",
     "startAt": 1681521600,
     "endAt": 1681524000,
-    "jst": "2023-04-15 10:20:00"
+    "jst": "2023-04-15 10:20:00",
+    "room": "Main Track"
   },
   {
     "id": "1681524000-BREAK",
@@ -25,14 +26,16 @@
     "title": "Yuichiro Iwai: Introduction to Functional Programming through CSV Import",
     "startAt": 1681524900,
     "endAt": 1681526100,
-    "jst": "2023-04-15 11:15:00"
+    "jst": "2023-04-15 11:15:00",
+    "room": "Main Track"
   },
   {
     "id": "J1681526400",
     "title": "Mitsuru Ogawa: 5 Key Evaluation Points Everyone Should Know for Hiring Engineers",
     "startAt": 1681526400,
     "endAt": 1681527300,
-    "jst": "2023-04-15 11:40:00"
+    "jst": "2023-04-15 11:40:00",
+    "room": "Sponsor Session"
   },
   {
     "id": "1681527300",
@@ -46,14 +49,16 @@
     "title": "Javakky: Introduction to Scalafix and Scalafix Rule Writing",
     "startAt": 1681531200,
     "endAt": 1681532400,
-    "jst": "2023-04-15 13:00:00"
+    "jst": "2023-04-15 13:00:00",
+    "room": "Main Track"
   },
   {
     "id": "J1681532700",
     "title": "Naoki Aoyama: Refactoring of Domain Objects with Scalafix",
     "startAt": 1681532700,
     "endAt": 1681533900,
-    "jst": "2023-04-15 13:25:00"
+    "jst": "2023-04-15 13:25:00",
+    "room": "Main Track"
   },
   {
     "id": "1681533900-BREAK",
@@ -71,20 +76,12 @@
     "room": "Main Track"
   },
   {
-    "id": "O1681534800",
-    "title": { "ja": "休憩", "en": "Break" },
-    "startAt": 1681534800,
-    "endAt": 1681536000,
-    "jst": "2023-04-15 14:00:00",
-    "room": "Open-Mic"
-  },
-  {
     "id": "J1681536300",
     "title": "Yoshitaka Fujii: Scala nowadays at Chatwork",
     "startAt": 1681536300,
     "endAt": 1681537200,
     "jst": "2023-04-15 14:25:00",
-    "room": "Main Track"
+    "room": "Sponsor Session"
   },
   {
     "id": "1681537200-BREAK",
@@ -106,8 +103,7 @@
     "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681538400,
     "endAt": 1681539600,
-    "jst": "2023-04-15 15:00:00",
-    "room": "Open-Mic"
+    "jst": "2023-04-15 15:00:00"
   },
   {
     "id": "J1681539900",
@@ -115,7 +111,7 @@
     "startAt": 1681539900,
     "endAt": 1681540800,
     "jst": "2023-04-15 15:25:00",
-    "room": "Main Track"
+    "room": "Sponsor Session"
   },
   {
     "id": "1681540800-BREAK",
@@ -137,8 +133,7 @@
     "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681542000,
     "endAt": 1681543200,
-    "jst": "2023-04-15 16:00:00",
-    "room": "Open-Mic"
+    "jst": "2023-04-15 16:00:00"
   },
   {
     "id": "J1681543500",
@@ -153,8 +148,7 @@
     "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681543500,
     "endAt": 1681544700,
-    "jst": "2023-04-15 16:25:00",
-    "room": "Open-Mic"
+    "jst": "2023-04-15 16:25:00"
   },
   {
     "id": "1681545000",
@@ -190,8 +184,7 @@
     "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681610400,
     "endAt": 1681613100,
-    "jst": "2023-04-16 11:00:00",
-    "room": "Open-Mic"
+    "jst": "2023-04-16 11:00:00"
   },
   {
     "id": "E1681611900",
@@ -221,8 +214,7 @@
     "title": { "ja": "休憩", "en": "Break" },
     "startAt": 1681614000,
     "endAt": 1681616400,
-    "jst": "2023-04-16 12:00:00",
-    "room": "Open-Mic"
+    "jst": "2023-04-16 12:00:00"
   },
   {
     "id": "J1681615200",
@@ -284,7 +276,7 @@
     "startAt": 1681624800,
     "endAt": 1681625700,
     "jst": "2023-04-16 15:00:00",
-    "room": "Main Track"
+    "room": "Sponsor Session"
   },
   {
     "id": "1681625700-BREAK",
@@ -330,5 +322,101 @@
     "startAt": 1681633200,
     "endAt": 1681634400,
     "jst": "2023-04-15 17:20:00"
+  },
+  {
+    "id": "OMC1681534800",
+    "title": "TBD",
+    "startAt": 1681534800,
+    "endAt": 1681536000,
+    "jst": "2023-04-15 14:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681538400",
+    "title": "TBD",
+    "startAt": 1681538400,
+    "endAt": 1681539600,
+    "jst": "2023-04-15 15:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681542000",
+    "title": "TBD",
+    "startAt": 1681542000,
+    "endAt": 1681543200,
+    "jst": "2023-04-15 16:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681610400",
+    "title": "TBD",
+    "startAt": 1681610400,
+    "endAt": 1681611600,
+    "jst": "2023-04-16 11:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681612200",
+    "title": "TBD",
+    "startAt": 1681612200,
+    "endAt": 1681613400,
+    "jst": "2023-04-16 11:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681617600",
+    "title": "TBD",
+    "startAt": 1681617600,
+    "endAt": 1681618800,
+    "jst": "2023-04-16 13:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681619400",
+    "title": "TBD",
+    "startAt": 1681619400,
+    "endAt": 1681620600,
+    "jst": "2023-04-16 13:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681621200",
+    "title": "TBD",
+    "startAt": 1681621200,
+    "endAt": 1681622400,
+    "jst": "2023-04-16 14:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681623000",
+    "title": "TBD",
+    "startAt": 1681623000,
+    "endAt": 1681624200,
+    "jst": "2023-04-16 14:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681626600",
+    "title": "TBD",
+    "startAt": 1681626600,
+    "endAt": 1681627800,
+    "jst": "2023-04-16 15:30:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681628400",
+    "title": "TBD",
+    "startAt": 1681628400,
+    "endAt": 1681629600,
+    "jst": "2023-04-16 16:00:00",
+    "room": "Open Mic Conference"
+  },
+  {
+    "id": "OMC1681630200",
+    "title": "TBD",
+    "startAt": 1681630200,
+    "endAt": 1681631400,
+    "jst": "2023-04-16 16:30:00",
+    "room": "Open Mic Conference"
   }
 ]
