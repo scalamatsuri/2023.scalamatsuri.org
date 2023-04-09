@@ -95,16 +95,13 @@ ja:
 </template>
 
 <script>
-import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
-
 export default {
-  mixins: [Page404NotFoundMixin],
   head() {
     const $t = this.$t.bind(this)
     return {
       title: $t("title_01"),
       meta: [{ name: "og:title", content: `${$t("title_01")} | ScalaMatsuri 2023` }],
     }
-  },
+  }
 }
 </script>
