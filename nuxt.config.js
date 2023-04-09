@@ -20,7 +20,7 @@ module.exports = {
     ],
   },
   /** Global CSS */
-  css: ["~/assets/vendor/sanitize.css/sanitize.css", "~/assets/scss/style.scss"],
+  css: ["~/assets/vendor/sanitize.css/sanitize.css", "~/assets/scss/style.scss", "@fortawesome/fontawesome-svg-core/styles.css"],
   plugins: [
     { src: "~/plugins/vue2-google-maps", ssr: false },
     { src: "~/plugins/lazyload", ssr: false },
@@ -28,6 +28,7 @@ module.exports = {
     { src: "~/plugins/scalaMatsuriCommon", ssr: false },
     { src: "~/plugins/toast", ssr: false },
     { src: "~/plugins/constants" },
+    { src: "~/plugins/fontawesome.js" },
   ],
   /*
    ** Nuxt.js dev-modules
