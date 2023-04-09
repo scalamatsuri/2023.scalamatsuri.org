@@ -6,7 +6,7 @@ en:
   title_02: Stay in 20min slot
   body_02: |
     The program is tightly arranged this year, with a sequence of short talks.
-    We ask your cooperation to be punctual for both the starting time and the talk time (20min) to respect the attendees and other speakers.
+    We ask your cooperation to be punctual for both the starting time and the talk time (20min or 40min) to respect the attendees and other speakers.
     On the day of the talk, a time keeper will join you in the Zoom Webinar to display the remaining time, which you could glance from time to time.
     <br/>
     <b>In the event the talk runs over, please note that the MC will interrupt your talk.</b>
@@ -34,7 +34,7 @@ ja:
   title_02: 時間厳守
   body_02: |
     本年度のプログラムは短めのトークが次々と続く形で例年よりもタイトになっております。
-    スケジュールの遅れが出ないように、開始時間およびトーク時間 (20分) の時間厳守をお願いしております。
+    スケジュールの遅れが出ないように、開始時間およびトーク時間 (20分又は40分) の時間厳守をお願いしております。
     当日の Zoom Webinar にはタイムキーパーが同席して残り時間を表示するなどするので是非活用してください。
     <br/>
     <b>終了時間オーバーした場合、司会がトークを中断させていただきます。ご了承ください。</b>
