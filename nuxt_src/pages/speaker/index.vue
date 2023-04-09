@@ -22,7 +22,7 @@ en:
     <br>
     During the session, we will use Zoom Webinar's <b>Interpretation</b> feature. Be sure to click the <b>Interpretation</b> button at the bottom right of Zoom Webinar UI and choose <b>English</b> if you'd be giving your talk in English.<br>
     <br>
-    Questions and answers are included in the session time. You can answer as appropriate during the session, or you can answer all at the end of the session. Questions from participants will be written to the <b>track-a</b> channel of Discord. Be sure to read the question aloud before answering these questions. The <b>track-a-chat</b> channel in Discord are for chat. You can see them when you want to see the reaction of the participants.
+    Questions and answers are included in the session time. You can answer as appropriate during the session, or you can answer all at the end of the session. Questions from participants will be written to the <b>main-track</b> channel of Discord. Be sure to read the question aloud before answering these questions. The <b>main-track-chat</b> channel in Discord are for chat. You can see them when you want to see the reaction of the participants.
   title_05: slide link
   body_05: |
     After ScalaMatsuri 2023, we plan to add slide and video links to our website.<br>
@@ -51,8 +51,8 @@ ja:
     同時通訳機能を利用します。スピーカーの皆さんは、Zoom Webinarの右下の「通訳」ボタンをクリックして、必ず自分が話す言語（日本語もしくは英語）を選ぶようにしてください。<br>
     <br>
     質疑応答もセッション時間の中に含まれます。セッション中に適宜回答しても、セッションの最後にまとめて回答してもかまいません。<br>
-    質問はDiscordの <b>track-a</b> チャネルに書き込まれます。必ず質問を読み上げてから、回答するようにしてください。<br>
-    Discordの <b>track-a-chat</b> は雑談チャネルです。参加者の反応が見たいときに利用してください。<br>
+    質問はDiscordの <b>main-track</b> チャネルに書き込まれます。必ず質問を読み上げてから、回答するようにしてください。<br>
+    Discordの <b>main-track-chat</b> は雑談チャネルです。参加者の反応が見たいときに利用してください。<br>
   title_05: スライドリンク共有のお願い
   body_05: |
     ScalaMatsuri 2023終了後、Webサイトにスライドと動画のリンクを追記する予定です。<br>
