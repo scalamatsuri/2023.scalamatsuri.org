@@ -76,7 +76,7 @@ ja:
               <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>
             </p>
             <div class="schedule_events">
-              <div v-for="session in sessions" :key="session.id" @click="openModal(session.proposal)">
+              <div v-for="session in sessions" :key="session.id" @click="openModal(session)">
                 <schedule
                   :schedule="session"
                   :locale="$i18n.locale"
@@ -110,7 +110,7 @@ ja:
               <small>({{ getTimeZoneStr(parseInt(startAt)) }})</small>
             </p>
             <div class="schedule_events">
-              <div v-for="session in sessions" :key="session.id" @click="openModal(session.proposal)">
+              <div v-for="session in sessions" :key="session.id" @click="openModal(session)">
                 <schedule
                   :schedule="session"
                   :locale="$i18n.locale"
@@ -145,6 +145,13 @@ export default {
     return {
       selectProgram: null,
       showModal: false,
+    }
+  },
+  head() {
+    const $t = this.$t.bind(this)
+    return {
+      title: $t("title"),
+      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
     }
   },
   computed: {
@@ -184,21 +191,18 @@ export default {
     isSessionWellDetailed(session) {
       return session && session[this.$i18n.locale] && session[this.$i18n.locale].detail
     },
-    openModal(item) {
-      if (!item || !this.isSessionWellDetailed(item)) return
-      this.selectProgram = item
+    openModal(session) {
+      if (!session.proposal || !this.isSessionWellDetailed(session.proposal)) return
+      this.selectProgram = {
+        ...session.proposal,
+        track: session.room,
+        startAt: `${this.getTimeStr(parseInt(session.startAt))} (GMT+9:00)`,
+      }
       this.showModal = true
     },
     closeModal() {
       this.showModal = false
     },
-  },
-  head() {
-    const $t = this.$t.bind(this)
-    return {
-      title: $t("title"),
-      meta: [{ name: "og:title", content: `${$t("title")} | ScalaMatsuri 2023` }],
-    }
   },
 }
 </script>
