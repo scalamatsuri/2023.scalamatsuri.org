@@ -38,7 +38,7 @@ en:
     - All sponsors are asked to comply with the Code of conduct when they apply. Their slides and commercial videos are checked beforehand and modified if necessary.
     - All speakers are asked to comply with the Code of conduct when they apply to CFP. Their slides are checked beforehand and modified if necessary.
     - In Open mic conference, the conference organizers will ask speakers to be checked to comply with Code of conduct before their talks. Due the nature of Open mic conference, it will be difficult to guarantee prior check of all contents, so this will require cooperation from all participants.
-    - In our venue, Everyone is allowed to use a rest room based on their own gender identity. A non-binary is allowed to use any rest room.
+    - In our venue, everyone is allowed to use a rest room based on their own gender identity. A non-binary is allowed to use any rest room.
   contacts_during_the_conference_title: Contacts during the conference
   contacts_during_the_conference_text_01: |
     If you are being harassed, notice that someone else is being harassed, please report the following form or contact a nearby conference staff immediately.
