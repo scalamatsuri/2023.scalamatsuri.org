@@ -2,12 +2,14 @@
 ## language=yaml
 en:
   lang: "Talking in"
+  date: "DateTime"
   contribute: "OSS work"
   keywords: "Keywords"
   tag: "Categories"
   speaker_experience: "Speaker Experience"
 ja:
   lang: "発表言語"
+  date: "日時"
   contribute: "OSS 活動"
   keywords: "キーワード"
   tag: "カテゴリ"
@@ -94,7 +96,21 @@ ja:
         </div>
       </div>
       <div class="individual_scopeArea">
-        <dl class="individual_scope">
+        <dl v-if="program.session.startAt" class="individual_scope">
+          <dt>
+            {{ $t("date") }}
+          </dt>
+          <dd>
+            {{ program.session.startAt }}
+          </dd>
+        </dl>
+        <dl v-if="program.session.room" class="individual_scope">
+          <dt>Track</dt>
+          <dd>
+            {{ program.session.room }}
+          </dd>
+        </dl>
+        <dl v-if="program[$i18n.locale].language" class="individual_scope">
           <dt>
             {{ $t("lang") }}
           </dt>
@@ -113,10 +129,22 @@ ja:
 
 <script>
 import { mapGetters } from "vuex"
+import { DateTime } from "luxon"
 
 export default {
   validate({ store, params }) {
     return store.getters["proposals/findById"](params.id)
+  },
+  asyncData({ store, params }) {
+    const _program = store.getters["proposals/findById"](params.id)
+    const _session = store.getters["sessions/findById"](params.id)
+    const _result = {
+      ..._program,
+      session: { ..._session, startAt: DateTime.fromSeconds(_session.startAt).toFormat("MM/dd HH:mm") },
+    }
+    return {
+      program: _result,
+    }
   },
   data() {
     return {
@@ -125,11 +153,6 @@ export default {
         required: true,
       },
     }
-  },
-  computed: {
-    ...mapGetters({
-      findById: "proposals/findById",
-    }),
   },
   head() {
     const title = `${this.program[this.$i18n.locale].title} - ${this.program[this.$i18n.locale].speakers[0].name}`
@@ -145,10 +168,11 @@ export default {
       ],
     }
   },
-  asyncData({ store, params }) {
-    return {
-      program: store.getters["proposals/findById"](params.id),
-    }
+  computed: {
+    ...mapGetters({
+      findById: "proposals/findById",
+      sessionFindById: "sessions/findById",
+    }),
   },
 }
 </script>

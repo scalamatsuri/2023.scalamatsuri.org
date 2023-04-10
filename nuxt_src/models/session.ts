@@ -1,6 +1,7 @@
-import { Proposal } from './proposal'
+import { Proposal } from "./proposal"
 
 export interface Session {
+  id?: string
   startAt: number // unixtime
   endAt: number // unixtime
   proposal?: Proposal | null

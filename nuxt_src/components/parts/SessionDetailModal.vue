@@ -1,12 +1,14 @@
 <i18n lang="yaml">
 en:
   lang: "Talking in"
+  date: "DateTime"
   contribute: "OSS work"
   keywords: "Keywords"
   tag: "Categories"
   speaker_experience: "Speaker Experience"
 ja:
   lang: "発表言語"
+  date: "日時"
   contribute: "OSS 活動"
   keywords: "キーワード"
   tag: "カテゴリ"
@@ -98,7 +100,21 @@ ja:
       </div>
     </div>
     <div class="modal_scopeArea">
-      <dl class="modal_scope">
+      <dl v-if="program.startAt" class="modal_scope">
+        <dt>
+          {{ $t("date") }}
+        </dt>
+        <dd>
+          {{ program.startAt }}
+        </dd>
+      </dl>
+      <dl v-if="program.track" class="modal_scope">
+        <dt>Track</dt>
+        <dd>
+          {{ program.track }}
+        </dd>
+      </dl>
+      <dl v-if="program[$i18n.locale].language" class="modal_scope">
         <dt>
           {{ $t("lang") }}
         </dt>
@@ -118,10 +134,6 @@ ja:
 <script>
 export default {
   beforeRouteEnter(from, next) {
-    console.log({
-      from: from,
-      next: next,
-    })
     next((vm) => {
       vm.prevRoute = from
     })
