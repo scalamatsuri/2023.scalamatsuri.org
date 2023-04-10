@@ -1,11 +1,11 @@
-import { combineMutation, combineAction, action, mutation } from 'vuex-typescript-fsa'
-import { defineModule, defineGetter } from '~/store/helpers'
-import { RootState } from '~/store'
+import { combineMutation, combineAction, action, mutation } from "vuex-typescript-fsa"
+import { defineModule, defineGetter } from "~/store/helpers"
+import { RootState } from "~/store"
 
-import { Proposal } from '~/models/proposal'
+import { Proposal } from "~/models/proposal"
 
-import proposalData from '~/data/proposals/all.json'
-export const namespace = 'proposals'
+import proposalData from "~/data/proposals/all.json"
+export const namespace = "proposals"
 
 export interface State {
   proposals: Array<Proposal>
