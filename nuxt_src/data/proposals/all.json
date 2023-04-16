@@ -907,7 +907,7 @@
       ]
     },
     "ja": {
-      "title": "スタックを用いたフルスタック Scala 3",
+      "title": "Typelevel スタックを用いたフルスタック Scala 3",
       "detail": "このトークでは、Rock the JVM で実際に動いているコードを例に、エンド・ツー・エンド、フルスタックな Scala 3 アプリを Cats、Cats Effect、Doobie、FS2、Http4s などを活用して書くための設計概要およびアプローチを解説します。",
       "language": "English",
       "length": 40,
