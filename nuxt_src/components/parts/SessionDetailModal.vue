@@ -48,7 +48,7 @@ ja:
       </li>
     </ul>
     <div v-if="program[$i18n.locale].detail" class="modal_text">
-      <p v-text="program[$i18n.locale].detail" />
+      <p v-html="program[$i18n.locale].detail" />
       <br />
       <div v-if="program.artifacts.youtube_embed_url" class="session">
         <iframe
@@ -150,7 +150,7 @@ export default {
   },
   methods: {
     isProgram(proposal) {
-      return proposal.id.startsWith("J") || proposal.id.startsWith("E")
+      return proposal.id.startsWith("J") || proposal.id.startsWith("E") || proposal.id.startsWith("OMC")
     },
   },
 }

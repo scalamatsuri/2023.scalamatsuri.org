@@ -907,7 +907,7 @@
       ]
     },
     "ja": {
-      "title": "スタックを用いたフルスタック Scala 3",
+      "title": "Typelevel スタックを用いたフルスタック Scala 3",
       "detail": "このトークでは、Rock the JVM で実際に動いているコードを例に、エンド・ツー・エンド、フルスタックな Scala 3 アプリを Cats、Cats Effect、Doobie、FS2、Http4s などを活用して書くための設計概要およびアプローチを解説します。",
       "language": "English",
       "length": 40,
@@ -950,7 +950,7 @@
     },
     "ja": {
       "title": "プロダクション・コードの生成",
-      "detail": "多くの状況において僕たちで自分でコードを書きます。機会はまだ僕たちを置き換えていません。しかし、プロジェクトが数百万もの関数を書いて、メンテし続けることを必要とする場合、手で書くという方法は現実的では無くなってきます。\n\nこのトークでは、コード生成を書いた経験の振り返りを行います。",
+      "detail": "多くの状況において僕たちで自分でコードを書きます。機械はまだ僕たちを置き換えていません。しかし、プロジェクトが数百万もの関数を書いて、メンテし続けることを必要とする場合、手で書くという方法は現実的では無くなってきます。\n\nこのトークでは、コード生成を書いた経験の振り返りを行います。",
       "language": "English",
       "length": 20,
       "tags": [],
@@ -1075,42 +1075,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Decrel in action — utilize domain relations in Scala",
+      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.<br/>Decrel makes accessing data fast and efficient, and generating test data easy and consistent.<br/>https://github.com/yoohaemin/decrel",
+      "language": "English",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "yoohaemin",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/22650536?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "yoohaemin",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Decrel in action — utilize domain relations in Scala",
+      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.<br/>Decrel makes accessing data fast and efficient, and generating test data easy and consistent.<br/>https://github.com/yoohaemin/decrel",
+      "language": "English",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "yoohaemin",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/22650536?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "yoohaemin",
           "twitter": "",
           "other_sns": ""
         }
@@ -1131,42 +1131,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
+      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。<br/>特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。<br/>また、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "Javakky-pxv",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "Javakky-pxv",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
+      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。<br/>特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。<br/>また、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "Javakky-pxv",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "Javakky-pxv",
           "twitter": "",
           "other_sns": ""
         }
@@ -1187,42 +1187,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Scala-CLI in daily work / 仕事でつかうScala-CLI",
+      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。<br/>このセッションではScala-CLIの利用の事例と所感についてお話しします。<br/>Scala-CLIの前提知識は必要ありません。",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "todokr",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/2328540?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "todokr",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Scala-CLI in daily work / 仕事でつかうScala-CLI",
+      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。<br/>このセッションではScala-CLIの利用の事例と所感についてお話しします。<br/>Scala-CLIの前提知識は必要ありません",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "todokr",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/2328540?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "todokr",
           "twitter": "",
           "other_sns": ""
         }
@@ -1243,42 +1243,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
+      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。<br/>Java 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "Javakky-pxv",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "Javakky-pxv",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
+      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。<br/>Java 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "Javakky-pxv",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/71240288?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "Javakky-pxv",
           "twitter": "",
           "other_sns": ""
         }
@@ -1467,98 +1467,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "About sbt 2.x",
+      "detail": "Q&A around some sbt 2.x stuff.",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
           "id": "",
-          "icon": "",
+          "name": "Eugene Yokota",
+          "icon": "https://en.gravatar.com/userimage/4910561/aa5421808eae0364f0a9c29d0dc27816.jpg",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "eed3si9n",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "About sbt 2.x",
+      "detail": "Q&A around some sbt 2.x stuff.",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
           "id": "",
-          "icon": "",
+          "name": "Eugene Yokota",
+          "icon": "https://en.gravatar.com/userimage/4910561/aa5421808eae0364f0a9c29d0dc27816.jpg",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
-          "twitter": "",
-          "other_sns": ""
-        }
-      ]
-    }
-  },
-  {
-    "id": "OMC1681623000",
-    "isAdopted": true,
-    "artifacts": {
-      "slides": {
-        "speakerdeck": {
-          "data_id": ""
-        },
-        "other_url": ""
-      },
-      "youtube_embed_url": "",
-      "youtube_embed_url_2": ""
-    },
-    "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
-      "length": 20,
-      "tags": [],
-      "keywords": [],
-      "speakers": [
-        {
-          "name": "",
-          "id": "",
-          "icon": "",
-          "organization": "",
-          "speaker_experience": [],
-          "contributes": [],
-          "github": "",
-          "twitter": "",
-          "other_sns": ""
-        }
-      ]
-    },
-    "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
-      "length": 20,
-      "tags": [],
-      "keywords": [],
-      "speakers": [
-        {
-          "name": "",
-          "id": "",
-          "icon": "",
-          "organization": "",
-          "speaker_experience": [],
-          "contributes": [],
-          "github": "",
+          "github": "eed3si9n",
           "twitter": "",
           "other_sns": ""
         }
@@ -1579,42 +1523,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "[Hands-on] How to play Play with GraalVM",
+      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。<br/><br/><br/>GraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。<br/><br/>内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~<br/><br/>追記<br/>資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "kijuky",
           "id": "",
           "icon": "",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "kijuky",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "[Hands-on] How to play Play with GraalVM",
+      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。<br/><br/><br/>GraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。<br/><br/>内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~<br/><br/>追記<br/>資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "kijuky",
           "id": "",
           "icon": "",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "kijuky",
           "twitter": "",
           "other_sns": ""
         }
@@ -1635,42 +1579,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Live coding scalafix and wartremover",
+      "detail": "最近作ったscalafixやwartremoverのruleの解説や、いい題材があればlive codingでその場でrule作るなどをします",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "xuwei-k",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/389787?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "xuwei-k",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "Live coding scalafix and wartremover",
+      "detail": "最近作ったscalafixやwartremoverのruleの解説や、いい題材があればlive codingでその場でrule作るなどをします",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "xuwei-k",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/389787?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "xuwei-k",
           "twitter": "",
           "other_sns": ""
         }
@@ -1691,42 +1635,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "slinc を使ったネイティブコードバインディングのデモ",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.<br/>簡単なバインディング、portaudio や scala native の例を示します.",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "i10416",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "i10416",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "slinc を使ったネイティブコードバインディングのデモ",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.<br/>簡単なバインディング、portaudio や scala native の例を示します.",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "i10416",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "i10416",
           "twitter": "",
           "other_sns": ""
         }
