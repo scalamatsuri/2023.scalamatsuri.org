@@ -1635,42 +1635,42 @@
       "youtube_embed_url_2": ""
     },
     "en": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "slinc を使ったネイティブコードバインディングのデモ",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.<br/>簡単なバインディング、portaudio や scala native の例を示します.",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "i10416",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "i10416",
           "twitter": "",
           "other_sns": ""
         }
       ]
     },
     "ja": {
-      "title": "TBD",
-      "detail": "",
-      "language": "",
+      "title": "slinc を使ったネイティブコードバインディングのデモ",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.<br/>簡単なバインディング、portaudio や scala native の例を示します.",
+      "language": "Japanese",
       "length": 20,
       "tags": [],
       "keywords": [],
       "speakers": [
         {
-          "name": "",
+          "name": "i10416",
           "id": "",
-          "icon": "",
+          "icon": "https://avatars.githubusercontent.com/u/39330037?v=4",
           "organization": "",
           "speaker_experience": [],
           "contributes": [],
-          "github": "",
+          "github": "i10416",
           "twitter": "",
           "other_sns": ""
         }
