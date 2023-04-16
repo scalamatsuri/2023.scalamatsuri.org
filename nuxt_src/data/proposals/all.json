@@ -187,7 +187,7 @@
     "artifacts": {
       "slides": {
         "speakerdeck": {
-          "data_id": ""
+          "data_id": "f3c63d74333241cc8b30a436f8753344"
         },
         "other_url": ""
       },
@@ -233,7 +233,8 @@
         "speakerdeck": {
           "data_id": ""
         },
-        "other_url": ""
+        "embed_url": "https://gakuzzzz.github.io/slides/controls_the_traverse_controls_the_code/#1",
+        "other_url": "https://gakuzzzz.github.io/slides/controls_the_traverse_controls_the_code/#1"
       },
       "youtube_embed_url": "",
       "youtube_embed_url_2": ""
@@ -417,7 +418,7 @@
         "speakerdeck": {
           "data_id": ""
         },
-        "other_url": ""
+        "other_url": "https://github.com/on-air-entertainment/scala-matsuri-2023"
       },
       "youtube_embed_url": "",
       "youtube_embed_url_2": ""
@@ -457,7 +458,7 @@
     "artifacts": {
       "slides": {
         "speakerdeck": {
-          "data_id": ""
+          "data_id": "dcf90fafb5704166a18b2cbf97d51ec7"
         },
         "other_url": ""
       },
@@ -929,7 +930,8 @@
         "speakerdeck": {
           "data_id": ""
         },
-        "other_url": ""
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vSDj2-Hyikf6RtCZYexez8L_2pzpSurKc6kgO6zaThwsFAOprI_fXiI3aPudMxZJA2KdBAYIsKM7Tq8/embed?start=false&loop=false&delayms=10000",
+        "other_url": "https://docs.google.com/presentation/d/e/2PACX-1vSDj2-Hyikf6RtCZYexez8L_2pzpSurKc6kgO6zaThwsFAOprI_fXiI3aPudMxZJA2KdBAYIsKM7Tq8/pub?start=false&loop=false&delayms=10000"
       },
       "youtube_embed_url": "",
       "youtube_embed_url_2": ""
@@ -1006,62 +1008,6 @@
     }
   },
   {
-    "id": "J1647653100",
-    "isAdopted": true,
-    "artifacts": {
-      "slides": {
-        "speakerdeck": {
-          "data_id": ""
-        },
-        "other_url": "https://gakuzzzz.github.io/slides/abstract_type_member_introduction/"
-      },
-      "youtube_embed_url": "https://www.youtube.com/embed/TJ5Ud7USEaU",
-      "youtube_embed_url_2": ""
-    },
-    "en": {
-      "title": "Introduce Abstract Type Members",
-      "detail": "In Scala, there is a language feature named Abstract Type Members.\nHowever, because of features that do not exist in Java, Kotlin, C#, etc., and because some of the problems that can be solved with Generics are covered, Abstract Type Members are not used even in situations where it is better to use them.\nIn this session, we will explain what Abstract Type Members are, how they are useful, and how they can be used in different ways from Generics, so that you can start using them tomorrow.",
-      "language": "Japanese",
-      "length": 20,
-      "tags": [],
-      "keywords": [],
-      "speakers": [
-        {
-          "name": "NAKAMURA Manabu",
-          "id": "gakuzzzz",
-          "icon": "https://pbs.twimg.com/profile_images/1431608839/ceb5e4f7-bec8-4a68-a86c-32d0c7ae4e22_400x400.png",
-          "organization": "(株)Tech to Value, (株)エフ・コード",
-          "speaker_experience": [],
-          "contributes": ["https://github.com/t2v/holidays", "", "https: //github.com/gakuzzzz/nullable-quantifier"],
-          "github": "gakuzzzz",
-          "twitter": "gakuzzzz",
-          "other_sns": ""
-        }
-      ]
-    },
-    "ja": {
-      "title": "Abstract Type Members 入門",
-      "detail": "Scala には Abstract Type Members(抽象型メンバー) と呼ばれる言語機能があります。\nしかし、Java や Kotlin, C# などには存在しない機能だったり、Generics と解決できる問題の領域が近かったりすることから、Abstract Type Members を利用した方が良い場面でも活用されていないことがあります。\nこのセッションでは、Abstract Type Members とはどんな機能でどんな役に立つのか、Generics との使い分け等について解説し、明日から使えるようにします。",
-      "language": "Japanese",
-      "length": 20,
-      "tags": [],
-      "keywords": [],
-      "speakers": [
-        {
-          "name": "NAKAMURA Manabu",
-          "id": "gakuzzzz",
-          "icon": "https://pbs.twimg.com/profile_images/1431608839/ceb5e4f7-bec8-4a68-a86c-32d0c7ae4e22_400x400.png",
-          "organization": "(株)Tech to Value, (株)エフ・コード",
-          "speaker_experience": [],
-          "contributes": ["https://github.com/t2v/holidays", "", "https: //github.com/gakuzzzz/nullable-quantifier"],
-          "github": "gakuzzzz",
-          "twitter": "gakuzzzz",
-          "other_sns": ""
-        }
-      ]
-    }
-  },
-  {
     "id": "OMC1681534800",
     "isAdopted": true,
     "artifacts": {
@@ -1076,7 +1022,7 @@
     },
     "en": {
       "title": "Decrel in action — utilize domain relations in Scala",
-      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.<br/>Decrel makes accessing data fast and efficient, and generating test data easy and consistent.<br/>https://github.com/yoohaemin/decrel",
+      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.\nDecrel makes accessing data fast and efficient, and generating test data easy and consistent.\nhttps://github.com/yoohaemin/decrel",
       "language": "English",
       "length": 20,
       "tags": [],
@@ -1097,7 +1043,7 @@
     },
     "ja": {
       "title": "Decrel in action — utilize domain relations in Scala",
-      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.<br/>Decrel makes accessing data fast and efficient, and generating test data easy and consistent.<br/>https://github.com/yoohaemin/decrel",
+      "detail": "I will demonstrate the usecase of the decrel library with an example backend app.\nDecrel makes accessing data fast and efficient, and generating test data easy and consistent.\nhttps://github.com/yoohaemin/decrel",
       "language": "English",
       "length": 20,
       "tags": [],
@@ -1132,7 +1078,7 @@
     },
     "en": {
       "title": "Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
-      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。<br/>特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。<br/>また、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
+      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。\n特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。\nまた、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1153,7 +1099,7 @@
     },
     "ja": {
       "title": "Play Framework プロジェクトにおける Swagger (OpenAPI) ドキュメントの自動生成",
-      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。<br/>特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。<br/>また、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
+      "detail": "play-swagger を利用した OpenAPI ドキュメントの生成方法を紹介します。\n特に、 Scaladoc を利用した埋め込みや複数の XML ファイルを分割することで routes ファイルを汚染しないための Tips を解説します。\nまた、 Swagger UI や Stoplight Elements などの OpenAPI ビューワーの比較と Play 連携についても解説します。",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1188,7 +1134,7 @@
     },
     "en": {
       "title": "Scala-CLI in daily work / 仕事でつかうScala-CLI",
-      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。<br/>このセッションではScala-CLIの利用の事例と所感についてお話しします。<br/>Scala-CLIの前提知識は必要ありません。",
+      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。\nこのセッションではScala-CLIの利用の事例と所感についてお話しします。\nScala-CLIの前提知識は必要ありません。",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1209,7 +1155,7 @@
     },
     "ja": {
       "title": "Scala-CLI in daily work / 仕事でつかうScala-CLI",
-      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。<br/>このセッションではScala-CLIの利用の事例と所感についてお話しします。<br/>Scala-CLIの前提知識は必要ありません",
+      "detail": "ちょっとしたオペレーションやデータ生成のスクリプトを、どの言語で書いていますか？Scala-CLIを使うと、ちょっとしたスクリプトも手慣れたScalaで快適に書くことができます。\nこのセッションではScala-CLIの利用の事例と所感についてお話しします。\nScala-CLIの前提知識は必要ありません",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1244,7 +1190,7 @@
     },
     "en": {
       "title": "モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
-      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。<br/>Java 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
+      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。\nJava 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1265,7 +1211,7 @@
     },
     "ja": {
       "title": "モックライブラリとカバレッジ計測ツールでテスト環境を快適にした話",
-      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。<br/>Java 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
+      "detail": "Scala Test を用いたユニットテスト環境を快適にするいくつかのライブラリとCI設定について解説します。\nJava 向けモックライブラリの Mocktio の導入や、 scoverage を利用したカバレッジの取得と GitLab CI 連携、外部のAPIを実行するテストのための設定など、明日から使える設定を多数紹介します。",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1524,7 +1470,7 @@
     },
     "en": {
       "title": "[Hands-on] How to play Play with GraalVM",
-      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。<br/><br/><br/>GraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。<br/><br/>内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~<br/><br/>追記<br/>資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。\n\n\nGraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。\n\n内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~\n\n追記\n資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1545,7 +1491,7 @@
     },
     "ja": {
       "title": "[Hands-on] How to play Play with GraalVM",
-      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。<br/><br/><br/>GraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。<br/><br/>内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~<br/><br/>追記<br/>資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
+      "detail": "PlayをGraalVMで実行する方法をハンズオン形式で紹介したいと思います。\n\n\nGraalVMで実行することで、Playはネイティブバイナリとしてビルド・実行できるようになります。JVMのオーバーヘッドがなくなるため、パフォーマンスが向上します。ただし、私が紹介する内容は、現時点ではPlayによる公式な方法ではないことに注意してください（そのため「遊び(play)」目的です）。\n\n内容はこちらのQiitaを元にします https://qiita.com/kijuky/items/ab3d1aecc9e4466145f9 ~~(専用のスライドはありません。今日時間があれば用意するかもしれません...)~~\n\n追記\n資料はこちらになります https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1636,7 +1582,7 @@
     },
     "en": {
       "title": "slinc を使ったネイティブコードバインディングのデモ",
-      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.<br/>簡単なバインディング、portaudio や scala native の例を示します.",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.\n簡単なバインディング、portaudio や scala native の例を示します.",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -1657,7 +1603,7 @@
     },
     "ja": {
       "title": "slinc を使ったネイティブコードバインディングのデモ",
-      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.<br/>簡単なバインディング、portaudio や scala native の例を示します.",
+      "detail": "Slinc を使ったネイティブコードのバインディングのデモをします.\n簡単なバインディング、portaudio や scala native の例を示します.",
       "language": "Japanese",
       "length": 20,
       "tags": [],
