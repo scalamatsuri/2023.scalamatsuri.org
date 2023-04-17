@@ -34,7 +34,6 @@ ja:
 
 <template>
   <header>
-    <!-- グローバルナビ PC ここから -->
     <div ref="header" class="header is_pc" :class="{ is_active: isHeaderActivePC, is_fixed: isHeaderFixedPC }">
       <div class="header_inner">
         <p class="logo">
@@ -164,11 +163,11 @@ ja:
                   <span>{{ $t("outline") }}</span>
                 </nuxt-link>
               </li>
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()"> -->
-              <!--   <nuxt-link :to="localePath('program')"> -->
-              <!--     <span>{{ $t("program") }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('program')">
+                  <span>{{ $t("program") }}</span>
+                </nuxt-link>
+              </li>
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/open-mic-conference') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('open-mic-conference')">
                   <span>{{ $t("open-mic-conference") }}</span>
@@ -184,11 +183,11 @@ ja:
                   <span>{{ $t("code-of-conduct") }}</span>
                 </nuxt-link>
               </li>
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()"> -->
-              <!--   <nuxt-link :to="localePath('sponsors')"> -->
-              <!--     <span>{{ $t("sponsors") }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('sponsors')">
+                  <span>{{ $t("sponsors") }}</span>
+                </nuxt-link>
+              </li>
               <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()"> -->
               <!--   <nuxt-link :to="locale_access_link()"> -->
               <!--     <span>{{ $t('access') }}</span> -->
@@ -237,7 +236,6 @@ ja:
           <span />
         </a>
       </div>
-      <!-- グローバルナビ SP ここまで -->
     </div>
   </header>
 </template>
