@@ -326,6 +326,7 @@
         "speakerdeck": {
           "data_id": ""
         },
+        "embed_url": "https://slides.com/magdastozek/goodbye-implicits-20",
         "other_url": ""
       },
       "youtube_embed_url": "",
@@ -418,6 +419,7 @@
         "speakerdeck": {
           "data_id": ""
         },
+        "embed_url": "/slides/E1681542000/ComposableGens.pdf",
         "other_url": "https://github.com/on-air-entertainment/scala-matsuri-2023"
       },
       "youtube_embed_url": "",
@@ -838,14 +840,15 @@
         "speakerdeck": {
           "data_id": ""
         },
-        "other_url": ""
+        "embed_url": "/slides/J1681624800/scalamatsuri2023.pdf",
+        "other_url": "https://y-yu.github.io/scalamatsuri2023"
       },
       "youtube_embed_url": "",
       "youtube_embed_url_2": ""
     },
     "en": {
       "title": "Datatype Generic Programming with Scala 3",
-      "detail": "",
+      "detail": "Datatype Generic Programming with Scala 3",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -863,7 +866,7 @@
     },
     "ja": {
       "title": "Datatype Generic Programming with Scala 3",
-      "detail": "",
+      "detail": "Datatype Generic Programming with Scala 3",
       "language": "Japanese",
       "length": 20,
       "tags": [],
