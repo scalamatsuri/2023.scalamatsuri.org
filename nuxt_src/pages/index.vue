@@ -2,7 +2,7 @@
   <div id="top">
     <MainVisual />
     <News :posts="blogPosts" />
-    <!-- <ThankYou /> -->
+    <ThankYou />
     <Banner />
     <!-- <EcShop /> -->
     <Program />
@@ -26,14 +26,14 @@ import MainVisual from "~/components/sections/top/MainVisual"
 import News from "~/components/sections/top/News"
 import Program from "~/components/sections/top/Program"
 import Sponsors from "~/components/sections/top/Sponsors"
-// import ThankYou from "~/components/sections/top/ThankYou"
+import ThankYou from "~/components/sections/top/ThankYou"
 
 export default {
   components: {
     MainVisual,
     News,
     // EcShop,
-    // ThankYou,
+    ThankYou,
     Banner,
     Events,
     // Access,
