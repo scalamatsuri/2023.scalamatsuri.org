@@ -34,7 +34,6 @@ ja:
 
 <template>
   <header>
-    <!-- グローバルナビ PC ここから -->
     <div ref="header" class="header is_pc" :class="{ is_active: isHeaderActivePC, is_fixed: isHeaderFixedPC }">
       <div class="header_inner">
         <p class="logo">
@@ -73,19 +72,18 @@ ja:
               <nuxt-link :to="localePath('sponsors')">
                 <span>{{ $t("sponsors") }}</span>
               </nuxt-link>
-              <!-- </li> -->
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }"> -->
-              <!--   <nuxt-link :to="localePath('cm')"> -->
-              <!--     <span>{{ $t("cm") }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }"> -->
-              <!--   <nuxt-link :to="locale_access_link()"> -->
-              <!--     <span>{{ $t('access') }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
-              <!-- </li> -->
             </li>
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }">
+              <nuxt-link :to="localePath('cm')">
+                <span>{{ $t("cm") }}</span>
+              </nuxt-link>
+            </li>
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }"> -->
+            <!--   <nuxt-link :to="locale_access_link()"> -->
+            <!--     <span>{{ $t('access') }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- </li> -->
 
             <li class="gnav_item">
               <LangSwitcher />
@@ -98,11 +96,11 @@ ja:
             <!-- {{ $t('login') }} -->
             <!-- </nuxt-link> -->
             <!-- </div> -->
-            <li class="function_item function_item-application">
-              <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
-                {{ $t("ticket") }}
-              </a>
-            </li>
+            <!--<li class="function_item function_item-application">-->
+            <!--  <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">-->
+            <!--    {{ $t("ticket") }}-->
+            <!--  </a>-->
+            <!--</li>-->
             <!-- <li class="function_item function_item-login"> -->
             <!--   <nuxt-link :to="localePath('cfp')"> -->
             <!--     {{ $t("cfp") }} -->
@@ -164,11 +162,11 @@ ja:
                   <span>{{ $t("outline") }}</span>
                 </nuxt-link>
               </li>
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()"> -->
-              <!--   <nuxt-link :to="localePath('program')"> -->
-              <!--     <span>{{ $t("program") }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('program')">
+                  <span>{{ $t("program") }}</span>
+                </nuxt-link>
+              </li>
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/open-mic-conference') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('open-mic-conference')">
                   <span>{{ $t("open-mic-conference") }}</span>
@@ -184,11 +182,16 @@ ja:
                   <span>{{ $t("code-of-conduct") }}</span>
                 </nuxt-link>
               </li>
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()"> -->
-              <!--   <nuxt-link :to="localePath('sponsors')"> -->
-              <!--     <span>{{ $t("sponsors") }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('sponsors')">
+                  <span>{{ $t("sponsors") }}</span>
+                </nuxt-link>
+              </li>
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('cm')">
+                  <span>{{ $t("cm") }}</span>
+                </nuxt-link>
+              </li>
               <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()"> -->
               <!--   <nuxt-link :to="locale_access_link()"> -->
               <!--     <span>{{ $t('access') }}</span> -->
@@ -201,11 +204,11 @@ ja:
               <!--     {{ $t('login') }} -->
               <!--   </nuxt-link> -->
               <!-- </div> -->
-              <div class="function_item function_item-application">
-                <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
-                  {{ $t("ticket") }}
-                </a>
-              </div>
+              <!-- <div class="function_item function_item-application">-->
+              <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">-->
+              <!--     {{ $t("ticket") }}-->
+              <!--   </a>-->
+              <!-- </div>-->
               <!-- <div class="function_item function_item-login" @click="toggleMenu()"> -->
               <!--   <nuxt-link :to="localePath('cfp')"> -->
               <!--     {{ $t("cfp") }} -->
@@ -237,7 +240,6 @@ ja:
           <span />
         </a>
       </div>
-      <!-- グローバルナビ SP ここまで -->
     </div>
   </header>
 </template>

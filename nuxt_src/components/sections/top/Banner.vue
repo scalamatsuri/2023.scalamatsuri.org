@@ -14,18 +14,21 @@ ja:
 
 <template>
   <div class="banner">
+    <!-- <div class="banner_list"> -->
+    <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener" class="banner_item banner_item_one banner_item-ticket"> -->
+    <!--     <span>{{ $t("ticket") }}</span> -->
+    <!--   </a> -->
+    <!-- </div> -->
     <div class="banner_list">
-      <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener" class="banner_item banner_item_one banner_item-ticket">
-        <span>{{ $t("ticket") }}</span>
-      </a>
-    </div>
-    <div class="banner_list">
-      <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item_two banner_item-sponsor">
-        <span>{{ $t("sponsorship") }} </span>
-      </nuxt-link>
+      <!-- <nuxt-link :to="localePath('sponsorship')" class="banner_item banner_item_two banner_item-sponsor"> -->
+      <!--   <span>{{ $t("sponsorship") }} </span> -->
+      <!-- </nuxt-link> -->
       <!-- <nuxt-link :to="localePath('cfp')" class="banner_item banner_item-staff"> -->
       <!--   <span>{{ $t("cfp") }}</span> -->
       <!-- </nuxt-link> -->
+      <a href="https://scalaconfjp.doorkeeper.jp/" target="_blank" rel="noopener" class="banner_item banner_item_two banner_item-ticket">
+        <span>Doorkeeper</span>
+      </a>
       <a
         href="https://scalamatsuri-online-shop.myshopify.com/"
         target="_blank"
@@ -108,7 +111,7 @@ ja:
     }
   }
   &-tshorts {
-    background-color: #e4ae2f;
+    background-color: #000000;
     span {
       background-image: url("~assets/img/common/icon-happi.svg");
     }
