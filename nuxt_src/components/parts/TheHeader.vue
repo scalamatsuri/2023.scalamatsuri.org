@@ -72,19 +72,18 @@ ja:
               <nuxt-link :to="localePath('sponsors')">
                 <span>{{ $t("sponsors") }}</span>
               </nuxt-link>
-              <!-- </li> -->
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }"> -->
-              <!--   <nuxt-link :to="localePath('cm')"> -->
-              <!--     <span>{{ $t("cm") }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
-              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }"> -->
-              <!--   <nuxt-link :to="locale_access_link()"> -->
-              <!--     <span>{{ $t('access') }}</span> -->
-              <!--   </nuxt-link> -->
-              <!-- </li> -->
-              <!-- </li> -->
             </li>
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }">
+              <nuxt-link :to="localePath('cm')">
+                <span>{{ $t("cm") }}</span>
+              </nuxt-link>
+            </li>
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }"> -->
+            <!--   <nuxt-link :to="locale_access_link()"> -->
+            <!--     <span>{{ $t('access') }}</span> -->
+            <!--   </nuxt-link> -->
+            <!-- </li> -->
+            <!-- </li> -->
 
             <li class="gnav_item">
               <LangSwitcher />
@@ -186,6 +185,11 @@ ja:
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('sponsors')">
                   <span>{{ $t("sponsors") }}</span>
+                </nuxt-link>
+              </li>
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('cm')">
+                  <span>{{ $t("cm") }}</span>
                 </nuxt-link>
               </li>
               <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()"> -->

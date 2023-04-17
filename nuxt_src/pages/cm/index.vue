@@ -7,7 +7,7 @@
     </div>
     <div class="section">
       <iframe
-        src="https://docs.google.com/presentation/d/e/2PACX-1vTAy9iTIRXKLkxRYYyJbwipu6NuihFNrHMvrq-c_IKR9g5jLjHPFlFDc1QuwcQ4ZobqxL1V7XKm5o1w/embed?start=true&loop=true&delayms=10000"
+        src="https://docs.google.com/presentation/d/e/2PACX-1vS-ww6_Fy5ESLDrDOVcCiJytMi_-CnwcwJmlMwRQDV__oi_SPy_2vMGopAc5oqhjYHQzaIzUVbFNI32/embed?start=true&loop=true&delayms=10000"
         frameborder="0"
         width="960"
         height="749"
@@ -20,13 +20,11 @@
 </template>
 
 <script>
-import Page404NotFoundMixin from "~/mixins/page/Page404NotFound.js"
 export default {
-  mixins: [Page404NotFoundMixin],
   head() {
     return {
       title: "CM",
-      meta: [{ name: "og:title", content: "CM | ScalaMatsuri 2020" }],
+      meta: [{ name: "og:title", content: "CM | ScalaMatsuri 2023" }],
     }
   },
 }
