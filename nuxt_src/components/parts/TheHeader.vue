@@ -96,11 +96,11 @@ ja:
             <!-- {{ $t('login') }} -->
             <!-- </nuxt-link> -->
             <!-- </div> -->
-            <li class="function_item function_item-application">
-              <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
-                {{ $t("ticket") }}
-              </a>
-            </li>
+            <!--<li class="function_item function_item-application">-->
+            <!--  <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">-->
+            <!--    {{ $t("ticket") }}-->
+            <!--  </a>-->
+            <!--</li>-->
             <!-- <li class="function_item function_item-login"> -->
             <!--   <nuxt-link :to="localePath('cfp')"> -->
             <!--     {{ $t("cfp") }} -->
@@ -204,11 +204,11 @@ ja:
               <!--     {{ $t('login') }} -->
               <!--   </nuxt-link> -->
               <!-- </div> -->
-              <div class="function_item function_item-application">
-                <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">
-                  {{ $t("ticket") }}
-                </a>
-              </div>
+              <!-- <div class="function_item function_item-application">-->
+              <!--   <a href="https://scalaconfjp.doorkeeper.jp/events/152333" target="_blank" rel="noopener">-->
+              <!--     {{ $t("ticket") }}-->
+              <!--   </a>-->
+              <!-- </div>-->
               <!-- <div class="function_item function_item-login" @click="toggleMenu()"> -->
               <!--   <nuxt-link :to="localePath('cfp')"> -->
               <!--     {{ $t("cfp") }} -->
