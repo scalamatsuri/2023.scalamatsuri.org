@@ -9,7 +9,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/_OsM7bqY4-g",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -57,7 +57,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/psUPNQSn9d0",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -99,12 +99,12 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/FXC8Dpjupjk",
       "youtube_embed_url_2": ""
     },
     "en": {
       "title": "5 Key Evaluation Points Everyone Should Know for Hiring Engineers",
-      "detail": "",
+      "detail": "5 Key Evaluation Points Everyone Should Know for Hiring Engineers",
       "language": "Japanese",
       "length": 15,
       "tags": [],
@@ -122,7 +122,7 @@
     },
     "ja": {
       "title": "エンジニア採用面接で評価するべき5つのポイント",
-      "detail": "",
+      "detail": "エンジニア採用面接で評価するべき5つのポイント",
       "language": "Japanese",
       "length": 20,
       "tags": [],
@@ -147,9 +147,10 @@
         "speakerdeck": {
           "data_id": ""
         },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vTR-kKYTZ3KaV6RTofZNXgAa6zVBnAp6LGBPBuVQ3R2rLQjUayEZsyUlQGd2Z3SaBdTSADu_5g6EzJp/embed?start=false&loop=false&delayms=3000",
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/p_CKzxydifQ",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -191,7 +192,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/7qmkvh3zpZU",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -236,7 +237,7 @@
         "embed_url": "https://gakuzzzz.github.io/slides/controls_the_traverse_controls_the_code/#1",
         "other_url": "https://gakuzzzz.github.io/slides/controls_the_traverse_controls_the_code/#1"
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/akJFetDxZHw",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -274,16 +275,16 @@
     "artifacts": {
       "slides": {
         "speakerdeck": {
-          "data_id": ""
+          "data_id": "5cdcea8d0e9f4bfea9d05eff989096f0"
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/tkqcg7-18tA",
       "youtube_embed_url_2": ""
     },
     "en": {
       "title": "Scala nowadays at Chatwork",
-      "detail": "",
+      "detail": "Scala nowadays at Chatwork",
       "language": "Japanese",
       "length": 15,
       "tags": [],
@@ -301,7 +302,7 @@
     },
     "ja": {
       "title": "ChatworkのScala近況",
-      "detail": "",
+      "detail": "ChatworkのScala近況",
       "language": "Japanese",
       "length": 15,
       "tags": [],
@@ -326,10 +327,10 @@
         "speakerdeck": {
           "data_id": ""
         },
-        "embed_url": "https://slides.com/magdastozek/goodbye-implicits-20",
+        "embed_url": "https://slides.com/magdastozek/goodbye-implicits-20/embed",
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/wrHZKn4vySQ",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -371,12 +372,12 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/GN0W4k_YRiE",
       "youtube_embed_url_2": ""
     },
     "en": {
       "title": "Introducing COMPASS, Inc",
-      "detail": "",
+      "detail": "Introducing COMPASS, Inc",
       "language": "Japanese",
       "length": 15,
       "tags": [],
@@ -394,7 +395,7 @@
     },
     "ja": {
       "title": "株式会社COMPASS 会社・サービス紹介",
-      "detail": "",
+      "detail": "株式会社COMPASS 会社・サービス紹介",
       "language": "Japanese",
       "length": 15,
       "tags": [],
@@ -422,7 +423,7 @@
         "embed_url": "/slides/E1681542000/ComposableGens.pdf",
         "other_url": "https://github.com/on-air-entertainment/scala-matsuri-2023"
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/cN7dw5aRXtA",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -464,7 +465,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/zBYz8dR4SCQ",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -506,7 +507,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/8wjiJTEcauk",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -548,7 +549,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/IuwvBT_V63I",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -590,7 +591,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/94CkxlyW5cs",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -632,7 +633,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/89jwM3WmZv4",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -674,7 +675,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/cBYTiYJdGLA",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -716,7 +717,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/apqVjDmYwTk",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -758,7 +759,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/QqfwUVWMmGc",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -800,7 +801,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/rz-tF_GfQ6w",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -843,7 +844,7 @@
         "embed_url": "/slides/J1681624800/scalamatsuri2023.pdf",
         "other_url": "https://github.com/y-yu/scalamatsuri2023"
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/K1rP04o9gzc",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -893,7 +894,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/SGx4ysX9UX8",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -936,7 +937,7 @@
         "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vSDj2-Hyikf6RtCZYexez8L_2pzpSurKc6kgO6zaThwsFAOprI_fXiI3aPudMxZJA2KdBAYIsKM7Tq8/embed?start=false&loop=false&delayms=10000",
         "other_url": "https://docs.google.com/presentation/d/e/2PACX-1vSDj2-Hyikf6RtCZYexez8L_2pzpSurKc6kgO6zaThwsFAOprI_fXiI3aPudMxZJA2KdBAYIsKM7Tq8/pub?start=false&loop=false&delayms=10000"
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/2eBReZaNYLg",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -978,7 +979,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/2i5Pf0FcZns",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -1074,6 +1075,7 @@
         "speakerdeck": {
           "data_id": ""
         },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vQpMpHldnsGPxaZe166nDED9HKaAazb-7-65vve32af6Qb92P7m69xv555lZytt_0QYJdszfhCIAelG/embed?start=false&loop=false&delayms=3000",
         "other_url": ""
       },
       "youtube_embed_url": "",
@@ -1186,9 +1188,10 @@
         "speakerdeck": {
           "data_id": ""
         },
+        "embed_url": "https://docs.google.com/presentation/d/e/2PACX-1vQVK2gTnxYk430Teeu1qzVa_jMH_4AoKlvoStt80yo50UKrTbVQAko1IGCZLPKGimergwBN71mZ3DhI/embed?start=false&loop=false&delayms=3000",
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/Gvoy11tlTyA",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -1412,7 +1415,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/N__DQAMLjKc",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -1469,7 +1472,7 @@
         "embed_url": "https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p",
         "other_url": "https://docs.google.com/presentation/d/1Kbhq8OyqTewiUdGaZEtxxwsjec7A482116aCkkecVEY/edit#slide=id.p"
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/xZbbyLwhcgo",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -1525,7 +1528,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/zNPfhR59Sps",
       "youtube_embed_url_2": ""
     },
     "en": {
@@ -1581,7 +1584,7 @@
         },
         "other_url": ""
       },
-      "youtube_embed_url": "",
+      "youtube_embed_url": "https://www.youtube.com/embed/UTmfO18WFnU",
       "youtube_embed_url_2": ""
     },
     "en": {
