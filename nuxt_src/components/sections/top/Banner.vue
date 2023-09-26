@@ -26,17 +26,17 @@ ja:
       <!-- <nuxt-link :to="localePath('cfp')" class="banner_item banner_item-staff"> -->
       <!--   <span>{{ $t("cfp") }}</span> -->
       <!-- </nuxt-link> -->
-      <a href="https://scalaconfjp.doorkeeper.jp/" target="_blank" rel="noopener" class="banner_item banner_item_two banner_item-ticket">
+      <a href="https://scalaconfjp.doorkeeper.jp/" target="_blank" rel="noopener" class="banner_item banner_item_one banner_item-ticket">
         <span>Doorkeeper</span>
       </a>
-      <a
-        href="https://scalamatsuri-online-shop.myshopify.com/"
-        target="_blank"
-        rel="noopener"
-        class="banner_item banner_item_two banner_item-tshorts"
-      >
-        <span>{{ $t("tshirt") }} </span>
-      </a>
+      <!-- <a -->
+      <!-- href="https://scalamatsuri-online-shop.myshopify.com/" -->
+      <!-- target="_blank" -->
+      <!-- rel="noopener" -->
+      <!-- class="banner_item banner_item_two banner_item-tshorts" -->
+      <!-- > -->
+      <!-- <span>{{ $t("tshirt") }} </span> -->
+      <!-- </a> -->
     </div>
   </div>
 </template>
